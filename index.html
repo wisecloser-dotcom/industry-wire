@@ -4,448 +4,140 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Industry Wire</title>
-<meta name="description" content="Industry headlines by sector, refreshed three times a day.">
-<meta name="theme-color" content="#eef1ea" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#101a17" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fafaf8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161616" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Wire">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
 <style>
-/* Layout idea: a ruled ledger page with a red margin line. Stories are ledger rows, not cards.
-   A dictionary-style thumb index of coloured sector tabs runs down the right edge (left rail on desktop). */
-:root {
-  --paper: #eef1ea;      /* sage ledger paper */
-  --paper-deep: #e2e8dd; /* ruled band / tape */
-  --ink: #14231f;        /* deep green ink */
-  --ink-soft: #4d5e58;   /* secondary text */
-  --rule: #c7d1c3;       /* ledger rule */
-  --margin: #c8323b;     /* red margin line, also "down" and breaking */
-  --link: #2b4c9b;       /* blue ink */
-  --up: #1d7a55;
-  --down: #c8323b;
-  --serif: "Literata", "Iowan Old Style", Georgia, serif;
-  --cond: "Barlow Semi Condensed", "Arial Narrow", "Roboto Condensed", system-ui, sans-serif;
-  --tab-w: 30px;
-  color-scheme: light;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #101a17;
-    --paper-deep: #172520;
-    --ink: #dfe8e0;
-    --ink-soft: #9aaca4;
-    --rule: #2a3b35;
-    --margin: #ff6b6b;
-    --link: #93b2ff;
-    --up: #5fd39d;
-    --down: #ff7d7d;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --paper: #101a17; --paper-deep: #172520; --ink: #dfe8e0; --ink-soft: #9aaca4; --rule: #2a3b35;
-  --margin: #ff6b6b; --link: #93b2ff; --up: #5fd39d; --down: #ff7d7d; color-scheme: dark;
-}
-
-* { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; scroll-padding-top: 12px; }
-@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
-body {
-  margin: 0;
-  background: var(--paper);
-  color: var(--ink);
-  font: 400 16px/1.6 var(--serif);
-  padding-top: env(safe-area-inset-top);
-  padding-bottom: env(safe-area-inset-bottom);
-}
-a { color: var(--link); text-underline-offset: 2px; text-decoration-thickness: 1px; }
-button { font: inherit; color: inherit; }
-:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
-
-/* ---------- Page frame ---------- */
-.page {
-  padding-left: max(16px, env(safe-area-inset-left));
-  padding-right: calc(var(--tab-w) + 12px + env(safe-area-inset-right));
-}
-
-/* ---------- Masthead ---------- */
-.mast { padding: 18px 0 12px; display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: end; }
-.mast h1 {
-  margin: 0; font-weight: 600; font-size: 30px; line-height: 1; letter-spacing: -0.015em;
-  font-variation-settings: "opsz" 72;
-}
-.edition { grid-column: 1 / -1; font: 500 14px/1.35 var(--cond); color: var(--ink-soft); }
-.edition strong { color: var(--ink); font-weight: 600; }
-.refresh {
-  font: 600 14px/1 var(--cond); background: transparent; border: 1px solid var(--ink); color: var(--ink);
-  border-radius: 999px; padding: 8px 14px; cursor: pointer; min-height: 36px;
-}
-.refresh[aria-busy="true"] { opacity: .55; cursor: progress; }
-.status { grid-column: 1 / -1; font: 500 14px/1.4 var(--cond); color: var(--down); margin: 0; }
-.status:empty { display: none; }
-
-/* ---------- Install hint ---------- */
-.install { display: none; gap: 10px; align-items: center; background: var(--paper-deep); border-radius: 10px; padding: 10px 12px; margin: 0 0 12px; font: 500 14px/1.35 var(--cond); }
-.install.show { display: flex; }
-.install p { margin: 0; flex: 1; }
-.install button { background: var(--ink); color: var(--paper); border: 0; border-radius: 999px; padding: 7px 12px; font: 600 13px/1 var(--cond); cursor: pointer; }
-.install .dismiss { background: transparent; color: var(--ink-soft); padding: 7px 4px; }
-
-/* ---------- Market tape ---------- */
-.tape {
-  display: flex; gap: 0; overflow-x: auto; scroll-snap-type: x mandatory;
-  background: var(--paper-deep); border-radius: 10px; margin: 0 0 18px;
-  scrollbar-width: none;
-}
-.tape::-webkit-scrollbar { display: none; }
-.tick { flex: 0 0 auto; min-width: 124px; padding: 10px 14px; scroll-snap-align: start; border-right: 1px solid var(--rule); }
-.tick:last-child { border-right: 0; }
-.tick .n { font: 500 13px/1.2 var(--cond); color: var(--ink-soft); }
-.tick .v { font: 600 21px/1.15 var(--cond); font-variant-numeric: tabular-nums; white-space: nowrap; }
-.tick .c { font: 600 14px/1.2 var(--cond); font-variant-numeric: tabular-nums; }
-.tick .c.up { color: var(--up); } .tick .c.down { color: var(--down); } .tick .c.flat { color: var(--ink-soft); }
-.tick .a { font: 500 12px/1.2 var(--cond); color: var(--ink-soft); white-space: nowrap; }
-
-/* ---------- Ledger column ---------- */
-.ledger { position: relative; padding-left: 22px; }
-.ledger::before { content: ""; position: absolute; left: 10px; top: 0; bottom: 0; width: 2px; background: var(--margin); opacity: .8; }
-
-.brief { margin: 0 0 26px; }
-.brief h2, .week h2 { font: 600 21px/1.2 var(--serif); margin: 0 0 8px; }
-.brief ul { list-style: none; margin: 0; padding: 0; }
-.brief li { padding: 9px 0; border-bottom: 1px solid var(--rule); font-size: 16px; line-height: 1.5; }
-.brief li:first-child { border-top: 1px solid var(--rule); }
-.brief b { font-weight: 600; }
-.legend { font: 500 13px/1.4 var(--cond); color: var(--ink-soft); margin: 8px 0 0; display: flex; align-items: center; gap: 6px; }
-
-.sector { margin: 0 0 30px; scroll-margin-top: 12px; }
-.sector-head { display: flex; align-items: baseline; gap: 10px; padding-bottom: 6px; border-bottom: 2px solid var(--ink); }
-.sector-head h2 { margin: 0; font: 600 23px/1.15 var(--serif); letter-spacing: -0.01em; }
-.sector-head .sw { width: 12px; height: 12px; border-radius: 3px; flex: none; align-self: center; }
-.sector-head .count { margin-left: auto; font: 500 13px/1 var(--cond); color: var(--ink-soft); white-space: nowrap; }
-
-.story { position: relative; padding: 14px 0 16px; border-bottom: 1px solid var(--rule); }
-.story .new-dot { position: absolute; left: -17px; top: 21px; width: 8px; height: 8px; border-radius: 50%; background: var(--ink); }
-.kind { font: 600 13px/1.2 var(--cond); color: var(--ink-soft); margin: 0 0 3px; }
-.kind.breaking { color: var(--down); }
-.story h3 { margin: 0 0 6px; font: 600 20px/1.28 var(--serif); text-wrap: balance; letter-spacing: -0.005em; }
-.story .sum { margin: 0 0 8px; max-width: 64ch; }
-.story .why { margin: 0 0 8px; font: 500 15.5px/1.45 var(--cond); color: var(--ink-soft); max-width: 70ch; }
-.story .why b { color: var(--ink); font-weight: 600; }
-.srcs { display: flex; flex-wrap: wrap; gap: 4px 14px; font: 500 14px/1.4 var(--cond); }
-.srcs .d { color: var(--ink-soft); margin-left: 4px; font-variant-numeric: tabular-nums; }
-.srcs a { display: inline-block; padding: 2px 0; }
-
-/* ---------- Week ahead (a real sequence of dates, drawn as a timeline) ---------- */
-.week { margin: 6px 0 28px; }
-.cal { list-style: none; margin: 0; padding: 0; }
-.cal li { display: grid; grid-template-columns: 62px 1fr; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--rule); align-items: start; }
-.cal li:first-child { border-top: 1px solid var(--rule); }
-.cal .dt { font: 600 24px/1 var(--cond); font-variant-numeric: tabular-nums; }
-.cal .dt small { display: block; font: 500 12.5px/1.3 var(--cond); color: var(--ink-soft); margin-top: 2px; white-space: nowrap; }
-.cal li.key .dt { color: var(--margin); }
-.cal .ev { font-size: 15.5px; line-height: 1.4; }
-.cal .ev small { display: block; font: 500 13.5px/1.35 var(--cond); color: var(--ink-soft); }
-
-.foot { font: 500 13px/1.5 var(--cond); color: var(--ink-soft); padding: 4px 0 40px; max-width: 64ch; }
-
-/* ---------- Thumb index (phone) ---------- */
-.index {
-  position: fixed; z-index: 5;
-  right: env(safe-area-inset-right);
-  top: calc(env(safe-area-inset-top) + 76px);
-  bottom: calc(env(safe-area-inset-bottom) + 14px);
-  width: var(--tab-w);
-  display: flex; flex-direction: column; gap: 3px;
-}
-.index a {
-  flex: 1 1 0; min-height: 0;
-  display: flex; align-items: center; justify-content: center;
-  background: var(--tab, var(--ink)); color: #fff;
-  border-radius: 7px 0 0 7px;
-  text-decoration: none;
-  font: 600 12px/1 var(--cond); letter-spacing: .02em;
-  writing-mode: vertical-rl;
-  overflow: hidden; white-space: nowrap;
-  transform: translateX(6px);
-  opacity: .82;
-}
-.index a[aria-current="true"] { transform: translateX(0); opacity: 1; box-shadow: -2px 0 0 var(--paper), -4px 0 0 var(--tab); }
-@media (prefers-reduced-motion: no-preference) {
-  .index a { transition: transform .16s ease, opacity .16s ease; }
-}
-.index-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-
-/* ---------- Desktop: index becomes a left rail; week ahead moves to the right ---------- */
-@media (min-width: 960px) {
-  :root { --tab-w: 0px; }
-  .page { max-width: 1240px; margin: 0 auto; padding: 0 28px; display: grid; grid-template-columns: 168px minmax(0, 680px) 300px; gap: 0 36px; }
-  .mast, .install, .tape { grid-column: 1 / -1; }
-  .index { position: sticky; top: 16px; bottom: auto; right: auto; width: auto; align-self: start; grid-column: 1; grid-row: 4; gap: 4px; }
-  .index a { writing-mode: horizontal-tb; justify-content: flex-start; padding: 9px 12px; border-radius: 0 8px 8px 0; transform: translateX(-8px); font-size: 14px; flex: none; }
-  .index a[aria-current="true"] { transform: translateX(0); box-shadow: none; }
-  .ledger { grid-column: 2; grid-row: 4; }
-  .side { grid-column: 3; grid-row: 4; position: sticky; top: 16px; align-self: start; }
-  .mast h1 { font-size: 40px; }
-}
-@media (max-width: 959px) {
-  .side { padding-left: 22px; }
-}
+:root { --bg:#fafaf8; --fg:#1a1a1a; --mute:#6b6b6b; --rule:#e4e4e0; --up:#17794f; --down:#c4342d; color-scheme:light dark; }
+@media (prefers-color-scheme: dark) { :root { --bg:#161616; --fg:#ececec; --mute:#9a9a9a; --rule:#2c2c2c; --up:#5cc995; --down:#ff7a72; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  padding:env(safe-area-inset-top) max(18px,env(safe-area-inset-right)) env(safe-area-inset-bottom) max(18px,env(safe-area-inset-left)); }
+main { max-width:640px; margin:0 auto; }
+a { color:inherit; text-underline-offset:3px; text-decoration-color:var(--mute); }
+button { font:inherit; color:inherit; background:none; border:0; padding:0; cursor:pointer; text-decoration:underline; text-underline-offset:3px; }
+:focus-visible { outline:2px solid var(--fg); outline-offset:2px; }
+header { padding:22px 0 14px; }
+h1 { font-size:22px; margin:0; letter-spacing:-.01em; }
+.meta, .small { font-size:14px; color:var(--mute); }
+.meta { margin:4px 0 0; }
+#status { color:var(--down); }
+#install { font-size:14px; color:var(--mute); margin:0 0 14px; }
+.tape { display:flex; gap:22px; overflow-x:auto; padding:10px 0; border-block:1px solid var(--rule); font-variant-numeric:tabular-nums; scrollbar-width:none; }
+.tape div { flex:none; font-size:14px; line-height:1.35; }
+.tape b { display:block; font-size:17px; font-weight:600; }
+.up { color:var(--up); } .down { color:var(--down); }
+nav { position:sticky; top:0; background:var(--bg); display:flex; gap:16px; overflow-x:auto; padding:10px 0; font-size:14px; scrollbar-width:none; white-space:nowrap; }
+nav a { color:var(--mute); text-decoration:none; }
+h2 { font-size:13px; font-weight:600; color:var(--mute); margin:28px 0 0; padding-bottom:6px; border-bottom:1px solid var(--rule); scroll-margin-top:44px; }
+ul { list-style:none; margin:0; padding:0; }
+#brief li { padding:8px 0; }
+article { padding:14px 0; border-bottom:1px solid var(--rule); }
+h3 { font-size:17px; line-height:1.35; margin:0 0 4px; text-wrap:pretty; }
+h3 .flag { font-size:13px; font-weight:600; margin-right:6px; }
+article p { margin:0 0 6px; }
+.why { color:var(--mute); font-size:15px; }
+.src a { margin-right:12px; white-space:nowrap; display:inline-block; }
+#week li { display:flex; gap:14px; padding:8px 0; border-bottom:1px solid var(--rule); }
+#week .d { flex:none; width:58px; color:var(--mute); font-size:14px; font-variant-numeric:tabular-nums; }
+#week .k { font-weight:600; }
+footer { padding:24px 0 40px; }
 </style>
 </head>
 <body>
-<div class="page">
-  <header class="mast">
+<main>
+  <header>
     <h1>Industry Wire</h1>
-    <button class="refresh" id="refresh" type="button">Refresh</button>
-    <p class="edition" id="edition">Loading the latest edition…</p>
-    <p class="status" id="status" role="status" aria-live="polite"></p>
+    <p class="meta"><span id="edition">Loading…</span> <button id="refresh" type="button">Refresh</button></p>
+    <p class="meta" id="status" role="status"></p>
   </header>
-
-  <div class="install" id="install" role="note">
-    <p id="install-text"></p>
-    <button type="button" id="install-btn" hidden>Install</button>
-    <button type="button" class="dismiss" id="install-dismiss">Dismiss</button>
-  </div>
-
-  <div class="tape" id="tape" aria-label="Market snapshot"></div>
-
-  <nav class="index" id="index" aria-label="Jump to an industry"><span class="index-label">Industries</span></nav>
-
-  <main class="ledger" id="ledger">
-    <section class="brief" id="brief" hidden>
-      <h2>In brief</h2>
-      <ul id="brief-list"></ul>
-      <p class="legend"><span class="new-dot-inline" aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--ink);display:inline-block"></span>New since the last edition</p>
-    </section>
-    <div id="feed"></div>
-  </main>
-
-  <aside class="side">
-    <section class="week" id="week" hidden>
-      <h2>Week ahead</h2>
-      <ul class="cal" id="cal"></ul>
-    </section>
-    <p class="foot">Summaries are written by Claude from public reporting three times a day. Follow the source links for the full story. Prices move fast, so each figure shows when it was taken. Not investment advice.</p>
-  </aside>
-</div>
-
+  <p id="install" hidden></p>
+  <div class="tape" id="tape" aria-label="Markets"></div>
+  <h2>In brief</h2>
+  <ul id="brief"></ul>
+  <nav id="nav" aria-label="Industries"></nav>
+  <div id="feed"></div>
+  <h2>Week ahead</h2>
+  <ul id="week"></ul>
+  <footer class="small">Written by Claude from public reporting, three times a day. Not investment advice.</footer>
+</main>
 <script>
-(function () {
-  "use strict";
-  var $ = function (id) { return document.getElementById(id); };
-  var lastLoad = 0;
+const $ = (id) => document.getElementById(id);
+const h = (tag, text, cls) => { const n = document.createElement(tag); if (text != null) n.textContent = text; if (cls) n.className = cls; return n; };
+let loadedAt = 0;
 
-  function el(tag, cls, text) {
-    var n = document.createElement(tag);
-    if (cls) n.className = cls;
-    if (text != null) n.textContent = text;
-    return n;
-  }
-  function safeUrl(u) {
-    try { var x = new URL(u, location.href); return (x.protocol === "https:" || x.protocol === "http:") ? x.href : null; }
-    catch (e) { return null; }
-  }
-  function timeAgo(d) {
-    var mins = Math.round((Date.now() - d.getTime()) / 60000);
-    if (mins < 1) return "just now";
-    if (mins < 60) return mins + (mins === 1 ? " minute ago" : " minutes ago");
-    var h = Math.round(mins / 60);
-    if (h < 24) return h + (h === 1 ? " hour ago" : " hours ago");
-    var days = Math.round(h / 24);
-    return days + (days === 1 ? " day ago" : " days ago");
-  }
-  function fmtTime(d) {
-    return d.toLocaleString(undefined, { weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
-  }
+function render(f) {
+  const t = new Date(f.edition.updated);
+  const mins = Math.round((Date.now() - t) / 6e4);
+  const ago = mins < 60 ? `${mins} min ago` : `${Math.round(mins / 60)} h ago`;
+  $("edition").textContent = `${f.edition.label}, ${t.toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" })} (${ago}).`;
 
-  function render(feed, fromCache) {
-    var upd = new Date(feed.edition && feed.edition.updated);
-    var ed = $("edition");
-    ed.textContent = "";
-    var strong = el("strong", null, (feed.edition && feed.edition.label) || "Latest edition");
-    ed.appendChild(strong);
-    if (!isNaN(upd)) ed.appendChild(document.createTextNode(", updated " + fmtTime(upd) + " (" + timeAgo(upd) + ")"));
-    $("status").textContent = fromCache ? "You're offline, so this is the last edition saved on your phone." : "";
+  $("tape").replaceChildren(...f.tape.map((x) => {
+    const d = h("div"); d.append(x.name, h("b", x.val), h("span", (x.dir === "up" ? "▲ " : x.dir === "down" ? "▼ " : "") + x.chg, x.dir), h("br"), h("span", x.asof, "small"));
+    return d;
+  }));
 
-    // Tape
-    var tape = $("tape"); tape.textContent = "";
-    (feed.tape || []).forEach(function (t) {
-      var d = el("div", "tick");
-      d.appendChild(el("div", "n", t.name));
-      d.appendChild(el("div", "v", t.val));
-      var arrow = t.dir === "up" ? "▲ " : t.dir === "down" ? "▼ " : "";
-      d.appendChild(el("div", "c " + (t.dir || "flat"), arrow + t.chg));
-      d.appendChild(el("div", "a", t.asof));
-      tape.appendChild(d);
-    });
-    tape.hidden = !(feed.tape || []).length;
+  $("brief").replaceChildren(...f.bigpic.map((b) => { const li = h("li"); li.append(h("strong", b.b), " " + b.t); return li; }));
 
-    // In brief
-    var bl = $("brief-list"); bl.textContent = "";
-    (feed.bigpic || []).forEach(function (b) {
-      var li = el("li");
-      li.appendChild(el("b", null, b.b));
-      li.appendChild(document.createTextNode(" " + b.t));
-      bl.appendChild(li);
-    });
-    $("brief").hidden = !(feed.bigpic || []).length;
-
-    // Sectors + index
-    var idx = $("index");
-    Array.prototype.slice.call(idx.querySelectorAll("a")).forEach(function (a) { a.remove(); });
-    var feedEl = $("feed"); feedEl.textContent = "";
-    var stories = feed.stories || [];
-    (feed.sectors || []).forEach(function (sec) {
-      var items = stories.filter(function (s) { return s.s === sec.key; });
-      if (!items.length) return;
-      var id = "s-" + sec.key;
-
-      var tab = el("a", null, sec.short || sec.name);
-      tab.href = "#" + id;
-      tab.style.setProperty("--tab", sec.color);
-      tab.setAttribute("aria-label", sec.name);
-      tab.dataset.target = id;
-      idx.appendChild(tab);
-
-      var section = el("section", "sector"); section.id = id;
-      var head = el("div", "sector-head");
-      var sw = el("span", "sw"); sw.style.background = sec.color; sw.setAttribute("aria-hidden", "true");
-      head.appendChild(sw);
-      head.appendChild(el("h2", null, sec.name));
-      var newCount = items.filter(function (s) { return s.new; }).length;
-      head.appendChild(el("span", "count", items.length + (items.length === 1 ? " story" : " stories") + (newCount ? ", " + newCount + " new" : "")));
-      section.appendChild(head);
-
-      items.forEach(function (it) {
-        var art = el("article", "story");
-        if (it.new) { var dot = el("span", "new-dot"); dot.title = "New since the last edition"; art.appendChild(dot); }
-        var isBreaking = String(it.tag || "").toLowerCase() === "breaking";
-        art.appendChild(el("p", "kind" + (isBreaking ? " breaking" : ""), it.tag || ""));
-        art.appendChild(el("h3", null, it.h));
-        art.appendChild(el("p", "sum", it.sum));
-        if (it.why) {
-          var why = el("p", "why");
-          why.appendChild(el("b", null, "Why it matters: "));
-          why.appendChild(document.createTextNode(it.why));
-          art.appendChild(why);
-        }
-        var srcs = el("div", "srcs");
-        (it.src || []).forEach(function (s) {
-          var url = safeUrl(s[1]); if (!url) return;
-          var span = el("span");
-          var a = el("a", null, s[0]); a.href = url; a.target = "_blank"; a.rel = "noopener noreferrer";
-          span.appendChild(a);
-          if (s[2]) span.appendChild(el("span", "d", s[2]));
-          srcs.appendChild(span);
-        });
-        art.appendChild(srcs);
-        section.appendChild(art);
-      });
-      feedEl.appendChild(section);
-    });
-    watchSections();
-
-    // Week ahead
-    var cal = $("cal"); cal.textContent = "";
-    (feed.week || []).forEach(function (w) {
-      var li = el("li", w.key ? "key" : "");
-      var dt = el("div", "dt", w.day);
-      dt.appendChild(el("small", null, w.dow + " " + w.mon));
-      li.appendChild(dt);
-      var ev = el("div", "ev", w.ev);
-      if (w.note) ev.appendChild(el("small", null, w.note));
-      li.appendChild(ev);
-      cal.appendChild(li);
-    });
-    $("week").hidden = !(feed.week || []).length;
-  }
-
-  var observer;
-  function watchSections() {
-    if (observer) observer.disconnect();
-    if (!("IntersectionObserver" in window)) return;
-    var tabs = {};
-    Array.prototype.forEach.call(document.querySelectorAll("#index a"), function (a) { tabs[a.dataset.target] = a; });
-    observer = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        if (e.isIntersecting) {
-          Object.keys(tabs).forEach(function (k) { tabs[k].removeAttribute("aria-current"); });
-          if (tabs[e.target.id]) tabs[e.target.id].setAttribute("aria-current", "true");
-        }
-      });
-    }, { rootMargin: "-20% 0px -70% 0px" });
-    Array.prototype.forEach.call(document.querySelectorAll(".sector"), function (s) { observer.observe(s); });
-  }
-
-  function load() {
-    var btn = $("refresh");
-    btn.setAttribute("aria-busy", "true"); btn.textContent = "Refreshing…";
-    return fetch("feed.json?v=" + Date.now(), { cache: "no-store" })
-      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
-      .then(function (f) { render(f, false); lastLoad = Date.now(); try { localStorage.setItem("wire-feed", JSON.stringify(f)); } catch (e) {} })
-      .catch(function () {
-        var saved = null;
-        try { saved = JSON.parse(localStorage.getItem("wire-feed") || "null"); } catch (e) {}
-        if (saved) { render(saved, true); }
-        else {
-          $("edition").textContent = "No edition loaded yet.";
-          $("status").textContent = "Couldn't load the headlines. Check your connection, then tap Refresh.";
-        }
-      })
-      .then(function () { btn.removeAttribute("aria-busy"); btn.textContent = "Refresh"; });
-  }
-
-  $("refresh").addEventListener("click", load);
-  document.addEventListener("visibilitychange", function () {
-    if (document.visibilityState === "visible" && Date.now() - lastLoad > 15 * 60 * 1000) load();
-  });
-
-  // Install hint (hidden once installed or dismissed)
-  var standalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
-  var dismissed = false;
-  try { dismissed = localStorage.getItem("wire-install-dismissed") === "1"; } catch (e) {}
-  var ua = navigator.userAgent || "";
-  var isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
-  var isMobile = isIOS || /Android/.test(ua);
-  var deferredPrompt = null;
-  if (!standalone && !dismissed && isMobile) {
-    $("install-text").textContent = isIOS
-      ? "Add Industry Wire to your home screen: tap Share, then Add to Home Screen."
-      : "Add Industry Wire to your home screen: tap the ⋮ menu, then Add to Home screen.";
-    $("install").classList.add("show");
-  }
-  window.addEventListener("beforeinstallprompt", function (e) {
-    e.preventDefault(); deferredPrompt = e;
-    if (!standalone && !dismissed) {
-      $("install-text").textContent = "Install Industry Wire as an app on this phone.";
-      $("install-btn").hidden = false;
-      $("install").classList.add("show");
+  const nav = [], feed = [];
+  for (const s of f.sectors) {
+    const items = f.stories.filter((x) => x.s === s.key);
+    if (!items.length) continue;
+    const a = h("a", s.name); a.href = "#" + s.key; nav.push(a);
+    const sec = h("section"); sec.append(Object.assign(h("h2", s.name), { id: s.key }));
+    for (const x of items) {
+      const art = h("article"), h3 = h("h3");
+      if (/breaking/i.test(x.tag)) h3.append(h("span", "Breaking", "flag down"));
+      else if (x.new) h3.append(h("span", "New", "flag"));
+      h3.append(x.h);
+      const src = h("p", null, "src small");
+      for (const [label, url, date] of x.src) if (/^https?:/.test(url)) src.append(Object.assign(h("a", `${label}, ${date}`), { href: url, target: "_blank", rel: "noopener" }));
+      art.append(h3, h("p", x.sum), h("p", x.why, "why"), src);
+      sec.append(art);
     }
-  });
-  $("install-btn").addEventListener("click", function () {
-    if (!deferredPrompt) return;
-    deferredPrompt.prompt();
-    deferredPrompt.userChoice.then(function () { deferredPrompt = null; $("install").classList.remove("show"); });
-  });
-  $("install-dismiss").addEventListener("click", function () {
-    $("install").classList.remove("show");
-    try { localStorage.setItem("wire-install-dismissed", "1"); } catch (e) {}
-  });
-
-  if ("serviceWorker" in navigator && location.protocol === "https:") {
-    navigator.serviceWorker.register("sw.js").catch(function () {});
+    feed.push(sec);
   }
+  $("nav").replaceChildren(...nav);
+  $("feed").replaceChildren(...feed);
 
-  load();
-})();
+  $("week").replaceChildren(...f.week.map((w) => {
+    const li = h("li"); li.append(h("span", `${w.dow} ${w.day} ${w.mon}`, "d"));
+    const ev = h("span", w.ev, w.key ? "k" : ""); if (w.note) ev.append(h("br"), h("span", w.note, "small"));
+    li.append(ev); return li;
+  }));
+}
+
+async function load() {
+  $("refresh").textContent = "Refreshing…";
+  try {
+    const r = await fetch("feed.json?v=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw r.status;
+    render(await r.json());
+    $("status").textContent = "";
+    loadedAt = Date.now();
+  } catch {
+    $("status").textContent = "Couldn't load the latest edition. Check your connection and tap Refresh.";
+  }
+  $("refresh").textContent = "Refresh";
+}
+
+$("refresh").onclick = load;
+document.onvisibilitychange = () => document.visibilityState === "visible" && Date.now() - loadedAt > 9e5 && load();
+
+const installed = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+if (!installed && /iPhone|iPad|Android/.test(navigator.userAgent)) {
+  $("install").textContent = /Android/.test(navigator.userAgent)
+    ? "To install: tap ⋮, then Add to Home screen."
+    : "To install: tap Share, then Add to Home Screen.";
+  $("install").hidden = false;
+}
+navigator.serviceWorker?.register("sw.js");
+load();
 </script>
 </body>
 </html>
