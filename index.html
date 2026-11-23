@@ -65,7 +65,7 @@ footer { padding:24px 0 40px; }
   <div id="feed"></div>
   <h2>Week ahead</h2>
   <ul id="week"></ul>
-  <footer class="small">Written by Claude from public reporting: full editions three times a day, breaking stories as they happen. Not investment advice.</footer>
+  <footer class="small">Full editions are written by Claude three times a day. Breaking headlines are added automatically from news feeds and written up in the next edition. Not investment advice.</footer>
 </main>
 <script>
 const $ = (id) => document.getElementById(id);
@@ -98,7 +98,10 @@ function render(f) {
       h3.append(x.h);
       const src = h("p", null, "src small");
       for (const [label, url, date] of x.src) if (/^https?:/.test(url)) src.append(Object.assign(h("a", `${label}, ${date}`), { href: url, target: "_blank", rel: "noopener" }));
-      art.append(h3, h("p", x.sum), h("p", x.why, "why"), src);
+      art.append(h3);
+      if (x.sum) art.append(h("p", x.sum));
+      if (x.why) art.append(h("p", x.why, "why"));
+      art.append(src);
       sec.append(art);
     }
     feed.push(sec);

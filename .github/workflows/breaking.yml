@@ -1,0 +1,59 @@
+name: Breaking news watcher
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: breaking-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore memory of headlines already seen
+        uses: actions/cache/restore@v4
+        with:
+          path: scripts/.state.json
+          key: breaking-state-${{ github.run_id }}
+          restore-keys: breaking-state-
+
+      - name: Check news feeds and send alerts
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 scripts/breaking.py detect
+
+      - name: Save memory of headlines seen
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: scripts/.state.json
+          key: breaking-state-${{ github.run_id }}
+
+      - name: Add breaking stories to the site
+        run: |
+          if [ "$(cat /tmp/alerts.json 2>/dev/null)" = "[]" ] || [ ! -s /tmp/alerts.json ]; then
+            echo "Nothing to add"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          msg="Breaking: $(python3 -c 'import json; print(json.load(open("/tmp/alerts.json"))[0]["title"][:72])')"
+          for attempt in 1 2 3; do
+            git fetch --depth=1 origin main
+            git reset --hard origin/main
+            python3 scripts/breaking.py apply /tmp/alerts.json
+            git add feed.json
+            if git diff --cached --quiet; then echo "Already on the site"; exit 0; fi
+            git commit -m "$msg"
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 5
+          done
+          exit 1
