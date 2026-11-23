@@ -1,6 +1,6 @@
 // Network first, so a new edition shows as soon as it is published.
 // Falls back to the last saved copy when the phone is offline.
-const CACHE = "wire-v3";
+const CACHE = "wire-v4";
 const CORE = ["./", "index.html", "feed.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (event) => {

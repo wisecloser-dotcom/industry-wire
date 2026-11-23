@@ -65,7 +65,7 @@ footer { padding:24px 0 40px; }
   <div id="feed"></div>
   <h2>Week ahead</h2>
   <ul id="week"></ul>
-  <footer class="small">Written by Claude from public reporting, three times a day. Not investment advice.</footer>
+  <footer class="small">Written by Claude from public reporting: full editions three times a day, breaking stories as they happen. Not investment advice.</footer>
 </main>
 <script>
 const $ = (id) => document.getElementById(id);
@@ -128,7 +128,10 @@ async function load() {
 }
 
 $("refresh").onclick = load;
-document.onvisibilitychange = () => document.visibilityState === "visible" && Date.now() - loadedAt > 9e5 && load();
+// Check for a new edition every 20 minutes while the app is open, and right away when you return to it.
+const REFRESH_MS = 20 * 60 * 1000;
+setInterval(() => document.visibilityState === "visible" && load(), REFRESH_MS);
+document.onvisibilitychange = () => document.visibilityState === "visible" && Date.now() - loadedAt > REFRESH_MS && load();
 
 const installed = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
 if (!installed && /iPhone|iPad|Android/.test(navigator.userAgent)) {
