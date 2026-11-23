@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Industry Wire</title>
-<meta name="theme-color" content="#fafaf8" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#161616" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Wire">
@@ -13,8 +13,9 @@
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <style>
-:root { --bg:#fafaf8; --fg:#1a1a1a; --mute:#6b6b6b; --rule:#e4e4e0; --up:#17794f; --down:#c4342d; color-scheme:light dark; }
-@media (prefers-color-scheme: dark) { :root { --bg:#161616; --fg:#ececec; --mute:#9a9a9a; --rule:#2c2c2c; --up:#5cc995; --down:#ff7a72; } }
+/* Black and white. Colour only where it carries meaning: market up/down and Breaking. */
+:root { --bg:#fff; --fg:#000; --mute:#666; --rule:#e5e5e5; --up:#17794f; --down:#c4342d; color-scheme:light dark; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000; --fg:#fff; --mute:#999; --rule:#262626; --up:#5cc995; --down:#ff7a72; } }
 * { box-sizing:border-box; }
 body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   padding:env(safe-area-inset-top) max(18px,env(safe-area-inset-right)) env(safe-area-inset-bottom) max(18px,env(safe-area-inset-left)); }
