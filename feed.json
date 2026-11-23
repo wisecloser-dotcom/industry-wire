@@ -1,530 +1,552 @@
 {
   "edition": {
-    "label": "Launch edition",
-    "updated": "2026-11-23T14:30:00Z"
+    "label": "Morning edition",
+    "updated": "2026-11-23T23:54:00Z"
   },
   "tape": [
     {
       "name": "S&P 500",
-      "val": "6,910.39",
-      "chg": "−3.70%",
-      "dir": "down",
-      "asof": "Fri 20 Nov close"
+      "val": "7,237.90",
+      "chg": "+4.74%",
+      "dir": "up",
+      "asof": "Mon 23 Nov close"
     },
     {
       "name": "Nasdaq Comp.",
-      "val": "22,617.73",
-      "chg": "−5.28%",
-      "dir": "down",
-      "asof": "Fri 20 Nov close"
+      "val": "24,090",
+      "chg": "+6.51%",
+      "dir": "up",
+      "asof": "Mon 23 Nov close"
     },
     {
       "name": "Dow Jones",
-      "val": "48,147.33",
-      "chg": "−1.93%",
-      "dir": "down",
-      "asof": "Fri 20 Nov close"
+      "val": "49,595.31",
+      "chg": "+3.01%",
+      "dir": "up",
+      "asof": "Mon 23 Nov close"
     },
     {
       "name": "VIX",
-      "val": "35.89",
-      "chg": "+26.2%",
-      "dir": "up",
-      "asof": "Fri 20 Nov close"
-    },
-    {
-      "name": "Nvidia",
-      "val": "~$159",
-      "chg": "+27%",
-      "dir": "up",
-      "asof": "Mon 23 Nov premarket"
+      "val": "26.62",
+      "chg": "−25.8%",
+      "dir": "down",
+      "asof": "Mon 23 Nov close"
     },
     {
       "name": "Brent crude",
-      "val": "~$92/bbl",
-      "chg": "−0.5%",
-      "dir": "flat",
-      "asof": "Mon 23 Nov, Asia"
+      "val": "$89.37/bbl",
+      "chg": "−3.5%",
+      "dir": "down",
+      "asof": "Mon 23 Nov settle"
     },
     {
       "name": "Bitcoin",
-      "val": "~$60,790",
-      "chg": "+1.2%",
-      "dir": "up",
-      "asof": "Sun 22 Nov eve (ET)"
+      "val": "~$61,210",
+      "chg": "+0.1%",
+      "dir": "flat",
+      "asof": "Mon 23 Nov eve (ET)"
     },
     {
       "name": "USD/MYR",
-      "val": "4.11",
-      "chg": "flat",
-      "dir": "flat",
-      "asof": "Fri 20 Nov, 6pm MYT"
+      "val": "4.12",
+      "chg": "+0.24%",
+      "dir": "up",
+      "asof": "Mon 23 Nov, 6pm MYT"
+    },
+    {
+      "name": "Nvidia",
+      "val": "$165.05",
+      "chg": "+31.48%",
+      "dir": "up",
+      "asof": "Mon 23 Nov close"
     }
   ],
   "bigpic": [
     {
-      "k": "The big story",
-      "b": "The AI trade cracked.",
-      "t": "Nasdaq lost ~10% last week, its worst since March 2020. S&P 500 and Dow are in correction."
+      "b": "Wall Street snapped back hard.",
+      "t": "The S&P 500 jumped 4.7% to exit correction and the Nasdaq 6.5%, led by Nvidia's 31% surge on Huang's return."
     },
     {
-      "k": "This morning",
-      "b": "Nvidia brought Jensen Huang back",
-      "t": "as CEO, 12 days after he quit. Stock and futures are rebounding."
+      "b": "The Fed is still set to hike",
+      "t": "on 9 Dec, with futures pricing about 93% odds. Wednesday's PCE inflation report is the next test."
     },
     {
-      "k": "Rates",
-      "b": "The Fed is expected to hike, not cut,",
-      "t": "on 9 Dec after hot October inflation. That weighs on tech, housing and crypto."
+      "b": "Oil slipped below $90",
+      "t": "as Trump signalled more time for Iran talks and surplus forecasts grew, days before Sunday's OPEC+ meeting on 2027 output."
     }
   ],
   "sectors": [
     {
       "key": "markets",
       "name": "Markets",
-      "color": "#2b4c9b",
-      "short": "Markets"
+      "short": "Markets",
+      "color": "#2b4c9b"
     },
     {
       "key": "tech",
       "name": "Tech & AI",
-      "color": "#6b4fa8",
-      "short": "Tech"
+      "short": "Tech",
+      "color": "#6b4fa8"
     },
     {
       "key": "banking",
       "name": "Banking & Rates",
-      "color": "#1d6a7a",
-      "short": "Banks"
+      "short": "Banks",
+      "color": "#1d6a7a"
     },
     {
       "key": "fintech",
       "name": "Fintech & Crypto",
-      "color": "#a8730f",
-      "short": "Crypto"
+      "short": "Crypto",
+      "color": "#a8730f"
     },
     {
       "key": "biotech",
       "name": "Biotech & Pharma",
-      "color": "#2f7d4f",
-      "short": "Pharma"
+      "short": "Pharma",
+      "color": "#2f7d4f"
     },
     {
       "key": "energy",
       "name": "Energy",
-      "color": "#a4452a",
-      "short": "Energy"
+      "short": "Energy",
+      "color": "#a4452a"
     },
     {
       "key": "autos",
       "name": "Autos & EVs",
-      "color": "#4a6fa5",
-      "short": "Autos"
+      "short": "Autos",
+      "color": "#4a6fa5"
     },
     {
       "key": "retail",
       "name": "Retail & Consumer",
-      "color": "#a83f6b",
-      "short": "Retail"
+      "short": "Retail",
+      "color": "#a83f6b"
     },
     {
       "key": "media",
       "name": "Media & Entertainment",
-      "color": "#6b5e4c",
-      "short": "Media"
+      "short": "Media",
+      "color": "#6b5e4c"
     },
     {
       "key": "aero",
       "name": "Aerospace & Defense",
-      "color": "#557034",
-      "short": "Aero"
+      "short": "Aero",
+      "color": "#557034"
     },
     {
       "key": "property",
       "name": "Real Estate",
-      "color": "#8b5a2b",
-      "short": "Property"
+      "short": "Property",
+      "color": "#8b5a2b"
     },
     {
       "key": "sgmy",
       "name": "Singapore & Malaysia",
-      "color": "#c8323b",
-      "short": "SG/MY"
+      "short": "SG/MY",
+      "color": "#c8323b"
     }
   ],
   "stories": [
     {
-      "new": true,
-      "s": "markets",
-      "tag": "Data",
-      "lead": true,
-      "h": "Nasdaq has its worst week since March 2020 as the AI trade unravels",
-      "sum": "The Nasdaq fell 5.3% on Friday and about 10% on the week, turning negative for 2026. The S&P 500 and Dow both closed in correction, about 10% below their records, with the S&P down seven sessions in a row.",
-      "why": "Risk appetite sets the tone for nearly every sector below: IPOs, deal-making, crypto and growth stocks all key off it.",
-      "src": [
-        [
-          "CNBC",
-          "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
-          "20 Nov"
-        ],
-        [
-          "STL.News weekly wrap",
-          "https://www.stl.news/u-s-stock-market-weekly-update-ending-nov-20-2026/",
-          "21 Nov"
-        ]
-      ]
-    },
-    {
-      "new": true,
       "s": "markets",
       "tag": "Breaking",
-      "h": "Futures rebound for the holiday-shortened week",
-      "sum": "Dow, S&P 500 and Nasdaq futures jumped in premarket trading Monday as buyers returned after the sell-off, led by Nvidia's surge on its CEO reversal.",
-      "why": "A relief bounce is not a trend change. PCE inflation on Wednesday and the 9 Dec Fed meeting are the next tests.",
+      "lead": true,
+      "new": true,
+      "h": "S&P 500 exits correction with its biggest gain in over 18 months",
+      "sum": "The S&P 500 rose 4.74% to 7,237.90 on Monday, ending a seven-session losing streak and leaving correction territory. The Nasdaq gained 6.51% and the Dow 3.01%, or 1,448 points, while the VIX fell about 26% to 26.6. Gainers beat decliners roughly five to one on the NYSE.",
+      "why": "The rebound eases fears of a wider unwind, but inflation data and the 9 Dec Fed decision still hang over valuations.",
       "src": [
         [
-          "Yahoo Finance live",
-          "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html",
+          "Investing.com",
+          "https://www.investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-301-5046476",
+          "23 Nov"
+        ],
+        [
+          "Motley Fool",
+          "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/",
           "23 Nov"
         ]
       ]
     },
     {
+      "s": "markets",
+      "tag": "Event",
       "new": true,
-      "s": "tech",
-      "tag": "Breaking",
-      "lead": true,
-      "h": "Nvidia reverses course and reinstates Jensen Huang as CEO",
-      "sum": "Twelve days after accepting his resignation, the board voted unanimously to bring Huang back as president, CEO and director. It said input from senior US officials satisfied it that his return poses no national-security risk. Shares rose roughly 27% premarket.",
-      "why": "Removes the biggest governance overhang on the key AI chip supplier, though reported SEC scrutiny of its accounting is still unresolved.",
+      "h": "Holiday week: PCE inflation on Wednesday, markets shut Thursday",
+      "sum": "October PCE inflation, the second Q3 GDP estimate and durable goods orders all land Wednesday, with jobless claims brought forward a day. Economists expect headline PCE of 3.6% and core of 3.2%. US markets close Thursday for Thanksgiving and shut at 1pm ET on Friday.",
+      "why": "Thin holiday trading can exaggerate moves after one of the most volatile stretches of the year.",
       "src": [
+        [
+          "Weekly economic calendar",
+          "https://letterstoayounginvestor.substack.com/p/weekly-economic-calendar-november-3ec",
+          "23 Nov"
+        ],
+        [
+          "Malay Mail (Bernama)",
+          "https://www.malaymail.com/news/money/2026/11/23/ringgit-ends-lower-against-us-dollar-amid-hawkish-fed-expectations/244464",
+          "23 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "tech",
+      "tag": "Markets",
+      "lead": true,
+      "new": false,
+      "h": "Nvidia soars 31% on Huang's return, its best day since 2003",
+      "sum": "Shares closed up 31.48% at $165.05 after the board reinstated Jensen Huang as CEO, 12 days after accepting his resignation. By mid-morning the move had added about $990B in market value, which 24/7 Wall St called the largest one-day dollar gain for any company.",
+      "why": "Restores confidence in the key AI chip supplier, though reported SEC scrutiny of its accounting is still unresolved.",
+      "src": [
+        [
+          "Investing.com",
+          "https://www.investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-301-5046476",
+          "23 Nov"
+        ],
+        [
+          "24/7 Wall St",
+          "https://247wallst.com/investing/2026/11/23/jensen-huangs-return-just-gave-nvidia-the-biggest-one-day-dollar-gain-in-stock-market-history-and-history-says-this-is-what-comes-next/",
+          "23 Nov"
+        ],
         [
           "Nvidia 8-K (SEC)",
           "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
           "23 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "tech",
+      "tag": "Earnings",
+      "new": true,
+      "h": "HPE beats on 50% revenue growth and raises its 2027 outlook",
+      "sum": "Fiscal Q4 revenue rose 50% to $14.5B, with cloud and AI up 69%, and adjusted EPS of $1.43 beat the $1.27 consensus. HPE guided fiscal 2027 revenue to $59.4B to $63.1B and EPS to $5.05 to $5.35. Shares slipped over 6% after hours following an 18% gain in the session.",
+      "why": "Shows AI server demand turning into revenue for hardware makers, though Monday's rally had priced in much of it.",
+      "src": [
+        [
+          "HPE 8-K (SEC)",
+          "https://www.sec.gov/Archives/edgar/data/0001645590/000164559026000097/ex-991x11232026x8k.htm",
+          "23 Nov"
         ],
         [
-          "Reuters via Investing.com",
-          "https://www.investing.com/news/stock-market-news/nvidia-reinstates-jensen-huang-as-ceo-5045809",
+          "Investing.com",
+          "https://www.investing.com/news/earnings/hpe-stocks-falls-after-hours-despite-quarterly-results-guidance-beat-5046357",
           "23 Nov"
         ]
       ]
     },
     {
-      "new": true,
-      "s": "tech",
-      "tag": "Earnings",
-      "h": "Nvidia's blowout quarter couldn't stop the slide",
-      "sum": "Q3 revenue hit $115.8B (+103% YoY) versus about $109B expected, with Q4 guidance of $130B ±3% and $150B added to buybacks. The stock still fell 14% on Friday after Reuters reported the SEC was examining its accounting.",
-      "why": "Shows how far sentiment had turned: record numbers were not enough without leadership clarity.",
-      "src": [
-        [
-          "Quartz",
-          "https://qz.com/nvidia-earnings-beat-estimates-jensen-huang-exit-111726",
-          "17 Nov"
-        ],
-        [
-          "Bloomberg",
-          "https://www.bloomberg.com/news/articles/2026-11-17/nvidia-delivers-solid-outlook-in-first-post-huang-earnings",
-          "17 Nov"
-        ],
-        [
-          "StockTitan",
-          "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026",
-          "20 Nov"
-        ]
-      ]
-    },
-    {
-      "new": true,
-      "s": "tech",
-      "tag": "IPO",
-      "h": "Anthropic lists in the largest IPO on record",
-      "sum": "Priced at $83 a share to raise $81.3B, topping SpaceX's $75B listing in June. Shares closed their first day at $97.17 (+17%) but gave back much of that gain in Friday's rout.",
-      "why": "Its share price is now a live gauge of public-market appetite for AI pure plays.",
-      "src": [
-        [
-          "CNN (pricing)",
-          "https://www.cnn.com/2026/11/18/investing/anthropic-ipo-price-stock",
-          "18 Nov"
-        ],
-        [
-          "CNN (debut)",
-          "https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo",
-          "19 Nov"
-        ]
-      ]
-    },
-    {
-      "new": true,
       "s": "tech",
       "tag": "Deal",
-      "h": "CrowdStrike agrees to buy Zscaler for about $43.9B in stock",
-      "sum": "Announced with its Q3 results today: Zscaler holders get 1.135 CrowdStrike shares for each share. The deal moves CrowdStrike into network security. It also posted record net new ARR of $419M.",
-      "why": "Security buyers want one platform for endpoint, cloud and network, and AI agents are widening what needs protecting.",
+      "new": false,
+      "h": "CrowdStrike falls 9% after agreeing to buy Zscaler for $43.9B",
+      "sum": "Zscaler holders get 1.135 CrowdStrike shares each, about a 34% premium to Friday's close. CrowdStrike closed down 8.9% on Monday while Zscaler rose 17.7%. The companies target $1B in run-rate synergies and expect the deal to close in the second half of 2027.",
+      "why": "A bet that customers will consolidate security vendors as AI-driven attacks multiply across endpoints, cloud and networks.",
       "src": [
+        [
+          "Motley Fool",
+          "https://www.fool.com/investing/2026/11/23/why-zscaler-stock-rocketed-higher-today/",
+          "23 Nov"
+        ],
+        [
+          "Investing.com",
+          "https://www.investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-301-5046476",
+          "23 Nov"
+        ],
         [
           "CrowdStrike 8-K: deal",
           "https://www.sec.gov/Archives/edgar/data/0001535527/000110465926130785/tm2630454d1_ex99-1.htm",
           "23 Nov"
-        ],
+        ]
+      ]
+    },
+    {
+      "s": "tech",
+      "tag": "Earnings",
+      "new": true,
+      "h": "Zoom beats estimates and starts paying a dividend",
+      "sum": "Fiscal Q3 revenue rose 4.9% to $1.29B and adjusted EPS was $1.59. Zoom declared its first quarterly dividend, $0.25 a share payable 17 Dec, and guided full-year revenue to about $5.1B.",
+      "why": "A dividend marks Zoom's shift from growth story to mature cash generator as revenue growth stays in single digits.",
+      "src": [
         [
-          "CrowdStrike 8-K: Q3",
-          "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm",
+          "Zoom results",
+          "https://www.globenewswire.com/news-release/2026/11/23/3408888/0/en/zoom-communications-reports-financial-results-for-the-third-quarter-of-fiscal-year-2027.html",
           "23 Nov"
         ]
       ]
     },
     {
-      "new": true,
       "s": "banking",
-      "tag": "Policy",
+      "tag": "Rates",
       "lead": true,
-      "h": "A Fed rate hike looks locked in for 9 December",
-      "sum": "Hotter-than-expected October CPI flipped expectations. By mid-November prediction markets put the odds of a hike near 96%, mostly for 25bp. Governor Waller has argued 50bp is merited.",
-      "why": "Higher rates are a headwind for tech valuations, housing and crypto at the same time.",
+      "new": false,
+      "h": "Rally doesn't shift the Fed: odds of a 9 Dec hike stay above 90%",
+      "sum": "CME FedWatch showed a 93.2% chance of a 25bp increase on Monday, and Polymarket about 91%, down from 98% on 12 Nov. Bill Ackman warned on X that a hike would be a mistake that risks recession, arguing financial conditions have already tightened sharply.",
+      "why": "A hike lifts funding and deposit costs and squeezes borrowers just as credit markets are wobbling.",
       "src": [
         [
-          "Investing.com / Yahoo",
-          "https://finance.yahoo.com/economy/policy/articles/fed-rate-hike-odds-december-035134676.html",
-          "10 Nov"
+          "TipRanks",
+          "https://www.tipranks.com/news/the-u-s-dollar-crushes-euro-and-pound-as-rate-hike-fever-drives-greenback-to-19-month-high",
+          "23 Nov"
         ],
         [
-          "Motley Fool",
-          "https://www.fool.com/investing/2026/11/14/a-larger-than-normal-fed-rate-hike-in-december-now-looks-more-likely-here-s-why/",
-          "14 Nov"
+          "Yahoo Finance",
+          "https://finance.yahoo.com/markets/article/the-fed-isnt-riding-to-the-rescue--wall-street-still-sees-a-december-rate-hike-after-techs-worst-week-since-2020-chart-of-the-day-110000273.html",
+          "23 Nov"
         ],
         [
-          "Prediction-market odds",
-          "https://predictionmarketspicks.com/articles/fed-rate-december-2026-odds-half-point-hike-dot-plot-kalshi-polymarket-futures",
-          "16 Nov"
+          "Fox Business",
+          "https://www.foxbusiness.com/economy/bill-ackman-says-federal-reserve-about-make-another-mistake",
+          "23 Nov"
         ]
       ]
     },
     {
-      "new": true,
       "s": "banking",
       "tag": "Markets",
-      "h": "Big-bank stocks drop 10–14% in a week",
-      "sum": "Goldman Sachs fell 13.7% and Morgan Stanley 13.1% last week; Citi and JPMorgan each lost about 10%. The FT reported JPMorgan offering steep concessions to revive a stalled debt sale for software firm Qualtrics, seen as vulnerable to AI.",
-      "why": "A sign the AI sell-off is spilling into financials and credit markets.",
+      "new": true,
+      "h": "Dollar climbs to a 19-month high on rate-hike bets",
+      "sum": "The US dollar index rose 0.25% to 104.07 on Monday, its highest in 19 months. The euro fell 0.74% to $1.0887, sterling 0.53% to $1.3017, and the yen weakened to 159.18 per dollar.",
+      "why": "A stronger dollar tightens conditions for overseas borrowers and pressures Asian currencies, including the ringgit.",
       "src": [
         [
-          "Credit Bubble Bulletin",
-          "https://creditbubblebulletin.blogspot.com/",
-          "20 Nov"
-        ],
-        [
-          "MarketBeat",
-          "https://www.marketbeat.com/instant-alerts/list-bank-stocks-to-keep-an-eye-on-november-22nd-2026-11-22/",
-          "22 Nov"
+          "TipRanks",
+          "https://www.tipranks.com/news/the-u-s-dollar-crushes-euro-and-pound-as-rate-hike-fever-drives-greenback-to-19-month-high",
+          "23 Nov"
         ]
       ]
     },
     {
-      "new": true,
       "s": "fintech",
       "tag": "Markets",
       "lead": true,
-      "h": "Bitcoin slides to a two-year low near $55,000",
-      "sum": "BTC touched about $55,100 on 21 Nov, its lowest since September 2024, as roughly $1.8B of leveraged positions were liquidated. It was back near $60,800 by Sunday evening. US spot bitcoin ETFs saw about $1.25B of outflows on the week.",
-      "why": "Crypto is trading as a high-beta risk asset, falling with AI stocks and Fed-hike odds.",
+      "new": true,
+      "h": "Bitcoin sits out the stock rally, stuck near $61,000",
+      "sum": "Bitcoin was up just 0.08% at about $61,213 on Monday evening as equities surged, and ether slipped to about $1,719. US spot bitcoin ETFs saw roughly $1.8B of net outflows last week, when bitcoin touched a two-year low near $55,000.",
+      "why": "Crypto is lagging the risk rebound, a sign that leveraged and ETF money has not returned yet.",
       "src": [
         [
           "Motley Fool",
-          "https://www.fool.com/coverage/stock-market-today/2026/11/22/crypto-market-today-nov-22-bitcoin-reclaims-usd60-000-after-usd1-8-billion-liquidation-wipeout-is-the-worst-over/",
-          "22 Nov"
-        ],
-        [
-          "Stablecoin Today",
-          "https://github.com/deltaforesight/stablecoin-today/releases/tag/ep-2026-11-22",
-          "22 Nov"
+          "https://www.fool.com/coverage/stock-market-today/2026/11/23/crypto-market-today-nov-23-bitcoin-sits-out-wall-street-s-historic-rally-as-usd1-8-billion-etf-exodus-weighs-on-prices/",
+          "23 Nov"
         ]
       ]
     },
     {
-      "new": true,
       "s": "fintech",
-      "tag": "Data",
-      "h": "Dollar stablecoin supply keeps shrinking",
-      "sum": "The combined market cap of USDT, USDC and similar tokens is down about $12B over the past month and roughly $27B since April.",
-      "why": "Stablecoin float is a proxy for cash parked on-chain. A shrinking float means money leaving crypto.",
+      "tag": "Regulatory",
+      "new": true,
+      "h": "Payoneer gets conditional OCC approval for a stablecoin trust bank",
+      "sum": "The payments firm received preliminary conditional approval to set up PAYO Digital Bank, a national trust bank. If finally approved, it plans to issue PAYO-USD, a fully reserved stablecoin used as a balance inside Payoneer's network rather than listed on exchanges.",
+      "why": "Fintechs are using new US stablecoin rules to win bank charters and run cross-border settlement themselves.",
       "src": [
         [
-          "Crypto Weekly",
-          "https://thisweekincrypto.substack.com/p/crypto-weekly-112226",
-          "22 Nov"
+          "PYMNTS",
+          "https://www.pymnts.com/news/banking/2026/payoneer-lands-conditional-approval-to-open-stablecoin-bank/",
+          "23 Nov"
         ]
       ]
     },
     {
-      "new": true,
       "s": "fintech",
       "tag": "Product",
-      "h": "JPMorgan tests AI agents that make business payments",
-      "sum": "The bank is piloting agent-initiated B2B payments with Hyundai Group. Meanwhile US banks are reportedly tightening controls on third-party AI agents that want access to customer accounts.",
-      "why": "Agentic payments are a new fintech battleground, and banks want to own the rails.",
+      "new": true,
+      "h": "OCBC pilots stablecoin payments for cross-border business",
+      "sum": "Singapore's OCBC and StraitsX launched a pilot that lets business clients receive stablecoin payments that settle into their existing OCBC accounts. StraitsX handles onchain collection and compliance, and NTT Docomo Asia is the first participant.",
+      "why": "Shows Singapore banks folding regulated stablecoins into everyday trade payments.",
       "src": [
         [
-          "CNBC (JPM news)",
-          "https://www.cnbc.com/quotes/JPM",
-          "17–18 Nov"
-        ],
-        [
-          "Foreign Policy Journal",
-          "https://www.foreignpolicyjournal.com/2026/11/19/bank-customers-dont-trust-ai-with-their-money-and-citigroup-nyse-c-jpmorgan-nyse-jpm-and-schwab-nyse-schw-are-counting-on-it/",
-          "19 Nov"
+          "The Block",
+          "https://theblock.co/news/business/2026-11-23-ocbc-straitsx-pilot-stablecoin-payments-444880",
+          "23 Nov"
         ]
       ]
     },
     {
-      "new": true,
-      "s": "biotech",
-      "tag": "Deal",
-      "lead": true,
-      "h": "Lilly buys Ollin Biosciences for $2.2B upfront",
-      "sum": "Another billion-dollar takeout of a startup built on China-sourced drugs, after Ouro and Candid earlier this year. Separately, a rumored Sanofi–Insmed deal would likely be 2026's largest biotech acquisition.",
-      "why": "China-licensed assets have become a main pipeline for big-pharma M&A and biotech IPOs.",
-      "src": [
-        [
-          "The Pharma Letter",
-          "https://www.thepharmaletter.com/biotech-news/the-week-in-pharma-action-reaction-and-insight-week-to-november-20-2026",
-          "22 Nov"
-        ],
-        [
-          "BioPharma Dive",
-          "https://biopharmadive.com/news/biotech-china-deals-venture-returns-summit-stock/874912",
-          "20 Nov"
-        ],
-        [
-          "BioSpace",
-          "https://www.biospace.com/",
-          "20 Nov"
-        ]
-      ]
-    },
-    {
-      "new": true,
       "s": "biotech",
       "tag": "Regulatory",
-      "h": "FDA clears a run of rare-disease drugs; FDA nominee withdrawn",
-      "sum": "Approvals included Regeneron's drug for generalized myasthenia gravis, Sanofi's first US-approved treatment for a rare neurological disorder, and GSK's second lung-cancer drug from its Nuvalent deal. The White House pulled FDA nominee Overton.",
-      "why": "Approvals keep flowing despite leadership churn at the agency.",
-      "src": [
-        [
-          "RAPS Regulatory Recon",
-          "https://www.raps.org/resource/recon-fda-approves-drugs-for-four-rare-diseases-pfizer-signs-2-6b-licensing-deal-in-china-for-in-vivo-car-t.html",
-          "19 Nov"
-        ]
-      ]
-    },
-    {
+      "lead": true,
       "new": true,
-      "s": "biotech",
-      "tag": "Setback",
-      "h": "Summit, Celldex and Savara hit by regulatory and trial setbacks",
-      "sum": "The FDA turned down Summit's initial lung-cancer filing, sending shares back to levels from over two years ago. Celldex's barzolvolimab missed in a Phase 2 eczema study, and the FDA missed its decision date for Savara's molgramostim.",
-      "why": "PDUFA dates and readouts remain binary events for small- and mid-cap biotech.",
+      "h": "FDA approves AbbVie's Rinvoq as first systemic vitiligo treatment",
+      "sum": "The once-daily 15mg pill is cleared for adults and children 12 and older with nonsegmental vitiligo. In two Phase 3 trials, 25% and 23% of patients reached at least 75% facial repigmentation at week 48, against 6% and 7% on placebo.",
+      "why": "Gives dermatologists a first pill option for a common skin disease with few effective treatments.",
       "src": [
         [
-          "BioPharma Dive",
-          "https://biopharmadive.com/news/biotech-china-deals-venture-returns-summit-stock/874912",
-          "20 Nov"
+          "HCPLive",
+          "https://www.hcplive.com/view/upadacitinib-rinvoq-fda-approval-nonsegmental-vitiligo",
+          "23 Nov"
         ],
         [
-          "The Pharma Letter",
-          "https://www.thepharmaletter.com/news",
-          "20 Nov"
+          "Investing.com",
+          "https://ca.investing.com/news/stock-market-news/abbvie-wins-fda-approval-for-vitiligo-treatment-rinvoq-93CH-4976607",
+          "23 Nov"
         ]
       ]
     },
     {
-      "new": true,
       "s": "biotech",
-      "tag": "Outlook",
-      "h": "Novartis guides to ~5% annual sales growth through 2031",
-      "sum": "It rolled its mid-term outlook forward to 2026–2031, targeting about 5% yearly growth at constant currency and a core operating margin back at 40% or more by 2029.",
-      "why": "A big-pharma benchmark for how patent cliffs are being managed.",
+      "tag": "Regulatory",
+      "new": true,
+      "h": "BridgeBio wins full approval for the first limb-girdle dystrophy drug",
+      "sum": "The FDA granted traditional approval to Welgemda, an oral drug for LGMD2I/R9, ahead of its 27 Nov target date. It is the first treatment for the condition, and BridgeBio also received a rare pediatric disease priority review voucher.",
+      "why": "Full rather than accelerated approval lowers commercial risk, and the voucher is a saleable asset.",
       "src": [
         [
-          "The Pharma Letter",
-          "https://www.thepharmaletter.com/news",
-          "20 Nov"
+          "BridgeBio via StockTitan",
+          "https://www.stocktitan.net/news/BBIO/welgemda-tm-bbp-418-ribitol-receives-traditional-approval-as-the-3xtwxicnldfl.html",
+          "23 Nov"
         ]
       ]
     },
     {
+      "s": "biotech",
+      "tag": "Deal",
       "new": true,
+      "h": "Lilly buys LoQus23 for up to $725M to target Huntington's disease",
+      "sum": "Lilly acquired the Cambridge, UK, preclinical biotech for up to $725M in cash, including milestones. Its lead drug LQT-23 is an oral MSH3 inhibitor, with a clinical trial application expected by the end of 2026.",
+      "why": "Huntington's has no approved disease-modifying treatment, and big pharma keeps paying up for early neuroscience bets.",
+      "src": [
+        [
+          "LoQus23 release",
+          "https://globenewswire.com/news-release/2026/11/23/3408071/0/en/loqus23-therapeutics-acquired-by-lilly-to-accelerate-development-of-novel-small-molecule-therapy-for-huntington-s-disease.html",
+          "23 Nov"
+        ]
+      ]
+    },
+    {
       "s": "energy",
       "tag": "Markets",
       "lead": true,
-      "h": "Oil's war premium fades: Brent down ~18% in three weeks",
-      "sum": "Brent settled at $92.57 on Friday versus $113.43 on 30 Oct as Hormuz flows recover and the IEA projects a 1.7M barrel-a-day Q4 surplus. It held near $92 on Monday despite fresh tanker attacks.",
-      "why": "Cheaper crude eases inflation pressure, but diesel stays tight because Middle East refining capacity is reduced.",
+      "new": true,
+      "h": "Brent drops below $90 as Trump signals more time for Iran talks",
+      "sum": "Brent settled 3.5% lower at $89.37 and WTI fell 4.5% to $80.17 on Monday as traders unwound hedges against a weekend escalation. The IEA sees a surplus of about 2M barrels a day this quarter, even as tanker attacks near Hormuz continue.",
+      "why": "Cheaper crude eases inflation pressure, but attacks on Gulf shipping keep supply risk alive.",
       "src": [
         [
-          "Oil & Gas Middle East",
-          "https://www.oilandgasmiddleeast.com/news/why-oil-prices-are-falling",
+          "Rigzone (Bloomberg)",
+          "https://www.rigzone.com/news/wire/oil_falls_as_trump_signals_iran_talks-23-nov-2026-185152-article/",
           "23 Nov"
         ],
         [
-          "Iranwire / Reuters",
-          "https://english.shabtabnews.com/2026/11/23/oil-prices-slip-as-hormuz-transit-slows-and-houthi-attacks-widen/",
-          "23 Nov"
+          "OilPrice.com",
+          "https://oilprice.com/Latest-Energy-News/World-News/Iran-Steps-Up-Hormuz-Tanker-Attacks-as-Oil-Prices-Slide.html",
+          "20 Nov"
         ]
       ]
     },
     {
-      "new": true,
       "s": "energy",
       "tag": "Event",
-      "h": "OPEC+ meets 29 Nov with Gulf attacks in the background",
-      "sum": "Traders are shrugging off a claimed Houthi strike on Saudi Arabia's Rabigh refinery. The question for the meeting is whether disruption turns into confirmed lost barrels.",
-      "why": "Any supply response could reset the price floor heading into 2027.",
+      "new": false,
+      "h": "OPEC+ meets Sunday to set 2027 output baselines",
+      "sum": "The 29 Nov ministerial meeting is expected to agree a 2027 framework based on a capacity review, since group-wide targets run only to 31 Dec. Seven core members have held combined output targets at 31.01M barrels a day.",
+      "why": "New baselines decide who can pump more next year as the market tips toward surplus.",
       "src": [
         [
-          "Discovery Alert",
-          "https://discoveryalert.com/news/oil-price-outlook-brent-gulf-attacks-november-2026/",
+          "Admiral Markets",
+          "https://admiralmarkets.com/analytics/traders-blog/opec-meeting-november-29-2026-preview",
+          "20 Nov"
+        ],
+        [
+          "House of Saud",
+          "https://houseofsaud.com/opec-nov29-2027-quotas/",
           "23 Nov"
         ]
       ]
     },
     {
-      "new": true,
       "s": "autos",
-      "tag": "Data",
+      "tag": "Regulatory",
       "lead": true,
-      "h": "Europe's EV share hits 31%; Skoda Elroq outsells Tesla Model Y",
-      "sum": "October figures put EVs at 31% of European car sales. BYD says it will fight an EU sales ban that stems from an infringement case brought by Jaguar Land Rover.",
-      "why": "Europe is now the growth market for EVs while the US cools.",
+      "new": false,
+      "h": "Dutch court bars BYD's Ti7 SUV from the EU over Defender likeness",
+      "sum": "A Hague judge's preliminary ruling on 20 Nov bans BYD from importing or selling the Ti7 in the EU, including via its Hungarian unit, with fines of €100,000 a day up to €10M. BYD will appeal. UK sales, due in January, are not affected.",
+      "why": "Design-rights suits are emerging as a new hurdle for Chinese carmakers expanding in Europe.",
       "src": [
         [
-          "Daily Kanban (Automotive News, SCMP)",
-          "https://dailykanban.com/2026/11/23/monday-morning-auto-news-nov-23-2026-byd-banned-in-eu-vows-to-fight-back-europe-ev-share-hits-31-in-october-tesla-dethroned-bmw-steps-up-h2-plans-more/",
+          "Electrek",
+          "https://electrek.co/2026/11/23/byd-ti7-banned-eu-land-rover-defender-design/",
+          "23 Nov"
+        ],
+        [
+          "Euronews",
+          "https://www.euronews.com/2026/11/23/dutch-court-bans-byd-model-from-eu-over-likeness-to-land-rovers-defender",
           "23 Nov"
         ]
       ]
     },
     {
-      "new": true,
       "s": "autos",
-      "tag": "Data",
-      "h": "US EV sales slump while BYD rebounds on exports",
-      "sum": "In Q3, GM's US EV sales fell 61.7% and Ford Model e 31%. Tesla delivered 486,532 vehicles (−2.1% YoY). BYD returned to growth on record exports and sold about 276,000 more pure EVs than Tesla.",
-      "why": "US demand is weak against last year's rush to beat the end of federal EV tax credits, while Chinese makers grow abroad.",
+      "tag": "Policy",
+      "new": true,
+      "h": "Canada gives Stellantis 30 days to fix breaches over Brampton plant",
+      "sum": "Industry Minister Mélanie Joly said Ottawa will declare Stellantis in default of a 2022 funding deal unless it corrects alleged breaches. Stellantis plans to sell the idled Brampton plant to Roshel by year-end and says it will return about US$17M of support.",
+      "why": "Tests how far governments can hold carmakers to investment pledges as North American production shifts.",
       "src": [
         [
-          "The EV Report",
-          "https://theevreport.com/ev-sales-monitor-q3-2026",
-          "16 Nov"
+          "CBT News",
+          "https://www.cbtnews.com/canada-stellantis-brampton/",
+          "23 Nov"
         ]
       ]
     },
     {
+      "s": "autos",
+      "tag": "Regulatory",
       "new": true,
+      "h": "Ford, Honda, Stellantis and VW sue New Jersey over repair payments",
+      "sum": "The four carmakers filed suit on 20 Nov in federal court in Trenton against a 2025 state law that raises what they must pay dealers for warranty and recall work. They estimate it shifts about $375M a year to dealers.",
+      "why": "If the law stands, similar dealer-friendly rules elsewhere could raise carmakers' warranty bills.",
+      "src": [
+        [
+          "The Auto Wire",
+          "https://theautowire.com/2026/11/23/automakers-sue-new-jersey-warranty-reimbursement-law/",
+          "23 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "retail",
+      "tag": "Event",
+      "lead": true,
+      "new": true,
+      "h": "Best Buy, Dick's and Abercrombie test shoppers before Black Friday",
+      "sum": "Best Buy, Dick's Sporting Goods, Abercrombie & Fitch and Kohl's report on Tuesday, with Urban Outfitters after the close. Bets against the group are heavy: short interest is 30.1% of Kohl's float and 17.4% for Dick's.",
+      "why": "These are the last big reads on consumer health before the holiday weekend.",
+      "src": [
+        [
+          "ORTEX",
+          "https://ortex.news/articles/221512/retails-reckoning-consumer-earnings-pmi-flash-data-and-a-crowded-short-book-head",
+          "23 Nov"
+        ],
+        [
+          "RetailWire",
+          "https://retailwire.com/daily/dick-s-sporting-goods-best-buy-burlington-stores-dollar-tree-and-kohl-s-to-report-earnings/",
+          "23 Nov"
+        ]
+      ]
+    },
+    {
       "s": "retail",
       "tag": "Forecast",
-      "lead": true,
+      "new": true,
+      "h": "Fewer Americans expected to shop over Thanksgiving weekend",
+      "sum": "The NRF and Prosper Insights expect 182.7 million shoppers over the holiday weekend, down more than 2%, as 60% had started buying by early November. About 82% say they are looking for ways to limit holiday spending.",
+      "why": "Earlier, more cautious shopping blunts the Black Friday spike that retailers rely on.",
+      "src": [
+        [
+          "IndexBox (NRF data)",
+          "https://www.indexbox.io/blog/thanksgiving-weekend-shopping-projected-to-decline-as-consumers-start-earlier/",
+          "23 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "retail",
+      "tag": "Forecast",
+      "new": false,
       "h": "US holiday sales forecast to top $1 trillion for the first time",
       "sum": "The NRF expects November–December retail sales of $1.013T, up 4.2%. Bain sees Black Friday through Cyber Monday above $85B. Visa's 4.5% growth forecast works out to about 1.1% after inflation.",
       "why": "Most headline growth is higher prices; real volume growth is thin.",
@@ -538,39 +560,44 @@
           "Bain",
           "https://www.bain.com/insights/black-friday-2026-sales-forecast-infographic/",
           "Oct"
-        ],
-        [
-          "HeyTheo",
-          "https://heytheo.io/blog/black-friday-stocks-to-watch-2026",
-          "20 Nov"
         ]
       ]
     },
     {
+      "s": "media",
+      "tag": "Markets",
+      "lead": true,
       "new": true,
-      "s": "retail",
-      "tag": "Earnings",
-      "h": "Target lifts its outlook; tariff refunds flatter retail earnings",
-      "sum": "Target reported comparable sales up 5.6% and raised its full-year sales outlook. Tariff refunds boosted several retailers' quarters, and Walmart plans to put its refunds back into prices.",
-      "why": "Strip out one-off refunds before reading too much into the beats.",
+      "h": "Disney hits a 52-week high while Netflix is down 36% this year",
+      "sum": "Disney has been lifted by parks, cruises and a 97% jump in streaming operating income. Netflix has fallen 36.2% in 2026 after cutting its ad revenue forecast by $300M and raising prices three times in under three years.",
+      "why": "Investors are favouring diversified media groups over pure-play streamers as subscription growth slows.",
       "src": [
         [
-          "HeyTheo",
-          "https://heytheo.io/blog/black-friday-stocks-to-watch-2026",
-          "20 Nov"
-        ],
-        [
-          "EBC",
-          "https://www.ebc.com/forex/walmart-wmt-ahead-of-black-friday-2026-what-earnings-could-reveal",
-          "12 Nov"
+          "Motley Fool",
+          "https://fool.com/investing/2026/11/23/disney-just-made-a-52-week-high-while-netflix-is-down-36-2-this-year-here-s-the-better-buy-now",
+          "23 Nov"
         ]
       ]
     },
     {
+      "s": "media",
+      "tag": "Jobs",
       "new": true,
+      "h": "Dozens of CBS News staff take Skydance buyouts",
+      "sum": "Producers, editors and operations staff from Evening News, 60 Minutes and CBS Mornings accepted buyouts from parent Skydance, with the London bureau hit hardest. No exact headcount was given.",
+      "why": "Post-merger cost cutting is now reaching news divisions as owners chase savings.",
+      "src": [
+        [
+          "Cynopsis",
+          "https://www.cynopsis.com/cynopsis-11-23-2026-cbs-news-staffers-accept-skydance-buyouts/",
+          "23 Nov"
+        ]
+      ]
+    },
+    {
       "s": "media",
       "tag": "Restructuring",
-      "lead": true,
+      "new": false,
       "h": "Skydance merges Warner Bros. TV and Paramount TV studios",
       "sum": "The combined studio keeps the Warner Bros. name, led by co-presidents Channing Dungey and Matt Thunell, a month after the Paramount–WBD merger closed. Subscribers have refiled a lawsuit challenging the roughly $110B deal.",
       "why": "Consolidation leaves fewer buyers for content and fewer independent streamers.",
@@ -588,125 +615,195 @@
       ]
     },
     {
-      "new": true,
-      "s": "media",
-      "tag": "M&A watch",
-      "h": "Netflix seen as front-runner if NBCUniversal comes into play",
-      "sum": "With Warner Bros. gone, industry sources point to Netflix as the likeliest bidder for NBCU. CEO Ted Sarandos says Warner was a “nice to have,” not a deal at any price.",
-      "why": "NBCU is the last large media asset that could change hands.",
-      "src": [
-        [
-          "Variety",
-          "https://variety.com/2026/tv/news/will-netflix-make-acquisition-move-nbcuniversal-spinoff-1236946048/",
-          "13 Nov"
-        ],
-        [
-          "TheWrap",
-          "https://www.thewrap.com/industry-news/business/ted-sarandos-netflix-warner-bros-bid-paramount-merger/",
-          "18 Nov"
-        ]
-      ]
-    },
-    {
-      "new": true,
       "s": "aero",
-      "tag": "Jobs",
+      "tag": "Policy",
       "lead": true,
-      "h": "Boeing to cut about 5% of its commercial airplane staff",
-      "sum": "Roughly 2,500 roles will go through attrition and layoffs, with notices from December, after the 737 MAX ramp to 47 a month slipped into 2027.",
-      "why": "Delivery pace, not headcount, drives Boeing's cash flow.",
+      "new": true,
+      "h": "Aviation groups ask Congress for $30B+ to fix air traffic control",
+      "sum": "More than 60 groups, including Airlines for America, Boeing, Airbus and GE Aerospace, urged at least $30B for modernization. The letter follows a 13 Nov nationwide ground stop, blamed on a single router, that cancelled over 18,000 flights.",
+      "why": "Outdated air traffic systems now cost airlines directly and cap how fast traffic and aircraft demand can grow.",
       "src": [
         [
-          "Leeham News",
-          "https://leehamnews.com/2026/11/09/boeing-plans-to-cut-5-of-commercial-workforce/",
-          "9 Nov"
-        ],
-        [
-          "Reuters via NST",
-          "https://www.nst.com.my/amp/business/corporate/2026/11/1575070/boeing-cut-5pc-commercial-jet-workforce",
-          "11 Nov"
+          "Reuters via Investing.com",
+          "https://investing.com/news/stock-market-news/aviation-groups-urge-at-least-30-billion-boost-for-faa-modernization-5046097",
+          "23 Nov"
         ]
       ]
     },
     {
-      "new": true,
       "s": "aero",
-      "tag": "Milestone",
-      "h": "SpaceX catches Starship's upper stage for the first time",
-      "sum": "The catch during the latest Starship test flight is a key step toward fully reusing the rocket.",
-      "why": "Full reuse is what would make Starship's launch costs drop sharply.",
+      "tag": "Policy",
+      "new": true,
+      "h": "Macron pledges €350M for French aeronautics research",
+      "sum": "Speaking at Airbus's Blagnac site near Toulouse, Macron committed the money to the CORAC aviation research council and promised simpler permitting for high-potential industrial zones.",
+      "why": "Europe is using state money to keep its aerospace supply chain competitive.",
       "src": [
         [
-          "CNBC Aerospace & Defense",
-          "https://www.cnbc.com/aerospace-defense/",
-          "14 Nov"
+          "Euronews",
+          "https://euronews.com/2026/11/23/macron-pledges-350-million-to-boost-frances-aeronautics-research-and-industry",
+          "23 Nov"
         ]
       ]
     },
     {
+      "s": "aero",
+      "tag": "Deal",
       "new": true,
-      "s": "property",
-      "tag": "Rates",
-      "lead": true,
-      "h": "US mortgage rates climb back above 7.3%",
-      "sum": "The MBA's 30-year contract rate rose 14bp to 7.35%, nearly a point above a year ago, and Freddie Mac's average reached 7.28%. The FT reports US home sales at their lowest since 2010.",
-      "why": "With a Fed hike expected, near-term relief for buyers looks unlikely.",
+      "h": "Air Force opens a $16.1B propulsion contract to 58 firms",
+      "sum": "The 15-year contract vehicle, running to November 2041, names 58 vendors for advanced propulsion work. Each received $1,000 at the outset, and the service is not obliged to spend the full ceiling.",
+      "why": "Gives engine makers and suppliers a long-term channel for military propulsion orders.",
       "src": [
         [
-          "Bloomberg",
-          "https://www.bloomberg.com/news/articles/2026-11-18/us-mortgage-rates-increase-for-first-time-in-five-weeks",
-          "18 Nov"
-        ],
-        [
-          "Real Estate News",
-          "https://www.realestatenews.com/2026/11/19/a-tough-backdrop-for-mortgage-rates-as-holiday-slowdown-begins",
-          "19 Nov"
-        ],
-        [
-          "Global Housing Watch",
-          "https://globalhousingwatch.substack.com/p/us-housing-view-november-20-2026",
+          "Breaking Defense",
+          "https://breakingdefense.com/2026/11/air-force-issues-massive-16b-contract-for-engine-work-to-dozens-of-companies/",
           "20 Nov"
         ]
       ]
     },
     {
+      "s": "aero",
+      "tag": "Jobs",
       "new": true,
+      "h": "GE Aerospace's defense chief Amy Gowder to step down",
+      "sum": "Gowder, who has led the Defense & Systems unit since joining from Lockheed Martin in 2022, will leave in Q1 2027. Engineering VP Darin DiTommaso becomes interim CEO while GE searches internally and externally.",
+      "why": "A leadership gap at a key military engine supplier as large Pentagon propulsion programs are being awarded.",
+      "src": [
+        [
+          "GE Aerospace release",
+          "https://globenewswire.com/news-release/2026/11/23/3408897/0/en/ge-aerospace-defense-systems-leadership-transition.html",
+          "23 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "property",
+      "tag": "Outlook",
+      "lead": true,
+      "new": true,
+      "h": "US housing braces for a harsh winter as sales slump",
+      "sum": "Pending home sales were down nearly 17% from a year earlier in October, and MBA purchase applications ran 18% below last year in mid-November. Real REMAX expects 2027 existing-home sales to fall 5% to 10% and national prices 3% to 4%.",
+      "why": "With 30-year mortgage rates above 7% and a Fed hike coming, a quick recovery looks unlikely.",
+      "src": [
+        [
+          "Inman",
+          "https://www.inman.com/2026/11/23/q4-housing-forecast/",
+          "23 Nov"
+        ],
+        [
+          "Fortune (mortgage rates)",
+          "https://fortune.com/article/current-mortgage-rates-11-23-2026/",
+          "23 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "property",
+      "tag": "Deal",
+      "new": true,
+      "h": "Blackstone REIT buys 75% of AWS-leased data centers in $5B deal",
+      "sum": "Blackstone Digital Infrastructure Trust, public since May, will take a 75.1% stake in 13 newly built data centers net leased to Amazon Web Services, valuing them at $5B. Data-center REIT Digital Realty rose 3% on Monday with the AI rebound.",
+      "why": "Data centers remain the strongest corner of commercial real estate as AI demand grows.",
+      "src": [
+        [
+          "CRE News",
+          "https://crenews.com/2026/11/17/blackstone-reit-to-buy-75-1-stake-in-aws-data-centers-in-5bln-deal/",
+          "17 Nov"
+        ],
+        [
+          "Motley Fool",
+          "https://fool.com/investing/2026/11/23/why-digital-realty-trust-stock-moved-over-3-higher-on-monday",
+          "23 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "property",
+      "tag": "Data",
+      "new": true,
+      "h": "US apartment deal volume dips 6.7% in the third quarter",
+      "sum": "Investors bought $44.5B of US apartment properties in Q3, down 6.7% from $47.7B a year earlier, according to Newmark.",
+      "why": "High borrowing costs are slowing the recovery in commercial property transactions.",
+      "src": [
+        [
+          "CRE News",
+          "https://crenews.com/2026/11/23/multifamily-property-sales-volume-up-nearly-4-so-far-this-year/",
+          "23 Nov"
+        ]
+      ]
+    },
+    {
       "s": "sgmy",
       "tag": "Data",
       "lead": true,
-      "h": "Singapore's final Q3 GDP figures land tomorrow",
-      "sum": "MTI's Economic Survey for Q3 is due Tuesday 24 Nov at 8am. The advance estimate showed 5.4% growth from a year earlier, and the 2026 forecast is already 4.5–5.5%, up from 2–4%.",
-      "why": "Watch for a 2027 outlook: AI-driven electronics exports powered this year.",
+      "new": true,
+      "h": "Singapore core inflation cools to 1.5% on cheaper electricity",
+      "sum": "Core inflation eased to 1.5% in October from 2.0%, and headline to 1.9%, as electricity and gas inflation fell from 8.7% to 1% after a lower tariff. MAS and MTI expect core to pick up in Q1 2027 and average 1.5% to 2.5% next year.",
+      "why": "Price pressure is easing for households, but officials see upside risks into early 2027.",
+      "src": [
+        [
+          "Malay Mail (MAS/MTI)",
+          "https://www.malaymail.com/news/singapore/2026/11/23/singapores-core-inflation-drops-to-15pc-in-october-but-is-expected-to-rise-in-q1-2027/244445",
+          "23 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "sgmy",
+      "tag": "Data",
+      "new": false,
+      "h": "Singapore's final Q3 GDP and 2027 forecast due this morning",
+      "sum": "MTI releases its Q3 Economic Survey at 8am today. The advance estimate showed 5.4% growth from a year earlier. DBS expects a revision to 5.6% and a first 2027 forecast range of 2.5% to 4.5%.",
+      "why": "The 2027 forecast sets expectations for jobs, wages and MAS policy next year.",
       "src": [
         [
           "SingStat",
           "https://www.singstat.gov.sg/find-data/explore-data-themes/economy-prices/national-accounts/latest-news-data",
           "17 Nov"
+        ],
+        [
+          "FXStreet (DBS)",
+          "https://www.fxstreet.com/news/singapore-growth-and-inflation-outlook-steady-into-2027-dbs-202611201352",
+          "20 Nov"
         ]
       ]
     },
     {
-      "new": true,
       "s": "sgmy",
-      "tag": "Data",
-      "h": "Malaysia grows 5.5% in Q3; ringgit steady near 4.11",
-      "sum": "Growth beat the 5.3% advance estimate, taking nine-month growth to 5.6%. The latest trade surplus doubled to RM41.8B. Some economists now see room for an OPR hike in 2027.",
-      "why": "A firm ringgit and possible rate rise matter for anyone earning or spending across SGD and MYR.",
+      "tag": "Markets",
+      "new": true,
+      "h": "KLCI slips 0.5% as utilities drag; ringgit eases to 4.12",
+      "sum": "The FBM KLCI fell 7.46 points to 1,549.05 on Monday, with Tenaga Nasional among the biggest drags and losers outnumbering gainers nearly three to one. The ringgit closed at 4.1205 per dollar from 4.1105 as investors braced for a hawkish Fed.",
+      "why": "A softer ringgit raises import costs and shows Fed-hike bets pulling money toward the dollar.",
       "src": [
         [
-          "Malay Mail",
-          "https://www.malaymail.com/news/money/2026/11/18/ringgit-slips-against-us-dollar-major-currencies-amid-rate-uncertainty/243798",
-          "18 Nov"
+          "Malay Mail (Bursa)",
+          "https://www.malaymail.com/news/money/2026/11/23/tech-stocks-rebound-but-utilities-drag-bursa-malaysia-into-negative-territory/244460",
+          "23 Nov"
         ],
         [
-          "The Star",
-          "https://www.thestar.com.my/business/business-news/2026/11/20/ringgit-ends-mostly-higher-against-major-currencies-flat-against-us",
-          "20 Nov"
+          "Malay Mail (ringgit)",
+          "https://www.malaymail.com/news/money/2026/11/23/ringgit-ends-lower-against-us-dollar-amid-hawkish-fed-expectations/244464",
+          "23 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "sgmy",
+      "tag": "Forecast",
+      "new": true,
+      "h": "S&P Global sees Malaysia's growth easing to 5.1% in 2027",
+      "sum": "The agency expects Malaysia to grow 5.5% this year and 5.1% next, with Asia-Pacific slowing to 4.4% from 4.8%. Separately, UOB Kay Hian expects Bank Negara to raise the OPR by 25bp to 3% in Q1 2027.",
+      "why": "Growth near 5% plus a possible OPR hike would mark a turn toward tighter policy in Malaysia.",
+      "src": [
+        [
+          "The Star (S&P Global)",
+          "https://thestar.com.my/business/business-news/2026/11/23/malaysia039s-economy-to-grow-51-in-2027-asia-pacific-growth-to-ease-to-44",
+          "23 Nov"
         ],
         [
-          "Business Today",
-          "https://www.businesstoday.com.my/2026/11/17/ringgit-opens-slightly-higher-ahead-of-3q-gdp-release/",
-          "17 Nov"
+          "The Star (inflation outlook)",
+          "https://www.thestar.com.my/business/business-news/2026/11/23/cost-past-through-could-drive-inflation-higher",
+          "23 Nov"
         ]
       ]
     }
@@ -716,45 +813,59 @@
       "dow": "Tue",
       "day": "24",
       "mon": "Nov",
-      "ev": "Singapore final Q3 GDP + Economic Survey",
+      "ev": "Singapore final Q3 GDP + 2027 forecast",
       "note": "8:00am Singapore time, from MTI",
       "key": true
     },
     {
+      "dow": "Tue",
+      "day": "24",
+      "mon": "Nov",
+      "ev": "Retail earnings: Best Buy, Dick's, Abercrombie, Kohl's",
+      "note": "Mostly before the US open"
+    },
+    {
+      "dow": "Tue",
+      "day": "24",
+      "mon": "Nov",
+      "ev": "Dell and HP Inc earnings",
+      "note": "After the US close, Wednesday morning SGT"
+    },
+    {
       "dow": "Wed",
       "day": "25",
       "mon": "Nov",
-      "ev": "US PCE inflation",
-      "note": "Key input before the Fed decision",
+      "ev": "US PCE inflation + Q3 GDP revision",
+      "note": "8:30am ET; consensus 3.6% headline, 3.2% core",
       "key": true
     },
     {
       "dow": "Wed",
       "day": "25",
       "mon": "Nov",
-      "ev": "Nio Tech Day",
-      "note": "NWM 3.0 driving model unveil"
+      "ev": "Nio IN tech day",
+      "note": "Guangzhou"
     },
     {
       "dow": "Thu",
       "day": "26",
       "mon": "Nov",
       "ev": "US Thanksgiving",
-      "note": "US stock markets closed"
+      "note": "US stock and bond markets closed"
     },
     {
       "dow": "Fri",
       "day": "27",
       "mon": "Nov",
       "ev": "Black Friday",
-      "note": "First read on holiday spending"
+      "note": "US stocks close early at 1pm ET; Guangzhou Auto Show opens"
     },
     {
       "dow": "Sun",
       "day": "29",
       "mon": "Nov",
-      "ev": "OPEC+ meeting",
-      "note": "Output policy with Brent near $92",
+      "ev": "OPEC+ ministerial meeting",
+      "note": "Sets 2027 output framework",
       "key": true
     },
     {
@@ -765,19 +876,40 @@
       "note": ""
     },
     {
+      "dow": "Tue",
+      "day": "1",
+      "mon": "Dec",
+      "ev": "US ISM manufacturing",
+      "note": "Plus JOLTS job openings"
+    },
+    {
       "dow": "Fri",
       "day": "4",
       "mon": "Dec",
       "ev": "US November jobs report",
-      "note": ""
+      "note": "8:30am ET, last jobs data before the Fed"
     },
     {
       "dow": "Wed",
       "day": "9",
       "mon": "Dec",
       "ev": "Fed rate decision",
-      "note": "2:00pm ET; 25bp or 50bp is the question",
+      "note": "2:00pm ET (3am Thu SGT); 25bp hike priced in",
       "key": true
+    },
+    {
+      "dow": "Thu",
+      "day": "10",
+      "mon": "Dec",
+      "ev": "US November CPI",
+      "note": "8:30am ET"
+    },
+    {
+      "dow": "Tue",
+      "day": "15",
+      "mon": "Dec",
+      "ev": "First Anthropic lock-up release",
+      "note": "Some holders can sell up to 6% of their shares"
     }
   ]
 }
