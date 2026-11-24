@@ -1,7 +1,7 @@
 {
   "edition": {
     "label": "Evening edition",
-    "updated": "2026-11-24T10:52:26Z"
+    "updated": "2026-11-24T14:06:45Z"
   },
   "tape": [
     {
@@ -319,8 +319,25 @@
     },
     {
       "s": "banking",
-      "tag": "Rates",
+      "tag": "Breaking",
       "lead": true,
+      "new": true,
+      "auto": true,
+      "h": "Treasury yields lower after inflation warning from New York Fed's Williams, investors await 5-year auction",
+      "sum": "",
+      "why": "",
+      "src": [
+        [
+          "CNBC",
+          "https://www.cnbc.com/2026/11/24/treasury-yields-bonds-inflation.html",
+          "24 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "banking",
+      "tag": "Rates",
+      "lead": false,
       "new": false,
       "h": "Fed hike all but priced in as Williams warns inflation is too high",
       "sum": "Traders price about a 95% chance of a quarter-point increase on 9 Dec and 5% for a half-point move. New York Fed President John Williams said on 23 Nov he would not rule out back-to-back hikes and sees inflation reaching 2% only in 2028. October PCE data lands Wednesday, with core expected at 3.2%.",
@@ -361,8 +378,25 @@
     },
     {
       "s": "fintech",
-      "tag": "Policy",
+      "tag": "Breaking",
       "lead": true,
+      "new": true,
+      "auto": true,
+      "h": "Straits Energy Disputes RM10 Million Payment Default Claims",
+      "sum": "",
+      "why": "",
+      "src": [
+        [
+          "Business Today MY",
+          "https://www.businesstoday.com.my/2026/11/24/straits-energy-disputes-rm10-million-payment-default-claims/?utm_source=rss&utm_medium=rss&utm_campaign=straits-energy-disputes-rm10-million-payment-default-claims",
+          "24 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "fintech",
+      "tag": "Policy",
+      "lead": false,
       "new": false,
       "h": "South Korea's crypto bill lifts the ICO ban and gives banks control of won stablecoins",
       "sum": "The FSC's draft ends a ban on coin offerings in place since 2017, if issuers publish white papers. Won stablecoins must come from consortia more than 50% owned by banks, with full reserves and no interest paid. Major exchange shareholders face a 20% cap, or 34% with approval. The bill could reach parliament by 25 Nov.",
