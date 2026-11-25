@@ -1,7 +1,7 @@
 {
   "edition": {
     "label": "Evening edition",
-    "updated": "2026-11-25T10:56:33Z"
+    "updated": "2026-11-25T16:03:05Z"
   },
   "tape": [
     {
@@ -152,8 +152,42 @@
   "stories": [
     {
       "s": "markets",
-      "tag": "Markets",
+      "tag": "Breaking",
       "lead": true,
+      "new": true,
+      "auto": true,
+      "h": "Poundland collapses putting 11,000 jobs at risk",
+      "sum": "",
+      "why": "",
+      "src": [
+        [
+          "BBC",
+          "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
+          "25 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "markets",
+      "tag": "Breaking",
+      "lead": false,
+      "new": true,
+      "auto": true,
+      "h": "US Stocks Tumble On Hot Inflation, Trump Tariffs",
+      "sum": "",
+      "why": "",
+      "src": [
+        [
+          "Business Today MY",
+          "https://www.businesstoday.com.my/2026/11/25/us-stocks-tumble-on-hot-inflation-trump-tariffs/?utm_source=rss&utm_medium=rss&utm_campaign=us-stocks-tumble-on-hot-inflation-trump-tariffs",
+          "25 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "markets",
+      "tag": "Markets",
+      "lead": false,
       "new": false,
       "h": "Kospi closes down 6.2% at its lowest since January as Asia's chip rout deepens",
       "sum": "The Kospi fell 6.16% to 4,697.51, its lowest close since 13 January, as foreign investors dumped a net 1.95 trillion won of shares. Japan's Nikkei 225 lost 2.8% to 57,011.62, Taiwan's Taiex about 5% and the Shanghai Composite 1.5% to its lowest in more than a year. Hong Kong's Hang Seng slipped 0.3%.",
@@ -459,6 +493,23 @@
       "s": "energy",
       "tag": "Breaking",
       "lead": true,
+      "new": true,
+      "auto": true,
+      "h": "Oil Jumps Over 2% as Saudi Arabia Downs Drones Over Ras Tanura",
+      "sum": "",
+      "why": "",
+      "src": [
+        [
+          "OilPrice",
+          "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Over-2-as-Saudi-Arabia-Downs-Drones-Over-Ras-Tanura.html",
+          "25 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "energy",
+      "tag": "Breaking",
+      "lead": false,
       "new": true,
       "h": "US tells Americans to leave Iran immediately, warning hostilities could escalate",
       "sum": "A security alert from the US Virtual Embassy in Iran told citizens not to travel there for any reason and to leave at once, warning that Iran, the Houthis and allied groups may target US companies and institutions. It follows Iranian attacks on US assets in Bahrain and Kuwait and a Houthi strike that wounded 11 people in Riyadh.",
