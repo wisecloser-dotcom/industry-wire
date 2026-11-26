@@ -1,7 +1,7 @@
 {
   "edition": {
     "label": "Midday edition",
-    "updated": "2026-11-26T04:57:21Z"
+    "updated": "2026-11-26T08:41:42Z"
   },
   "tape": [
     {
@@ -152,8 +152,25 @@
   "stories": [
     {
       "s": "markets",
-      "tag": "Markets",
+      "tag": "Breaking",
       "lead": true,
+      "new": true,
+      "auto": true,
+      "h": "Norse Atlantic suspends all flights, warns it may file for bankruptcy after share price collapse",
+      "sum": "",
+      "why": "",
+      "src": [
+        [
+          "CNBC",
+          "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html",
+          "26 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "markets",
+      "tag": "Markets",
+      "lead": false,
       "new": true,
       "h": "Asian stocks rebound as the Kospi and Nikkei recover from Wednesday's rout",
       "sum": "Korea's Kospi rose 1.28% to 4,757.75 by 11:20am Seoul time, a day after a 6.2% slide, with foreign investors net buyers. Japan's Nikkei 225 gained 1.7% to 58,005.61 and Taiwan's Taiex 1.1% in morning trade, while Australia's ASX 200 added 0.6%. US markets are closed for Thanksgiving.",
