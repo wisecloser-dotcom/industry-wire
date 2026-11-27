@@ -1,7 +1,7 @@
 {
   "edition": {
     "label": "Evening edition",
-    "updated": "2026-11-27T10:54:55Z"
+    "updated": "2026-11-27T19:33:59Z"
   },
   "tape": [
     {
@@ -688,8 +688,25 @@
     },
     {
       "s": "aero",
-      "tag": "Setback",
+      "tag": "Breaking",
       "lead": true,
+      "new": true,
+      "auto": true,
+      "h": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+      "sum": "",
+      "why": "",
+      "src": [
+        [
+          "CNBC",
+          "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "aero",
+      "tag": "Setback",
+      "lead": false,
       "new": false,
       "h": "Norse Atlantic's lessors move to end leases on all 12 of its Boeing 787s",
       "sum": "Aircraft lessors sent Norse Atlantic notices on 27 Nov terminating the leases on its entire fleet of 12 Boeing 787s, a day after it halted all flights. The Norwegian long-haul carrier says it disputes the notices and is still seeking short-term funding, but warns there is no assurance of a solution. Its board has said it may file for bankruptcy.",
