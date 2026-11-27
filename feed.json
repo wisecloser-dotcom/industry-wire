@@ -1,7 +1,7 @@
 {
   "edition": {
-    "label": "Midday edition",
-    "updated": "2026-11-27T10:18:13Z"
+    "label": "Evening edition",
+    "updated": "2026-11-27T10:54:55Z"
   },
   "tape": [
     {
@@ -34,17 +34,17 @@
     },
     {
       "name": "Brent crude",
-      "val": "$96.29/bbl",
-      "chg": "−0.29%",
-      "dir": "down",
-      "asof": "Fri 27 Nov, 10am SGT"
+      "val": "$97.28/bbl",
+      "chg": "+0.7%",
+      "dir": "up",
+      "asof": "Fri 27 Nov, 5:40pm SGT"
     },
     {
       "name": "Bitcoin",
-      "val": "~$61,300",
-      "chg": "+1.1%",
+      "val": "~$61,600",
+      "chg": "+1.9%",
       "dir": "up",
-      "asof": "Fri 27 Nov, 12:50pm SGT"
+      "asof": "Fri 27 Nov, 6pm SGT"
     },
     {
       "name": "USD/MYR",
@@ -55,24 +55,24 @@
     },
     {
       "name": "Kospi",
-      "val": "4,812.65",
-      "chg": "+2.2%",
+      "val": "4,915.68",
+      "chg": "+4.34%",
       "dir": "up",
-      "asof": "Fri 27 Nov, 10am SGT"
+      "asof": "Fri 27 Nov close"
     }
   ],
   "bigpic": [
     {
-      "b": "Asian stocks bounce before Wall Street reopens",
-      "t": "with the Kospi up 2.2% and US futures higher, even as markets price a near-certain Fed hike on 9 Dec."
+      "b": "Beijing's market pledge sparks an Asian rally",
+      "t": "with Shanghai up 3.7% and the Kospi 4.3%, as US futures point to a strong start for Wall Street's half-day session."
     },
     {
-      "b": "Oil holds near $96 after Saudi refinery strikes",
-      "t": "as a hit on Jazan follows attacks on Ras Tanura and mines off Oman, two days before OPEC+ meets."
+      "b": "Brent nears $97 on Gulf supply fears",
+      "t": "after strikes on Saudi refineries and mines near Hormuz, two days before OPEC+ ministers meet in Vienna."
     },
     {
-      "b": "Nvidia is under scrutiny on two fronts",
-      "t": "as S&P weighs a governance-driven rating cut and Southeast Asian banks vet who uses its AI chips."
+      "b": "Nvidia's Southeast Asia pause remains unclear",
+      "t": "as Singapore says it has not confirmed the halt and reviews its chip rules, while S&P weighs a rating cut."
     }
   ],
   "sectors": [
@@ -152,42 +152,47 @@
   "stories": [
     {
       "s": "markets",
-      "tag": "Markets",
+      "tag": "Breaking",
       "lead": true,
       "new": true,
-      "h": "Asian stocks rebound as the Kospi jumps 2.2% before Wall Street's half-day session",
-      "sum": "In Friday morning trade the Kospi rose 2.2% to 4,812.65 and the Nikkei 225 gained 0.7% to 57,919.30 as AI-linked shares recovered from an early-week rout. Hong Kong added 0.4% while Shanghai slipped 0.1%. US stock futures were about 0.6% higher ahead of a shortened session ending at 1pm ET.",
-      "why": "Investors are testing whether November's tech sell-off has run its course before next week's jobs data and a likely Fed hike.",
+      "h": "Beijing's market support pledge sends Shanghai up 3.7% and the Kospi up 4.3%",
+      "sum": "China's State Council pledged new capital-market measures, more buybacks and dividends and a bigger role for state-backed funds, lifting the Shanghai Composite 3.73% to 3,606.49 a day after the CSI 300 hit a 17-month low. The Kospi jumped 4.34% to 4,915.68 on hopes Seoul will enlarge a 10 trillion won stabilisation fund.",
+      "why": "Official backing in China and South Korea signals governments will put a floor under markets after November's AI-led sell-off.",
       "src": [
         [
-          "AP via News4JAX",
-          "https://www.news4jax.com/business/2026/11/27/asian-shares-mostly-rise-ahead-of-wall-streets-reopening-after-the-thanksgiving-holiday/",
+          "dpa-AFX via Malay Mail",
+          "https://www.malaymail.com/news/money/2026/11/27/asian-stocks-rally-as-china-south-korea-signal-market-support/245032",
           "27 Nov"
         ],
         [
-          "Al Jazeera",
-          "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout",
-          "27 Nov"
-        ],
-        [
-          "Saxo",
-          "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--27-november-2026-27112026",
+          "Investing.com",
+          "https://www.investing.com/news/stock-market-news/asian-stocks-rise-as-tech-rebound-easing-us-trade-concerns-lift-sentiment-5052839",
           "27 Nov"
         ]
       ]
     },
     {
       "s": "markets",
-      "tag": "Data",
+      "tag": "Markets",
       "lead": false,
       "new": true,
-      "h": "China's industrial profits jump 20.1% in October as electronics makers lead",
-      "sum": "Profits at large Chinese industrial firms rose 20.1% from a year earlier in October, up from 14.4% in September, statistics bureau data show. Profits for January to October rose 16%. Computer, telecom and electronic equipment makers roughly doubled their profits over the ten months, while furniture makers' profits fell about 52%.",
-      "why": "AI hardware is lifting Chinese factory earnings, but weak home demand leaves firms leaning on exports that face new US tariffs.",
+      "h": "Wall Street futures jump as chipmakers lead a rebound before a half-day session",
+      "sum": "Nasdaq 100 futures rose about 2.5% and S&P 500 futures 1.7% early on Friday, with Nvidia up nearly 4% and Micron 6% before the bell. Europe's STOXX 600 gained 0.9% to 642.65 as ASML, ASM International and Infineon climbed 3.8% to 4.5%. US stock trading ends early at 1pm ET.",
+      "why": "Investors are buying the AI dip even as futures price a 99% chance of a Fed hike on 9 December.",
       "src": [
         [
-          "investingLive (Reuters, NBS data)",
-          "https://investinglive.com/news/china-s-industrial-profits-jump-20-1-in-october-as-electronics-do-the-heavy-lifting/",
+          "Reuters via Yahoo Finance",
+          "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-surge-investors-073405748.html",
+          "27 Nov"
+        ],
+        [
+          "Reuters via WHBL",
+          "https://whbl.com/2026/11/27/european-stocks-extend-recovery-as-tech-miners-advance/",
+          "27 Nov"
+        ],
+        [
+          "Yahoo Finance",
+          "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
           "27 Nov"
         ]
       ]
@@ -238,7 +243,7 @@
       "s": "tech",
       "tag": "Regulatory",
       "lead": false,
-      "new": true,
+      "new": false,
       "h": "S&P puts Nvidia's AA rating on watch for a cut, citing board oversight concerns",
       "sum": "S&P Global Ratings placed Nvidia's AA rating on CreditWatch negative on 25 Nov and flagged a likely one-notch cut within 90 days. It questioned board independence, oversight of the chief executive and succession planning after Jensen Huang resigned on 12 Nov and was reinstated on 23 Nov. Moody's kept its Aa1 rating with a stable outlook.",
       "why": "A governance-driven downgrade would add to investor unease over the company at the centre of AI spending.",
@@ -259,7 +264,7 @@
       "s": "tech",
       "tag": "Product",
       "lead": false,
-      "new": true,
+      "new": false,
       "h": "Kioxia jumps as much as 14.5% after Nvidia tests its SSDs as extra AI memory",
       "sum": "Kioxia and Nvidia are testing a setup that puts 144 Kioxia SSDs, about 1.1 petabytes of raw storage, in a GB200 NVL72 system to handle a database of 2 trillion vectors. The aim is to reduce reliance on costly high-bandwidth memory. Kioxia shares rose as much as 14.5% to 7,895 yen on 26 Nov.",
       "why": "Using flash storage as a memory tier could ease the HBM bottleneck in AI servers and lift demand for NAND chips.",
@@ -280,7 +285,7 @@
       "s": "banking",
       "tag": "Rates",
       "lead": true,
-      "new": true,
+      "new": false,
       "h": "Bank of Korea raises its key rate to 3.25% and signals more hikes ahead",
       "sum": "The Bank of Korea lifted its base rate by a quarter point to 3.25% on 26 Nov, the highest in two years, in a 5 to 2 vote at its last meeting of 2026. It raised its domestic growth estimates, and Governor Hyun Song Shin said further increases were likely.",
       "why": "Seoul joins the ECB, and probably the Fed, in tightening, lifting borrowing costs for Korean households and companies.",
@@ -296,7 +301,7 @@
       "s": "banking",
       "tag": "Data",
       "lead": false,
-      "new": true,
+      "new": false,
       "h": "Tokyo core inflation hits 2.9%, a 16-month high, ahead of the BOJ's December meeting",
       "sum": "Consumer prices in Tokyo excluding fresh food rose 2.9% from a year earlier in November, up from 2.6% and the fastest since July 2025, though just below the 3.0% forecast. Headline inflation was 2.8%, and the measure that also strips out energy rose 2.5%.",
       "why": "Tokyo figures lead national data, so faster inflation strengthens the case for a Bank of Japan rate rise on 18 Dec.",
@@ -310,38 +315,16 @@
     },
     {
       "s": "banking",
-      "tag": "Policy",
+      "tag": "Markets",
       "lead": false,
-      "new": false,
-      "h": "Eurozone leaders back Spain's Hernández de Cos to succeed Lagarde at the ECB",
-      "sum": "Leaders meeting in Brussels on 26 Nov favoured the Bank for International Settlements chief over Klaas Knot. He would be the first Spaniard to lead the ECB when Lagarde leaves on 7 Feb 2027, after formal steps including consulting the European Parliament. France's Laurence Boone is expected to take Isabel Schnabel's markets role.",
-      "why": "Markets read the choice as policy continuity at a bank that has raised rates twice this year with inflation at 4%.",
-      "src": [
-        [
-          "Euronews",
-          "https://www.euronews.com/2026/11/26/eurozone-leaders-back-hernandez-de-cos-to-succeed-lagarde-at-ecb",
-          "26 Nov"
-        ],
-        [
-          "Reuters via Longbridge",
-          "https://longbridge.com/en/news/306942418",
-          "26 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "fintech",
-      "tag": "Breaking",
-      "lead": true,
       "new": true,
-      "auto": true,
-      "h": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound",
-      "sum": "",
-      "why": "",
+      "h": "HDFC Bank heads for its best month since 2009 after a 25% November rally",
+      "sum": "HDFC Bank shares have gained 24.86% in November to Rs 860.10, the best monthly run since May 2009, making it India's second most valuable listed company again at about Rs 13.28 lakh crore. Investors welcomed the RBI's approval of Anup Bagchi as chief executive, a valuation near a decade-low 2 times book and record foreign inflows.",
+      "why": "Leadership certainty at India's largest private lender is pulling foreign money back into Indian banks before an expected RBI hike.",
       "src": [
         [
-          "CoinDesk",
-          "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
+          "Business Today",
+          "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-shares-rally-25-in-november-eye-biggest-monthly-return-since-2009-569874-2026-11-27",
           "27 Nov"
         ]
       ]
@@ -349,26 +332,26 @@
     {
       "s": "fintech",
       "tag": "Markets",
-      "lead": false,
+      "lead": true,
       "new": false,
-      "h": "Bitcoin edges above $61,000 ahead of the expiry of $7B of Deribit options",
-      "sum": "Bitcoin traded near $61,300 on Friday afternoon in Asia, up about 1%, before roughly $7B of Deribit options expire at 08:00 UTC, 4pm in Singapore. Positioning is more defensive than in October, with a put-to-call ratio of 0.89 against 0.55. US spot bitcoin ETFs have lost about $5.39B in November, a monthly record.",
-      "why": "Steady fund selling has removed a key source of demand, leaving prices exposed to swings around large derivatives expiries.",
+      "h": "Bitcoin holds near $61,700 as $6.8B of Deribit options expire",
+      "sum": "Bitcoin traded near $61,700 on Friday after a 24-hour range of $59,880 to $61,740, as about $6.8B of Deribit options expired at 08:00 UTC with maximum pain at $70,000. Short liquidations of $47M outpaced longs. US spot bitcoin ETFs, back for a half day, lost a record $5.39B in November through 25 Nov.",
+      "why": "With fund outflows at a record, traders are watching whether the post-holiday stock rebound can revive demand for crypto.",
       "src": [
         [
-          "KuCoin (Crypto Economy)",
-          "https://www.kucoin.com/news/flash/bitcoin-options-face-7b-expiry-as-bearish-bets-rise",
-          "26 Nov"
-        ],
-        [
-          "CoinDesk",
-          "https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help",
-          "26 Nov"
+          "Blockonomi",
+          "https://blockonomi.com/bitcoin-btc-price-recovers-61k-while-options-traders-stack-65k-puts",
+          "27 Nov"
         ],
         [
           "CryptoSlate",
           "https://cryptoslate.com/bitcoin-hedges-could-expire-an-hour-before-etf-trading-resumes-on-black-friday/",
           "27 Nov"
+        ],
+        [
+          "CoinDesk",
+          "https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help",
+          "26 Nov"
         ]
       ]
     },
@@ -376,7 +359,7 @@
       "s": "fintech",
       "tag": "Product",
       "lead": false,
-      "new": true,
+      "new": false,
       "h": "Switzerland's first spot bitcoin ETF starts trading on the SIX exchange",
       "sum": "BIT Asset Management listed BBIT on the SIX Swiss Exchange on 26 Nov, seeded with 350 bitcoin worth over $20M and charging 0.19% a year. Swiss regulator FINMA approved it on 20 Oct after an 18-month review and exempted it from diversification rules. BIT says it is Europe's only active spot bitcoin ETF.",
       "why": "A regulated ETF wrapper gives Swiss wealth managers a simpler route into bitcoin, even as US funds see record outflows.",
@@ -411,48 +394,11 @@
     },
     {
       "s": "biotech",
-      "tag": "Setback",
+      "tag": "Deal",
       "lead": true,
       "new": false,
-      "h": "FDA delays its decision on Vertex's kidney drug povetacicept to February",
-      "sum": "The FDA extended its review of povetacicept for IgA nephropathy by up to three months, moving the target date from 30 Nov to no later than 28 Feb 2027. It classed Vertex's response to a late information request as a major amendment. The drug blocks two immune signalling proteins, BAFF and APRIL.",
-      "why": "The delay holds back a key growth product as Vertex tries to expand beyond its cystic fibrosis franchise.",
-      "src": [
-        [
-          "Reuters via Investing.com",
-          "https://www.investing.com/news/company-news/fda-extends-review-deadline-for-vertexs-igan-drug-to-feb-2027-93CH-5051457",
-          "25 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "biotech",
-      "tag": "Regulatory",
-      "lead": false,
-      "new": false,
-      "h": "FDA approves Roche's Wilserdly, first new early breast cancer hormone pill in 20 years",
-      "sum": "The FDA cleared giredestrant on 23 Nov as a once-daily pill after surgery for ER-positive, HER2-negative stage I to III breast cancer at intermediate or high risk of returning. In the 4,170-patient lidERA trial it cut the risk of invasive recurrence or death by 30% compared with standard hormone therapy.",
-      "why": "About 90% of HR-positive, HER2-negative cases are found early, giving Roche a large market for years of daily treatment.",
-      "src": [
-        [
-          "FDA",
-          "https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-hormone-therapy-early-stage-breast-cancer-more-20-years",
-          "23 Nov"
-        ],
-        [
-          "Roche",
-          "https://www.roche.com/media/releases/med-cor-2026-11-23",
-          "23 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "biotech",
-      "tag": "Deal",
-      "lead": false,
-      "new": false,
       "h": "Sanofi agrees to buy Insmed for $41B in pharma's biggest deal since 2023",
-      "sum": "Sanofi will pay $175 a share, a 46% premium to Insmed's 18 Nov price, gaining Brinsupri for bronchiectasis, with $1.09B of sales in the first nine months, plus Arikayce and the Phase 3 lung drug TPIP. Closing is expected in the first half of 2027. Sanofi shares rose 9.8% on 24 Nov and 4.9% on 25 Nov after upgrades.",
+      "sum": "Sanofi will pay $175 a share, a 46% premium to Insmed's 18 Nov price, gaining Brinsupri for bronchiectasis, with $1.09B of sales in the first nine months, plus Arikayce and the Phase 3 lung drug TPIP. Closing is expected in the first half of 2027. Sanofi shares slipped 1.6% on Friday after gaining nearly 18% over five sessions.",
       "why": "Gives Sanofi new respiratory growth before Dupixent, about 40% of group revenue, loses its main US patent in 2031.",
       "src": [
         [
@@ -466,9 +412,41 @@
           "24 Nov"
         ],
         [
-          "Saxo",
-          "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--26-november-2026-26112026",
-          "26 Nov"
+          "Reuters via WHBL",
+          "https://whbl.com/2026/11/27/european-stocks-extend-recovery-as-tech-miners-advance/",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "biotech",
+      "tag": "Deal",
+      "lead": false,
+      "new": true,
+      "h": "Bayer pays $150M upfront for Hansoh's cancer drug in a deal worth up to $3.25B",
+      "sum": "Bayer licensed global rights outside Greater China to HS-20122, an early-stage antibody-drug conjugate that targets both EGFR and c-MET in solid tumours including lung cancer. It pays $150M upfront and up to $3.1B in milestones, plus tiered royalties. The deal, announced on 25 Nov, still needs antitrust clearance.",
+      "why": "Western drugmakers keep turning to Chinese labs for cancer drugs, and antibody-drug conjugates are among the most sought-after assets.",
+      "src": [
+        [
+          "Bayer",
+          "https://www.bayer.com/media/en-us/bayer-strengthens-next-generation-oncology-pipeline-through-global-licensing-agreement-with-hansoh-pharma/",
+          "25 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "biotech",
+      "tag": "Setback",
+      "lead": false,
+      "new": false,
+      "h": "FDA delays its decision on Vertex's kidney drug povetacicept to February",
+      "sum": "The FDA extended its review of povetacicept for IgA nephropathy by up to three months, moving the target date from 30 Nov to no later than 28 Feb 2027. It classed Vertex's response to a late information request as a major amendment. The drug blocks two immune signalling proteins, BAFF and APRIL.",
+      "why": "The delay holds back a key growth product as Vertex tries to expand beyond its cystic fibrosis franchise.",
+      "src": [
+        [
+          "Reuters via Investing.com",
+          "https://www.investing.com/news/company-news/fda-extends-review-deadline-for-vertexs-igan-drug-to-feb-2027-93CH-5051457",
+          "25 Nov"
         ]
       ]
     },
@@ -477,23 +455,23 @@
       "tag": "Markets",
       "lead": true,
       "new": false,
-      "h": "Brent holds near $96 as a strike on a Saudi refinery adds to Gulf supply fears",
-      "sum": "Brent eased 0.3% to $96.29 a barrel in early Asian trade on Friday after Thursday's 2.1% gain, while WTI rose 2.1% to $85.43 as it caught up after the US holiday. A projectile hit Saudi Arabia's Jazan refinery on Thursday, killing one worker, following Houthi claims on Ras Tanura and Iranian reports of tankers hitting mines off Oman.",
-      "why": "Attacks on Saudi refineries and mines near Hormuz keep a war premium in crude two days before OPEC+ meets.",
+      "h": "Brent heads for a weekly gain near $97 as Gulf attacks threaten supply",
+      "sum": "Brent rose to $97.28 a barrel on Friday afternoon in Asia and WTI gained 2.6% to $85.85, putting crude on track for its first weekly rise this month. A projectile hit Saudi Aramco's Jazan refinery on Thursday, Iran said mines struck a ship in the Strait of Hormuz, and Russia extended its jet fuel export ban to 31 Mar 2027.",
+      "why": "Repeated strikes on Gulf infrastructure keep a war premium in crude two days before OPEC+ sets its 2027 policy.",
       "src": [
         [
-          "AP via News4JAX",
-          "https://www.news4jax.com/business/2026/11/27/asian-shares-mostly-rise-ahead-of-wall-streets-reopening-after-the-thanksgiving-holiday/",
+          "RTTNews via Panthere Group",
+          "https://www.pantheregroup.com/2026/11/27/oil-set-for-weekly-gain-amid-gulf-attacks/",
           "27 Nov"
         ],
         [
-          "Economic Times via The Fifth Skill",
-          "https://thefifthskill.com/oil-price-today-november-27-brent-crude-above-96-as-houthis-target-saudi-refinery-in-fresh-attack-what-are-experts-saying/",
+          "dpa-AFX via Malay Mail",
+          "https://www.malaymail.com/news/money/2026/11/27/asian-stocks-rally-as-china-south-korea-signal-market-support/245032",
           "27 Nov"
         ],
         [
-          "Bernama via Malay Mail",
-          "https://www.malaymail.com/news/money/2026/11/27/ringgit-opens-flat-against-us-dollar-as-geopolitical-economic-jitters-keep-investors-cautious/244927",
+          "Bernama via FMT",
+          "https://www.freemalaysiatoday.com/category/business/2026/11/27/ringgit-opens-flat-against-us-dollar-22",
           "27 Nov"
         ]
       ]
@@ -516,6 +494,11 @@
           "Rallies (Reuters)",
           "https://rallies.ai/news/brent-settles-higher-as-mine-strikes-refinery-attack-stoke-middle-east-supply-concerns-e41a002edac0a5b6",
           "26 Nov"
+        ],
+        [
+          "Reuters via WHBL",
+          "https://whbl.com/2026/11/27/take-five-a-december-to-remember/",
+          "27 Nov"
         ]
       ]
     },
@@ -563,6 +546,22 @@
     },
     {
       "s": "autos",
+      "tag": "Product",
+      "lead": false,
+      "new": true,
+      "h": "BYD unveils the Whale, a flagship MPV with over 900 km of range, due in early 2027",
+      "sum": "BYD showed the Whale at the Guangzhou show on 27 Nov, the first flagship MPV in its Ocean range, aimed at the 300,000 yuan ($44,730) segment. The 5.27-metre van comes as a plug-in hybrid with over 400 km of electric range or a battery EV with over 900 km on China's CLTC test, and goes on sale in early 2027.",
+      "why": "BYD is moving into pricier family vans as a price war and a shrinking home market squeeze mass-market models.",
+      "src": [
+        [
+          "CnEVPost",
+          "https://cnevpost.com/2026/11/27/byd-unveils-ocean-lineup-mpv-whale/",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "autos",
       "tag": "Deal",
       "lead": false,
       "new": false,
@@ -578,33 +577,12 @@
       ]
     },
     {
-      "s": "autos",
-      "tag": "Regulatory",
-      "lead": false,
-      "new": false,
-      "h": "EU caps Chinese-built hybrid imports at 191,780 cars until June",
-      "sum": "The EU adopted provisional quotas on 24 Nov limiting hybrid imports from China and other countries from 1 Dec to 18 Jun 2027. China-built plug-in, full and mild hybrids share a cap of 191,780 cars across three periods, while range-extended EVs and EU-built hybrids fall outside it. China's commerce ministry reserved the right to challenge the move at the WTO.",
-      "why": "Hybrids escaped the EU's extra duties on Chinese electric cars, so quotas narrow a key path into Europe for Chinese brands.",
-      "src": [
-        [
-          "CarNewsChina",
-          "https://carnewschina.com/2026/11/24/eu-to-cap-hybrid-car-imports-from-china-at-191780-from-december-2026-to-june-2027/",
-          "24 Nov"
-        ],
-        [
-          "AFP via BNN Bloomberg",
-          "https://www.bnnbloomberg.ca/business/international/2026/11/24/eu-officially-limits-imports-of-chinese-hybrid-vehicles/",
-          "24 Nov"
-        ]
-      ]
-    },
-    {
       "s": "retail",
       "tag": "M&A watch",
       "lead": true,
       "new": false,
       "h": "Japan Tobacco shares rise 4% on report it may join a bid for Imperial Brands",
-      "sum": "Japan Tobacco rose 4.1% to 5,754 yen in Tokyo on Friday after Bloomberg reported it is weighing a bid for Imperial with a partner. Altria said on Thursday it may make an all-cash offer and is talking to another party about part of Imperial, which jumped about 13% to a £25.9B value. Imperial says it has had no approach.",
+      "sum": "Japan Tobacco rose 4.1% to 5,754 yen on Friday after Bloomberg said it is weighing a bid for Imperial with a partner. Altria said it may make an all-cash offer, sending Imperial up 14.85% to 3,432p on Thursday. Under UK takeover rules Altria must bid or walk away by 24 Dec; Imperial says it has had no approach.",
       "why": "A two-buyer carve-up could reshape global tobacco, though Japan Tobacco is also absorbing an $8.7B loss on seized Russian units.",
       "src": [
         [
@@ -613,8 +591,8 @@
           "27 Nov"
         ],
         [
-          "Investing.com",
-          "https://uk.investing.com/news/stock-market-news/japan-tobacco-shares-surge-on-report-of-imperial-brands-takeover-5005899",
+          "RTTNews",
+          "https://www.rttnews.com/3718468/imperial-brands-stock-up-on-altria-s-confirmation-of-possible-takeover-offer.aspx",
           "27 Nov"
         ],
         [
@@ -629,10 +607,15 @@
       "tag": "Data",
       "lead": false,
       "new": false,
-      "h": "US online holiday spending tops $82.5B so far, up 9.1%, Adobe says",
-      "sum": "Shoppers spent more than $82.5B online from 1 to 22 Nov, and buy now, pay later spending rose 6.5% to $6.1B, Adobe Analytics data show. Adobe expects $6.9B on Thanksgiving, $12.9B on Black Friday and $15.1B on Cyber Monday. Visits to retail sites referred by AI assistants are up 127%.",
-      "why": "Solid online demand into the holiday peak supports retailers' fourth-quarter forecasts despite inflation running near 4%.",
+      "h": "Black Friday opens with deeper discounts as US online spending runs 9.1% ahead",
+      "sum": "Adobe says US shoppers spent $82.5B online from 1 to 22 Nov, up 9.1%, and expects TV discounts to average 23% on Friday. Salesforce says pre-Black Friday discounts were 8% bigger than last year. The NRF forecasts holiday sales of $1.01 trillion, up 4.1%, with higher prices making up about half the growth.",
+      "why": "Spending is holding up, but much of it reflects inflation and essentials, a thinner cushion for retailers' fourth-quarter profits.",
       "src": [
+        [
+          "AP via ClickOnDetroit",
+          "https://www.clickondetroit.com/business/2026/11/27/black-fridays-new-playbook-early-deals-essentials-in-carts-and-ai-nudging-clicks/",
+          "27 Nov"
+        ],
         [
           "Digital Commerce 360 (Adobe data)",
           "https://www.digitalcommerce360.com/2026/11/25/adobe-online-holiday-spending-data/",
@@ -708,13 +691,13 @@
       "tag": "Setback",
       "lead": true,
       "new": false,
-      "h": "Norse Atlantic stays grounded with no buyer named as staff go unpaid",
-      "sum": "The Norwegian long-haul carrier halted all flights on 26 Nov and says it will file for bankruptcy unless it secures emergency funding; takeover talks have produced no named buyer. Staff were told salaries could not be paid, the ITF says, and winter routes to Bangkok and Phuket are in doubt. Its shares fell 85% on 25 Nov.",
+      "h": "Norse Atlantic's lessors move to end leases on all 12 of its Boeing 787s",
+      "sum": "Aircraft lessors sent Norse Atlantic notices on 27 Nov terminating the leases on its entire fleet of 12 Boeing 787s, a day after it halted all flights. The Norwegian long-haul carrier says it disputes the notices and is still seeking short-term funding, but warns there is no assurance of a solution. Its board has said it may file for bankruptcy.",
       "why": "Jet fuel costs tied to the Middle East war are pushing thinly funded long-haul airlines out, cutting low-fare capacity.",
       "src": [
         [
-          "Reuters via Nation Thailand",
-          "https://www.nationthailand.com/news/world/40073984",
+          "Reuters via Global Banking & Finance",
+          "https://www.globalbankingandfinance.com/norse-atlantic-lessors-terminate-aircraft-agreements/",
           "27 Nov"
         ],
         [
@@ -728,20 +711,15 @@
       "s": "aero",
       "tag": "Deal",
       "lead": false,
-      "new": false,
-      "h": "Poland to sign deal for Palantir's Maven military AI software on Friday",
-      "sum": "Poland's defence ministry said it will sign an agreement with Palantir on 27 Nov to buy AI software that supports military decision-making. The Maven Smart System will run in Poland as Saturn, and the ministry says Palantir gets no access to military data or encryption keys. No value was disclosed; critics had called for an open tender.",
-      "why": "The purchase extends Palantir's reach in European defence as front-line NATO states spend more on AI planning tools.",
+      "new": true,
+      "h": "Thales enters exclusive talks to buy control of French laser maker Lumibird",
+      "sum": "Thales plans to buy a 51.6% stake from Lumibird's chief executive and majority owner Marc Le Flohic at €30.10 a share, including a €11.34 special payout tied to the sale of Lumibird's medical unit to IPG Photonics. The deal values the photonics business at about €440M and would be followed by an offer for the remaining shares.",
+      "why": "Thales is buying in laser and sensing technology as rising European defence budgets lift demand for optronics.",
       "src": [
         [
-          "Reuters via Internazionale",
-          "https://www.internazionale.it/ultime-notizie-reuters/2026/11/26/polish-defence-ministry-to-sign-agreement-with-palantir-on-friday",
-          "26 Nov"
-        ],
-        [
-          "LIGA.net",
-          "https://news.liga.net/en/world/news/poland-has-announced-a-deal-with-palantir",
-          "26 Nov"
+          "Reuters via Global Banking & Finance",
+          "https://www.globalbankingandfinance.com/thales-exclusive-talks-buy-controlling-stake-laser-tech-firm/",
+          "27 Nov"
         ]
       ]
     },
@@ -789,9 +767,30 @@
     },
     {
       "s": "property",
-      "tag": "Deal",
+      "tag": "Data",
       "lead": false,
       "new": true,
+      "h": "Hong Kong home prices slip 0.59% in October as rents hit a record; Goldman cuts outlook",
+      "sum": "Private home prices fell 0.59% in October, leaving them 6.48% higher this year but about 20% below the 2021 peak, while rents rose for a 12th straight month to a record, official data show. Goldman Sachs now expects prices to rise 10% in 2026 and 4% in 2027, down from 15% and 7%.",
+      "why": "Higher rates and the equity slump threaten Hong Kong's housing rebound; Goldman also cut developer earnings forecasts by up to 10%.",
+      "src": [
+        [
+          "Dimsum Daily (RVD data)",
+          "https://www.dimsumdaily.hk/hong-kong-private-home-prices-dip-0-59-in-october-while-rents-hit-fresh-record-high/",
+          "26 Nov"
+        ],
+        [
+          "Mingtiandi",
+          "https://www.mingtiandi.com/real-estate/research-policy/goldman-sachs-slashes-hong-kong-home-price-forecast/",
+          "26 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "property",
+      "tag": "Deal",
+      "lead": false,
+      "new": false,
       "h": "IOI Properties buys Singapore's Shenton House from its CEO's company for S$593M",
       "sum": "The Malaysian developer is acquiring the 25-storey office block in Singapore's business district from Shenton 101, a private firm owned by chief executive Lee Yeow Seng, paying S$217M and taking on about S$376M of debt. It plans a 35-storey mixed-use tower with a 165-room hotel, built from 2027 to 2031.",
       "why": "The related-party deal deepens IOI's bet on Singapore, where it now owns almost US$8B of property.",
@@ -804,25 +803,30 @@
       ]
     },
     {
-      "s": "property",
-      "tag": "Data",
-      "lead": false,
-      "new": false,
-      "h": "US new home sales jump 14.2% in October despite 7% mortgage rates",
-      "sum": "Sales of new single-family homes rose to an annual rate of 701,000 in October from a downwardly revised 614,000 in September, Census data show, and were 7.5% higher than a year earlier. Supply fell to eight months, the lowest this year. Year-to-date sales remain 3% behind 2025, the National Association of Home Builders says.",
-      "why": "A surprise rebound offers builders some relief, though high rates keep resale activity near decade lows.",
+      "s": "sgmy",
+      "tag": "Policy",
+      "lead": true,
+      "new": true,
+      "h": "Singapore has not confirmed Nvidia's server halt and is reviewing its rules, Gan says",
+      "sum": "Deputy Prime Minister Gan Kim Yong said on 27 Nov that Singapore has not verified reports that Nvidia stopped server shipments and is contacting firms to gauge the impact. The government is reviewing how to tighten regulation and monitoring, will investigate credible information and is working with Washington to keep local access to high-end chips.",
+      "why": "Singapore's standing as an AI hub depends on convincing Washington its data centres are not a back door for China.",
       "src": [
         [
-          "RealEstateNews",
-          "https://www.realestatenews.com/2026/11/25/new-home-sales-took-a-surprisingly-upbeat-turn-in-october",
-          "25 Nov"
+          "Bernama via Malay Mail",
+          "https://www.malaymail.com/news/singapore/2026/11/27/singapore-yet-to-verify-nvidia-chip-shipment-halt-says-dpm-gan/245024",
+          "27 Nov"
+        ],
+        [
+          "AFP via Korea Times",
+          "https://www.koreatimes.co.kr/world/20261127/singapore-engaging-with-local-firms-over-us-chip-restrictions",
+          "27 Nov"
         ]
       ]
     },
     {
       "s": "sgmy",
       "tag": "Regulatory",
-      "lead": true,
+      "lead": false,
       "new": false,
       "h": "Banks tighten checks on Singapore and Malaysia data-centre borrowers over US chip rule",
       "sum": "Citigroup and Standard Chartered have joined DBS, OCBC and UOB in reviewing Southeast Asian data-centre clients, asking them to show who uses their AI chips, Bloomberg reported. A $480M loan for an Aolani Cloud site in Malaysia has stalled. MAS said it expects banks to stay vigilant, and OCBC sees no material concerns.",
@@ -837,9 +841,25 @@
     },
     {
       "s": "sgmy",
-      "tag": "Data",
+      "tag": "Markets",
       "lead": false,
       "new": true,
+      "h": "KLCI climbs 1.16% to 1,589 as Press Metal and YTL lead a regional rally",
+      "sum": "The FBM KLCI closed 18.26 points higher at 1,589.24 on Friday, with gainers beating losers 727 to 363 on turnover of RM2.64B. Press Metal, YTL Power and YTL Corp added a combined 12.66 points, while Maybank and CIMB also rose. RHB Bank and UMS Integration led decliners.",
+      "why": "Bargain hunting in Malaysian blue chips and mid-caps suggests investors see the AI-led sell-off as overdone.",
+      "src": [
+        [
+          "Malay Mail",
+          "https://www.malaymail.com/news/money/2026/11/27/bursa-malaysia-climbs-116pc-to-1589-as-regional-markets-rally/245026",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "sgmy",
+      "tag": "Data",
+      "lead": false,
+      "new": false,
       "h": "Singapore factory output rises 6.1% in October on AI-driven chip equipment demand",
       "sum": "Manufacturing output grew 6.1% from a year earlier in October, up from 5% in September, EDB data show, and 12.1% excluding biomedical products. Precision engineering surged 54.1% on semiconductor equipment and electronics rose 6.6%, while biomedical output fell 35.8%. Seasonally adjusted output jumped 7.1% from September.",
       "why": "Strong AI-linked production underpins the government's raised 2026 growth forecast before an expected slowdown next year.",
@@ -847,43 +867,6 @@
         [
           "AsiaOne",
           "https://www.asiaone.com/money/singapore-manufacturing-output-october-2026-edb",
-          "26 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "sgmy",
-      "tag": "Forecast",
-      "lead": false,
-      "new": true,
-      "h": "Malaysian think tank sees 2026 growth of 5% to 5.5% as US weighs tariffs up to 18%",
-      "sum": "The Malaysian Institute of Economic Research forecast 2026 growth of 5.0% to 5.5%, above the official 4.8% to 5.3% range, with the fourth quarter easing to 4.5% to 5.0% after 5.5% in the third. It expects 4.2% to 5.2% in 2027. The US has proposed extra duties of up to 18% on Malaysian goods.",
-      "why": "Exports, especially AI-linked electronics, drive Malaysian growth, so new US duties would hit the economy's main engine.",
-      "src": [
-        [
-          "Bernama via The Star",
-          "https://www.thestar.com.my/business/business-news/2026/11/26/malaysia-2026-gdp-projected-at-50-55-will-assess-us-tariff-impact",
-          "26 Nov"
-        ],
-        [
-          "Euronews",
-          "https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included",
-          "25 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "sgmy",
-      "tag": "Policy",
-      "lead": false,
-      "new": false,
-      "h": "Malaysia says it has made no commitment to rescue AirAsia",
-      "sum": "Second Finance Minister Amir Hamzah Azizan told parliament on 26 Nov the government has agreed no loan guarantees or capital injections for AirAsia, though domestic air links remain a priority. Any help would follow the Vantris model, putting the state ahead of lenders. AirAsia handled nearly 60% of domestic passengers at MAHB airports in 2025.",
-      "why": "AirAsia dominates flights to Sabah and Sarawak, so its funding gap is a public concern with jet fuel above $200 a barrel.",
-      "src": [
-        [
-          "Malay Mail",
-          "https://www.malaymail.com/news/malaysia/2026/11/26/amir-hamzah-says-domestic-air-links-remain-priority-but-no-airasia-bailout-promised/244893",
           "26 Nov"
         ]
       ]
@@ -895,7 +878,7 @@
       "day": "27",
       "mon": "Nov",
       "ev": "Black Friday",
-      "note": "US stocks close early at 1pm ET; $7B of bitcoin options expire at 4pm SGT; Poland signs Palantir deal",
+      "note": "US stocks close early at 1pm ET, 2am SGT Saturday",
       "key": false
     },
     {
@@ -903,8 +886,16 @@
       "day": "29",
       "mon": "Nov",
       "ev": "OPEC+ ministerial meetings",
-      "note": "From 1300 GMT; a rollover of targets into 2027 is expected",
+      "note": "Vienna, from 1300 GMT; capacity figures first, then 2027 output",
       "key": true
+    },
+    {
+      "dow": "Sun",
+      "day": "29",
+      "mon": "Nov",
+      "ev": "Spain snap election",
+      "note": "PP and Vox expected to win a majority",
+      "key": false
     },
     {
       "dow": "Mon",
@@ -912,6 +903,14 @@
       "mon": "Nov",
       "ev": "Cyber Monday",
       "note": "MSCI adds Anthropic at the close; January Brent contract expires",
+      "key": false
+    },
+    {
+      "dow": "Mon",
+      "day": "30",
+      "mon": "Nov",
+      "ev": "India July to September GDP",
+      "note": "Reuters poll of economists expects 7.6% growth",
       "key": false
     },
     {
@@ -951,8 +950,16 @@
       "day": "4",
       "mon": "Dec",
       "ev": "US November jobs report",
-      "note": "8:30am ET, last jobs data before the Fed",
+      "note": "8:30am ET; Reuters poll sees 90,000 jobs added",
       "key": true
+    },
+    {
+      "dow": "Fri",
+      "day": "4",
+      "mon": "Dec",
+      "ev": "Reserve Bank of India decision",
+      "note": "A quarter-point hike to 5.75% is expected",
+      "key": false
     },
     {
       "dow": "Tue",
