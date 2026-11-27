@@ -1,7 +1,7 @@
 {
   "edition": {
     "label": "Midday edition",
-    "updated": "2026-11-27T04:53:49Z"
+    "updated": "2026-11-27T10:18:13Z"
   },
   "tape": [
     {
@@ -331,8 +331,25 @@
     },
     {
       "s": "fintech",
-      "tag": "Markets",
+      "tag": "Breaking",
       "lead": true,
+      "new": true,
+      "auto": true,
+      "h": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound",
+      "sum": "",
+      "why": "",
+      "src": [
+        [
+          "CoinDesk",
+          "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "fintech",
+      "tag": "Markets",
+      "lead": false,
       "new": false,
       "h": "Bitcoin edges above $61,000 ahead of the expiry of $7B of Deribit options",
       "sum": "Bitcoin traded near $61,300 on Friday afternoon in Asia, up about 1%, before roughly $7B of Deribit options expire at 08:00 UTC, 4pm in Singapore. Positioning is more defensive than in October, with a put-to-call ratio of 0.89 against 0.55. US spot bitcoin ETFs have lost about $5.39B in November, a monthly record.",
