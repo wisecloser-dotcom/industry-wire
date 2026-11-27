@@ -1,78 +1,78 @@
 {
   "edition": {
-    "label": "Evening edition",
-    "updated": "2026-11-27T19:33:59Z"
+    "label": "Morning edition",
+    "updated": "2026-11-27T23:51:26Z"
   },
   "tape": [
     {
       "name": "S&P 500",
-      "val": "7,182.78",
-      "chg": "−0.25%",
-      "dir": "down",
-      "asof": "Wed 25 Nov close"
+      "val": "7,297.49",
+      "chg": "+1.60%",
+      "dir": "up",
+      "asof": "Fri 27 Nov close"
     },
     {
       "name": "Nasdaq Comp.",
-      "val": "23,585.80",
-      "chg": "−0.62%",
-      "dir": "down",
-      "asof": "Wed 25 Nov close"
+      "val": "24,129.50",
+      "chg": "+2.31%",
+      "dir": "up",
+      "asof": "Fri 27 Nov close"
     },
     {
       "name": "Dow Jones",
-      "val": "50,182.95",
-      "chg": "+0.33%",
+      "val": "50,774.94",
+      "chg": "+1.18%",
       "dir": "up",
-      "asof": "Wed 25 Nov close"
+      "asof": "Fri 27 Nov close"
     },
     {
       "name": "VIX",
-      "val": "27.98",
-      "chg": "+6.16%",
-      "dir": "up",
-      "asof": "Wed 25 Nov close"
+      "val": "23.81",
+      "chg": "−11.16%",
+      "dir": "down",
+      "asof": "Fri 27 Nov close"
     },
     {
       "name": "Brent crude",
-      "val": "$97.28/bbl",
-      "chg": "+0.7%",
-      "dir": "up",
-      "asof": "Fri 27 Nov, 5:40pm SGT"
+      "val": "$95.44/bbl",
+      "chg": "−1.2%",
+      "dir": "down",
+      "asof": "Fri 27 Nov settle"
     },
     {
       "name": "Bitcoin",
-      "val": "~$61,600",
-      "chg": "+1.9%",
-      "dir": "up",
-      "asof": "Fri 27 Nov, 6pm SGT"
+      "val": "~$59,800",
+      "chg": "−1.2%",
+      "dir": "down",
+      "asof": "Sat 28 Nov, 6am SGT"
     },
     {
       "name": "USD/MYR",
-      "val": "4.1135",
-      "chg": "flat",
-      "dir": "flat",
-      "asof": "Fri 27 Nov, 8am open"
+      "val": "4.1190",
+      "chg": "+0.13%",
+      "dir": "up",
+      "asof": "Fri 27 Nov, 6pm close"
     },
     {
-      "name": "Kospi",
-      "val": "4,915.68",
-      "chg": "+4.34%",
+      "name": "Anthropic",
+      "val": "$91.88",
+      "chg": "+10.98%",
       "dir": "up",
       "asof": "Fri 27 Nov close"
     }
   ],
   "bigpic": [
     {
-      "b": "Beijing's market pledge sparks an Asian rally",
-      "t": "with Shanghai up 3.7% and the Kospi 4.3%, as US futures point to a strong start for Wall Street's half-day session."
+      "b": "Wall Street's best week since April 2025",
+      "t": "as chipmakers and Anthropic lead a half-day rally, though bitcoin lags and slips back under $60,000."
     },
     {
-      "b": "Brent nears $97 on Gulf supply fears",
-      "t": "after strikes on Saudi refineries and mines near Hormuz, two days before OPEC+ ministers meet in Vienna."
+      "b": "OPEC+ meets Sunday with Brent at $95",
+      "t": "after a 3% weekly gain driven by attacks on Saudi refineries; delegates expect output targets to stay unchanged."
     },
     {
-      "b": "Nvidia's Southeast Asia pause remains unclear",
-      "t": "as Singapore says it has not confirmed the halt and reviews its chip rules, while S&P weighs a rating cut."
+      "b": "US tariff plan targets 14 economies",
+      "t": "with 20% proposed for Singapore, 18% for Malaysia and 35% for Vietnam as Washington rebuilds its struck-down levies."
     }
   ],
   "sectors": [
@@ -152,21 +152,21 @@
   "stories": [
     {
       "s": "markets",
-      "tag": "Breaking",
+      "tag": "Markets",
       "lead": true,
       "new": true,
-      "h": "Beijing's market support pledge sends Shanghai up 3.7% and the Kospi up 4.3%",
-      "sum": "China's State Council pledged new capital-market measures, more buybacks and dividends and a bigger role for state-backed funds, lifting the Shanghai Composite 3.73% to 3,606.49 a day after the CSI 300 hit a 17-month low. The Kospi jumped 4.34% to 4,915.68 on hopes Seoul will enlarge a 10 trillion won stabilisation fund.",
-      "why": "Official backing in China and South Korea signals governments will put a floor under markets after November's AI-led sell-off.",
+      "h": "Wall Street books its best week since April 2025 as chipmakers lead a half-day rally",
+      "sum": "The S&P 500 rose 1.60% to 7,297.49 on Friday, the Nasdaq 2.31% to 24,129.50 and the Dow 1.18% to 50,774.94 in a session cut short for Black Friday. For the week the S&P gained 5.6%, the Nasdaq 6.7% and the Dow 5.5%, the Dow's best week since October 2022.",
+      "why": "The rebound eases pressure after November's AI sell-off, though Goldman warns systematic funds could sell about $100B more.",
       "src": [
         [
-          "dpa-AFX via Malay Mail",
-          "https://www.malaymail.com/news/money/2026/11/27/asian-stocks-rally-as-china-south-korea-signal-market-support/245032",
+          "AP via Yahoo Finance",
+          "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-184551517.html",
           "27 Nov"
         ],
         [
-          "Investing.com",
-          "https://www.investing.com/news/stock-market-news/asian-stocks-rise-as-tech-rebound-easing-us-trade-concerns-lift-sentiment-5052839",
+          "TradingKey",
+          "https://www.tradingkey.com/analysis/stocks/us-stocks/262325775-nasdaq-leads-black-friday-rally-dow-posts-best-week-since-2022-tradingkey",
           "27 Nov"
         ]
       ]
@@ -175,24 +175,19 @@
       "s": "markets",
       "tag": "Markets",
       "lead": false,
-      "new": true,
-      "h": "Wall Street futures jump as chipmakers lead a rebound before a half-day session",
-      "sum": "Nasdaq 100 futures rose about 2.5% and S&P 500 futures 1.7% early on Friday, with Nvidia up nearly 4% and Micron 6% before the bell. Europe's STOXX 600 gained 0.9% to 642.65 as ASML, ASM International and Infineon climbed 3.8% to 4.5%. US stock trading ends early at 1pm ET.",
-      "why": "Investors are buying the AI dip even as futures price a 99% chance of a Fed hike on 9 December.",
+      "new": false,
+      "h": "China's CSI 300 has its best day since 2024 as Beijing leans on the national team",
+      "sum": "The CSI 300 jumped 4.17% to 4,063.06 and the STAR 50 15.07% on Friday after a State Council meeting under Premier Li Qiang urged Central Huijin to act as a market stabiliser and pushed listed firms toward bigger dividends and buybacks. A chip sub-index rose 19%, its biggest gain on record.",
+      "why": "Explicit state backing could put a floor under Chinese stocks after tech-heavy boards lost roughly half their value since July.",
       "src": [
         [
-          "Reuters via Yahoo Finance",
-          "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-surge-investors-073405748.html",
+          "Bernama",
+          "https://www.bernama.com/en/world/news.php?id=2640537",
           "27 Nov"
         ],
         [
           "Reuters via WHBL",
-          "https://whbl.com/2026/11/27/european-stocks-extend-recovery-as-tech-miners-advance/",
-          "27 Nov"
-        ],
-        [
-          "Yahoo Finance",
-          "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+          "https://whbl.com/2026/11/27/china-stocks-yuan-rally-after-beijing-vows-stronger-market-support/",
           "27 Nov"
         ]
       ]
@@ -220,63 +215,63 @@
     },
     {
       "s": "tech",
-      "tag": "Regulatory",
+      "tag": "Markets",
       "lead": true,
+      "new": true,
+      "h": "Anthropic jumps 11% to $91.88, closing back above its $83 IPO price",
+      "sum": "Anthropic shares gained 10.98% on Friday, their first close above the $83 IPO price after two sessions below it and a Wednesday low of $73.85. The stock debuted on Nasdaq on 19 Nov. Up to 303M more shares can be sold from 15 Dec, and it is due to join the Nasdaq 100 on 21 Dec.",
+      "why": "Trading in the biggest AI listing is a running gauge of whether investors will keep funding the sector's huge spending plans.",
+      "src": [
+        [
+          "Motley Fool",
+          "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-anthropic-jumps-11-reclaiming-its-usd83-ipo-price-as-wall-street-rallies/",
+          "27 Nov"
+        ],
+        [
+          "StockAnalysis",
+          "https://stockanalysis.com/news/anthropic-jumps-11-percent-back-above-ipo-price/",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "tech",
+      "tag": "Markets",
+      "lead": false,
+      "new": true,
+      "h": "Memory makers lead a chip rebound as SanDisk surges 16% and Micron gains 7.6%",
+      "sum": "SanDisk rose 15.96% on Friday, Seagate 7.90%, Micron 7.60% and Western Digital 7.22%. The Philadelphia Semiconductor Index climbed 4.69% to 9,186.71 with all 30 members higher, while Nvidia added just 0.8% to $150.49 as its Southeast Asia shipment pause lingers.",
+      "why": "Memory and storage makers have become the most sensitive bets on AI data-centre spending, so they move hardest when sentiment turns.",
+      "src": [
+        [
+          "TradingKey",
+          "https://www.tradingkey.com/analysis/stocks/us-stocks/262325775-nasdaq-leads-black-friday-rally-dow-posts-best-week-since-2022-tradingkey",
+          "27 Nov"
+        ],
+        [
+          "StockAnalysis",
+          "https://stockanalysis.com/news/anthropic-jumps-11-percent-back-above-ipo-price/",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "tech",
+      "tag": "Regulatory",
+      "lead": false,
       "new": false,
       "h": "Nvidia pauses Southeast Asia server shipments while it checks export compliance",
-      "sum": "Nvidia told partners including Dell and Super Micro to halt server deliveries to Malaysia, Singapore, Thailand and Indonesia for an unspecified period, the Wall Street Journal reported, while it checks customers meet US rules. Commerce closed a loophole that let Chinese firms use such chips remotely; one estimate says these sites supply about 24% of China's AI computing.",
+      "sum": "Nvidia told partners including Dell and Super Micro to stop shipping servers with its chips to Malaysia, Singapore, Thailand and Indonesia, the FT reported, possibly only while they work through new US licence rules for the region. None of the three companies commented. The rules aim to close routes Chinese firms are believed to use to obtain AI chips.",
       "why": "Southeast Asia's data-centre build-out relies on steady Nvidia supply, so a long pause could stall projects and their financing.",
       "src": [
         [
+          "Reuters via Investing.com",
+          "https://www.investing.com/news/stock-market-news/nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports-5053574",
+          "26 Nov"
+        ],
+        [
           "TechCrunch via Yahoo Finance",
           "https://finance.yahoo.com/technology/articles/nvidia-hits-pause-chip-shipments-200354308.html",
-          "26 Nov"
-        ],
-        [
-          "TrendForce (FT report)",
-          "https://www.trendforce.com/news/2026/11/26/news-nvidia-reportedly-suspends-ai-server-shipments-to-four-southeast-asian-countries-as-u-s-targets-chinese-ai-access/",
-          "26 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "tech",
-      "tag": "Regulatory",
-      "lead": false,
-      "new": false,
-      "h": "S&P puts Nvidia's AA rating on watch for a cut, citing board oversight concerns",
-      "sum": "S&P Global Ratings placed Nvidia's AA rating on CreditWatch negative on 25 Nov and flagged a likely one-notch cut within 90 days. It questioned board independence, oversight of the chief executive and succession planning after Jensen Huang resigned on 12 Nov and was reinstated on 23 Nov. Moody's kept its Aa1 rating with a stable outlook.",
-      "why": "A governance-driven downgrade would add to investor unease over the company at the centre of AI spending.",
-      "src": [
-        [
-          "investingLive",
-          "https://investinglive.com/stocks/s-p-puts-nvidia-s-aa-rating-on-watch-for-a-possible-cut-as-moody-s-holds-steady/",
-          "26 Nov"
-        ],
-        [
-          "Seeking Alpha",
-          "https://seekingalpha.com/news/4676682-nvidias-aa-credit-rating-placed-on-credit-watch-negative-by-sp-global",
-          "25 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "tech",
-      "tag": "Product",
-      "lead": false,
-      "new": false,
-      "h": "Kioxia jumps as much as 14.5% after Nvidia tests its SSDs as extra AI memory",
-      "sum": "Kioxia and Nvidia are testing a setup that puts 144 Kioxia SSDs, about 1.1 petabytes of raw storage, in a GB200 NVL72 system to handle a database of 2 trillion vectors. The aim is to reduce reliance on costly high-bandwidth memory. Kioxia shares rose as much as 14.5% to 7,895 yen on 26 Nov.",
-      "why": "Using flash storage as a memory tier could ease the HBM bottleneck in AI servers and lift demand for NAND chips.",
-      "src": [
-        [
-          "Reuters via Investing.com",
-          "https://za.investing.com/news/stock-market-news/kioxia-jumps-14-after-nvidia-collaboration-as-chip-stocks-rebound-4597990",
-          "26 Nov"
-        ],
-        [
-          "Dataconomy",
-          "https://dataconomy.com/2026/11/26/kioxia-jumps-145-after-nvidia-ssd-collaboration",
           "26 Nov"
         ]
       ]
@@ -285,6 +280,43 @@
       "s": "banking",
       "tag": "Rates",
       "lead": true,
+      "new": true,
+      "h": "ECB's Nagel says rates may need to rise again as consumers' inflation fears jump",
+      "sum": "Bundesbank chief Joachim Nagel said on 27 Nov that euro zone inflation could stay above 3% well into 2027 and the ECB might have to do more when it meets in December. An ECB survey showed consumers' 12-month inflation expectations rose to 3.5% in October from 3.1%, and the three-year gauge to 3% from 2.9%.",
+      "why": "A third ECB hike this year on 17 Dec would lift borrowing costs for euro zone households and firms alongside a likely Fed move.",
+      "src": [
+        [
+          "Reuters via Global Banking & Finance",
+          "https://www.globalbankingandfinance.com/ecb-raise-rates-inflation-stays-3/",
+          "27 Nov"
+        ],
+        [
+          "Reuters via WKZO",
+          "https://wkzo.com/2026/11/27/euro-zone-consumers-sharply-increase-inflation-expectation-ecb-survey-shows/",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "banking",
+      "tag": "Rates",
+      "lead": false,
+      "new": true,
+      "h": "Traders price a 99% chance of a Fed hike on 9 December, with January also in play",
+      "sum": "CME FedWatch showed a 99.2% chance early on 27 Nov of a quarter-point rise on 9 Dec, taking the target range to 4.00% to 4.25%. As of Wednesday's close, futures gave a 60.1% chance of a second hike by the 27 Jan meeting. Fed officials enter their pre-meeting quiet period on Saturday.",
+      "why": "Back-to-back hikes would lift US loan and deposit rates again, testing borrowers while inflation runs at 3.8%.",
+      "src": [
+        [
+          "Investing.com",
+          "https://www.investing.com/analysis/feds-december-rate-hike-is-priced-in-but-january-remains-uncertain-200692473",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "banking",
+      "tag": "Rates",
+      "lead": false,
       "new": false,
       "h": "Bank of Korea raises its key rate to 3.25% and signals more hikes ahead",
       "sum": "The Bank of Korea lifted its base rate by a quarter point to 3.25% on 26 Nov, the highest in two years, in a 5 to 2 vote at its last meeting of 2026. It raised its domestic growth estimates, and Governor Hyun Song Shin said further increases were likely.",
@@ -298,59 +330,43 @@
       ]
     },
     {
-      "s": "banking",
-      "tag": "Data",
-      "lead": false,
-      "new": false,
-      "h": "Tokyo core inflation hits 2.9%, a 16-month high, ahead of the BOJ's December meeting",
-      "sum": "Consumer prices in Tokyo excluding fresh food rose 2.9% from a year earlier in November, up from 2.6% and the fastest since July 2025, though just below the 3.0% forecast. Headline inflation was 2.8%, and the measure that also strips out energy rose 2.5%.",
-      "why": "Tokyo figures lead national data, so faster inflation strengthens the case for a Bank of Japan rate rise on 18 Dec.",
-      "src": [
-        [
-          "investingLive",
-          "https://investinglive.com/news/tokyo-november-core-cpi-rises-to-2-9-y-y-just-shy-of-3-0-expected/",
-          "27 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "banking",
+      "s": "fintech",
       "tag": "Markets",
-      "lead": false,
+      "lead": true,
       "new": true,
-      "h": "HDFC Bank heads for its best month since 2009 after a 25% November rally",
-      "sum": "HDFC Bank shares have gained 24.86% in November to Rs 860.10, the best monthly run since May 2009, making it India's second most valuable listed company again at about Rs 13.28 lakh crore. Investors welcomed the RBI's approval of Anup Bagchi as chief executive, a valuation near a decade-low 2 times book and record foreign inflows.",
-      "why": "Leadership certainty at India's largest private lender is pulling foreign money back into Indian banks before an expected RBI hike.",
+      "h": "Bitcoin slips back under $60,000 even as Wall Street has its best week in over a year",
+      "sum": "Bitcoin fell 1.18% to about $59,780 by Friday evening in New York after briefly topping $61,000, and ether lost 1.29% to $1,665.99. An early rally fuelled by short liquidations faded after about $7B of options expired. US spot bitcoin ETFs have lost a record $5.39B in November.",
+      "why": "Crypto's failure to join the equity rebound suggests fresh money is staying away, with fund outflows the heaviest on record.",
       "src": [
         [
-          "Business Today",
-          "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-shares-rally-25-in-november-eye-biggest-monthly-return-since-2009-569874-2026-11-27",
+          "Motley Fool",
+          "https://www.fool.com/coverage/stock-market-today/2026/11/27/crypto-market-today-nov-27-bitcoin-falls-below-usd60-000-as-crypto-markets-struggle-despite-wall-street-s-biggest-rally-in-over-a-year/",
+          "27 Nov"
+        ],
+        [
+          "crypto.news",
+          "https://crypto.news/bitcoin-price-slips-below-60k-traders-watch-55k/",
           "27 Nov"
         ]
       ]
     },
     {
       "s": "fintech",
-      "tag": "Markets",
-      "lead": true,
-      "new": false,
-      "h": "Bitcoin holds near $61,700 as $6.8B of Deribit options expire",
-      "sum": "Bitcoin traded near $61,700 on Friday after a 24-hour range of $59,880 to $61,740, as about $6.8B of Deribit options expired at 08:00 UTC with maximum pain at $70,000. Short liquidations of $47M outpaced longs. US spot bitcoin ETFs, back for a half day, lost a record $5.39B in November through 25 Nov.",
-      "why": "With fund outflows at a record, traders are watching whether the post-holiday stock rebound can revive demand for crypto.",
+      "tag": "Policy",
+      "lead": false,
+      "new": true,
+      "h": "US bitcoin reserve bill reaches the House calendar with little time left to pass",
+      "sum": "H.R. 8957, the American Reserve Modernization Act, was placed on the House calendar on 24 Nov, two months after a 28 to 21 party-line committee vote. It would have Treasury set up a reserve within 180 days, funded only by seized bitcoin, and bar sales for 20 years. Polymarket gives a 4% chance of a reserve law this year.",
+      "why": "Without passage before this Congress ends on 3 Jan, the reserve rests on an executive order a future president could reverse.",
       "src": [
         [
-          "Blockonomi",
-          "https://blockonomi.com/bitcoin-btc-price-recovers-61k-while-options-traders-stack-65k-puts",
-          "27 Nov"
+          "The Block",
+          "https://www.theblock.co/news/regulation/2026-11-25-house-committee-advances-strategic-bitcoin-reserve-bill-446778",
+          "25 Nov"
         ],
         [
-          "CryptoSlate",
-          "https://cryptoslate.com/bitcoin-hedges-could-expire-an-hour-before-etf-trading-resumes-on-black-friday/",
-          "27 Nov"
-        ],
-        [
-          "CoinDesk",
-          "https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help",
+          "TFTC",
+          "https://www.tftc.io/hr-8957-american-reserve-modernization-act-committee-house-floor",
           "26 Nov"
         ]
       ]
@@ -372,22 +388,6 @@
         [
           "finews.com",
           "https://www.finews.com/news/english-news/74679-first-swiss-spot-bitcoin-etf-launched-on-six",
-          "26 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "fintech",
-      "tag": "Regulatory",
-      "lead": false,
-      "new": false,
-      "h": "New York wins $1.37B judgment against NovaTech founders over crypto fraud",
-      "sum": "A New York state court ordered Cynthia and Eddie Petion, founders of NovaTechFx and AWS Mining, to pay $1.37B. The SEC says NovaTech raised about $650M from more than 200,000 investors between 2019 and 2023, and victims included 11,000 New Yorkers, many recruited through church groups and social media. The couple have left the US.",
-      "why": "The award shows state regulators pursuing crypto investment schemes hard, though collecting from founders abroad will be difficult.",
-      "src": [
-        [
-          "CoinDesk",
-          "https://www.coindesk.com/policy/2026/11/26/new-york-attorney-general-wins-usd1-4-billion-ruling-against-founders-of-crypto-trading-firm-novatech",
           "26 Nov"
         ]
       ]
@@ -420,9 +420,30 @@
     },
     {
       "s": "biotech",
-      "tag": "Deal",
+      "tag": "Regulatory",
       "lead": false,
       "new": true,
+      "h": "FDA clears Genentech's giredestrant pill for early breast cancer after surgery",
+      "sum": "The FDA approved giredestrant, sold as Wilserdly, on 23 Nov for stage I to III ER-positive, HER2-negative breast cancer at intermediate or high risk of recurrence. In the lidERA trial, 92.4% of patients were free of invasive disease at three years versus 89.6% on standard hormone therapy. A combination use in advanced disease was cleared on 16 Nov.",
+      "why": "It is the first new hormone drug for early breast cancer in about two decades, opening a large market to oral SERDs.",
+      "src": [
+        [
+          "AJMC",
+          "https://www.ajmc.com/view/november-fda-approvals-bring-new-options-across-5-cancers",
+          "27 Nov"
+        ],
+        [
+          "tafs.uz",
+          "https://tafs.uz/en/2026/11/27/fda-approves-new-hormonal-drug-for-early-breast-cancer-for-the-first-time-in-20-years",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "biotech",
+      "tag": "Deal",
+      "lead": false,
+      "new": false,
       "h": "Bayer pays $150M upfront for Hansoh's cancer drug in a deal worth up to $3.25B",
       "sum": "Bayer licensed global rights outside Greater China to HS-20122, an early-stage antibody-drug conjugate that targets both EGFR and c-MET in solid tumours including lung cancer. It pays $150M upfront and up to $3.1B in milestones, plus tiered royalties. The deal, announced on 25 Nov, still needs antitrust clearance.",
       "why": "Western drugmakers keep turning to Chinese labs for cancer drugs, and antibody-drug conjugates are among the most sought-after assets.",
@@ -435,43 +456,22 @@
       ]
     },
     {
-      "s": "biotech",
-      "tag": "Setback",
-      "lead": false,
-      "new": false,
-      "h": "FDA delays its decision on Vertex's kidney drug povetacicept to February",
-      "sum": "The FDA extended its review of povetacicept for IgA nephropathy by up to three months, moving the target date from 30 Nov to no later than 28 Feb 2027. It classed Vertex's response to a late information request as a major amendment. The drug blocks two immune signalling proteins, BAFF and APRIL.",
-      "why": "The delay holds back a key growth product as Vertex tries to expand beyond its cystic fibrosis franchise.",
-      "src": [
-        [
-          "Reuters via Investing.com",
-          "https://www.investing.com/news/company-news/fda-extends-review-deadline-for-vertexs-igan-drug-to-feb-2027-93CH-5051457",
-          "25 Nov"
-        ]
-      ]
-    },
-    {
       "s": "energy",
       "tag": "Markets",
       "lead": true,
       "new": false,
-      "h": "Brent heads for a weekly gain near $97 as Gulf attacks threaten supply",
-      "sum": "Brent rose to $97.28 a barrel on Friday afternoon in Asia and WTI gained 2.6% to $85.85, putting crude on track for its first weekly rise this month. A projectile hit Saudi Aramco's Jazan refinery on Thursday, Iran said mines struck a ship in the Strait of Hormuz, and Russia extended its jet fuel export ban to 31 Mar 2027.",
-      "why": "Repeated strikes on Gulf infrastructure keep a war premium in crude two days before OPEC+ sets its 2027 policy.",
+      "h": "Brent settles at $95.44 for its first weekly gain in November as Gulf attacks persist",
+      "sum": "Brent fell 1.2% on Friday to $95.44 a barrel but rose about 3% on the week, ending a three-week slide, while WTI slipped 0.7% to $83.08 and lost 0.9% on the week. A projectile hit Saudi Aramco's Jazan refinery on Thursday, killing a worker, a day after Houthis claimed attacks on Ras Tanura.",
+      "why": "Strikes on Saudi plants and Iran's threats over Hormuz keep a risk premium in crude as OPEC+ meets on Sunday.",
       "src": [
         [
-          "RTTNews via Panthere Group",
-          "https://www.pantheregroup.com/2026/11/27/oil-set-for-weekly-gain-amid-gulf-attacks/",
+          "Reuters via AOL",
+          "https://www.aol.com/articles/brent-trades-near-months-high-015047000.html",
           "27 Nov"
         ],
         [
-          "dpa-AFX via Malay Mail",
-          "https://www.malaymail.com/news/money/2026/11/27/asian-stocks-rally-as-china-south-korea-signal-market-support/245032",
-          "27 Nov"
-        ],
-        [
-          "Bernama via FMT",
-          "https://www.freemalaysiatoday.com/category/business/2026/11/27/ringgit-opens-flat-against-us-dollar-22",
+          "Bloomberg via Rigzone",
+          "https://www.rigzone.com/news/oil_swings_with_rising_me_attacks_in_focus-27-nov-2026-185191-article",
           "27 Nov"
         ]
       ]
@@ -482,22 +482,17 @@
       "lead": false,
       "new": false,
       "h": "OPEC+ likely to roll over output targets into 2027 at Sunday's meetings",
-      "sum": "Two sources told Reuters the group will probably keep current targets for at least the first quarter of 2027 when ministers meet from 1300 GMT on 29 Nov, though nothing is decided. Its first capacity review is unsettled: Iraq rejects a preliminary 4.9M barrels a day and Kazakhstan wants more. Rystad sees a 2027 surplus near 5M barrels a day.",
-      "why": "Holding quotas steady postpones a fight over capacity-based shares as the market heads toward a large surplus.",
+      "sum": "Three people familiar with the talks told Reuters the group is set to keep first-quarter 2027 output targets unchanged when ministers meet on 29 Nov. Bloomberg says members remain split over how much they can sustainably pump, and Iraq's oil minister said on Friday that Baghdad is negotiating a higher production ceiling.",
+      "why": "Holding quotas steady postpones a fight over capacity-based shares while the IEA projects a supply surplus this quarter.",
       "src": [
         [
-          "Tekedia (Reuters)",
-          "https://www.tekedia.com/opec-likely-to-hold-oil-output-targets-through-first-quarter-of-2027-as-iran-war-disrupts-supply/",
-          "26 Nov"
+          "Reuters via AOL",
+          "https://www.aol.com/articles/brent-trades-near-months-high-015047000.html",
+          "27 Nov"
         ],
         [
-          "Rallies (Reuters)",
-          "https://rallies.ai/news/brent-settles-higher-as-mine-strikes-refinery-attack-stoke-middle-east-supply-concerns-e41a002edac0a5b6",
-          "26 Nov"
-        ],
-        [
-          "Reuters via WHBL",
-          "https://whbl.com/2026/11/27/take-five-a-december-to-remember/",
+          "Bloomberg via Rigzone",
+          "https://www.rigzone.com/news/oil_swings_with_rising_me_attacks_in_focus-27-nov-2026-185191-article",
           "27 Nov"
         ]
       ]
@@ -520,8 +515,45 @@
     },
     {
       "s": "autos",
-      "tag": "Event",
+      "tag": "Restructuring",
       "lead": true,
+      "new": true,
+      "h": "Stellantis adds December shutdowns at three French plants as Chinese rivals gain",
+      "sum": "Stellantis will pause Mulhouse and Sochaux on several days in early December, then shut them from 23 and 19 Dec to 11 Jan; Rennes stops from 18 Dec to 5 Jan. About 500 temporary jobs go at Sochaux as a night shift ends in January. Its October registrations in Europe fell 8% to 144,786.",
+      "why": "Europe's biggest carmakers are trimming output rather than closing plants as cheaper Chinese brands take share and energy costs climb.",
+      "src": [
+        [
+          "electrive",
+          "https://electrive.com/2026/11/27/more-stellantis-plants-face-production-halt-in-france",
+          "27 Nov"
+        ],
+        [
+          "Just Auto",
+          "https://www.just-auto.com/news/stellantis-plans-further-european-factory-halts/",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "autos",
+      "tag": "Data",
+      "lead": false,
+      "new": true,
+      "h": "Battery EVs take 25% of new car sales in Europe this year, and 31% in October",
+      "sum": "Battery-electric cars made up 25% of registrations across the EU, Norway and Iceland from January to October, up seven points, ICCT data show, and 31% in October alone. Shares reached 32% in France and 29% in Germany but just 8% in Italy and 5% in Poland. Combustion-only cars fell nine points to 28%.",
+      "why": "Faster EV uptake lets most carmakers meet EU CO2 targets, though ICCT warns the incentive to keep pushing may then fade.",
+      "src": [
+        [
+          "Automotive World (ICCT data)",
+          "https://automotiveworld.com/news/europes-battery-electric-share-reaches-25-for-2026",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "autos",
+      "tag": "Event",
+      "lead": false,
       "new": false,
       "h": "Guangzhou Auto Show opens with established carmakers leading launches as sales slump",
       "sum": "The show opened on 27 Nov with 1,106 vehicles. BMW, BYD and GAC Honda hold many premiere slots, while start-ups such as NIO, XPeng and Xiaomi have no all-new models on the list and mostly skipped media-day events. BYD's Yangwang brand showed a 2.08M yuan limousine. China's October passenger car retail sales fell 27.1% from a year earlier.",
@@ -545,41 +577,35 @@
       ]
     },
     {
-      "s": "autos",
-      "tag": "Product",
-      "lead": false,
+      "s": "retail",
+      "tag": "Data",
+      "lead": true,
       "new": true,
-      "h": "BYD unveils the Whale, a flagship MPV with over 900 km of range, due in early 2027",
-      "sum": "BYD showed the Whale at the Guangzhou show on 27 Nov, the first flagship MPV in its Ocean range, aimed at the 300,000 yuan ($44,730) segment. The 5.27-metre van comes as a plug-in hybrid with over 400 km of electric range or a battery EV with over 900 km on China's CLTC test, and goes on sale in early 2027.",
-      "why": "BYD is moving into pricier family vans as a price war and a shrinking home market squeeze mass-market models.",
+      "h": "US shoppers spend $7.1B online on Thanksgiving, up 10.4%, as Black Friday nears a record",
+      "sum": "Adobe data put Thanksgiving Day online spending at about $7.1B, up 10.4% and ahead of its $6.9B forecast. Adobe expects a record $12.9B on Black Friday, up 9.2%, and $15.1B on Cyber Monday. PwC sees holiday spending up 5.4%, but just 2.8% after inflation, with average budgets down to $779.",
+      "why": "Spending is growing faster online than in stores, but inflation is eating into real gains, thinning retailers' margin for error.",
       "src": [
         [
-          "CnEVPost",
-          "https://cnevpost.com/2026/11/27/byd-unveils-ocean-lineup-mpv-whale/",
+          "Stocktwits via Yahoo Finance",
+          "https://finance.yahoo.com/technology/ai/articles/adbe-stock-track-4-day-173901382.html",
           "27 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "autos",
-      "tag": "Deal",
-      "lead": false,
-      "new": false,
-      "h": "BYD enters exclusive talks to buy Ineos's Hambach car plant in France",
-      "sum": "BYD confirmed exclusive negotiations for the factory, which can build about 30,000 Grenadier off-roaders a year and employs roughly 1,000 people. It would be BYD's second EU car plant after Hungary. Ineos, which has invested nearly €540M in the site since 2019, plans to move Grenadier production to the US, its main market, from 2028.",
-      "why": "A French plant would let BYD build inside the EU and sidestep the extra duties on Chinese-made electric cars.",
-      "src": [
+        ],
         [
-          "Electrek",
-          "https://electrek.co/2026/11/24/byd-ineos-hambach-factory-france-grenadier-us/",
-          "24 Nov"
+          "TechResearch Online",
+          "https://techresearchonline.com/news/black-friday-online-sales/",
+          "27 Nov"
+        ],
+        [
+          "Roic.ai",
+          "https://www.roic.ai/news/holiday-spending-set-to-rise-54-but-inflation-erodes-real-growth-11-27-2026",
+          "27 Nov"
         ]
       ]
     },
     {
       "s": "retail",
       "tag": "M&A watch",
-      "lead": true,
+      "lead": false,
       "new": false,
       "h": "Japan Tobacco shares rise 4% on report it may join a bid for Imperial Brands",
       "sum": "Japan Tobacco rose 4.1% to 5,754 yen on Friday after Bloomberg said it is weighing a bid for Imperial with a partner. Altria said it may make an all-cash offer, sending Imperial up 14.85% to 3,432p on Thursday. Under UK takeover rules Altria must bid or walk away by 24 Dec; Imperial says it has had no approach.",
@@ -603,65 +629,39 @@
       ]
     },
     {
-      "s": "retail",
-      "tag": "Data",
-      "lead": false,
+      "s": "media",
+      "tag": "Event",
+      "lead": true,
       "new": false,
-      "h": "Black Friday opens with deeper discounts as US online spending runs 9.1% ahead",
-      "sum": "Adobe says US shoppers spent $82.5B online from 1 to 22 Nov, up 9.1%, and expects TV discounts to average 23% on Friday. Salesforce says pre-Black Friday discounts were 8% bigger than last year. The NRF forecasts holiday sales of $1.01 trillion, up 4.1%, with higher prices making up about half the growth.",
-      "why": "Spending is holding up, but much of it reflects inflation and essentials, a thinner cushion for retailers' fourth-quarter profits.",
+      "h": "Sunrise on the Reaping tops Thanksgiving with $11.6M as Focker-in-Law edges Hexed",
+      "sum": "Lionsgate's Hunger Games prequel took $11.6M on Thanksgiving Day and is projected to earn $85M over five days, lifting its domestic total to about $233M. Universal's Focker-in-Law made $7.7M and is tracking $40M, ahead of Disney's Hexed at $4.5M and $34.4M. Hexed cost more than $200M to make.",
+      "why": "A weak start for Disney's costly original adds pressure on studios' non-franchise bets in a key holiday window.",
       "src": [
         [
-          "AP via ClickOnDetroit",
-          "https://www.clickondetroit.com/business/2026/11/27/black-fridays-new-playbook-early-deals-essentials-in-carts-and-ai-nudging-clicks/",
+          "Variety via Yahoo",
+          "https://www.yahoo.com/entertainment/movies/box-office-results/articles/thanksgiving-box-office-hunger-games-163526026.html",
           "27 Nov"
         ],
         [
-          "Digital Commerce 360 (Adobe data)",
-          "https://www.digitalcommerce360.com/2026/11/25/adobe-online-holiday-spending-data/",
-          "25 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "retail",
-      "tag": "Restructuring",
-      "lead": false,
-      "new": false,
-      "h": "Poundland falls into administration, putting about 11,000 jobs at risk",
-      "sum": "The UK discount chain appointed AlixPartners as administrators on 25 Nov after sale talks with bidders including Martin Property Group failed to find a solvent deal. Its roughly 600 stores keep trading while buyers are sought, and Tesco and B&M are reported to be interested in parts. Owner Gordon Brothers bought Poundland for £1 last year.",
-      "why": "A break-up would let rivals such as Tesco and B&M pick up sites, reshaping Britain's discount high street before Christmas.",
-      "src": [
-        [
-          "PA via Yahoo News UK",
-          "https://uk.news.yahoo.com/poundland-falls-administration-11-000-160748997.html",
-          "25 Nov"
-        ],
-        [
-          "Brit Brief",
-          "https://britbrief.co.uk/business/retail/poundland-administration-11000-jobs-at-risk-after-sale-talks-fail.html",
-          "25 Nov"
+          "Hollywood Reporter via Yahoo",
+          "https://www.yahoo.com/entertainment/movies/box-office-results/articles/hunger-games-sunrise-reaping-devouring-175113596.html",
+          "26 Nov"
         ]
       ]
     },
     {
       "s": "media",
-      "tag": "Event",
-      "lead": true,
-      "new": false,
-      "h": "Sunrise on the Reaping takes $15M on Thanksgiving eve as Hexed and Focker In-Law lag",
-      "sum": "Lionsgate's Hunger Games prequel earned $15M on Wednesday and is tracking $85M over five days, which would lift its domestic total to $233M. Disney's Hexed opened with $7.6M and a $31M to $35M five-day forecast, while Universal's Focker In-Law took $5.3M. Both had been expected to reach $40M to $45M.",
-      "why": "Soft starts for two costly holiday releases, including Hexed at over $200M, add pressure on studios' original and comedy bets.",
+      "tag": "Restructuring",
+      "lead": false,
+      "new": true,
+      "h": "Skydance clears near-term Warner Bros. Discovery debt and registers PIPE shares",
+      "sum": "Skydance ended a $4B receivables facility on 20 Nov and will redeem about $709.5M of 2027 notes in late December, leaving roughly $168M due next year. It also registered for resale about 3.9B non-voting shares sold for $47B to fund the Warner Bros. Discovery deal, locked up until 4 Apr 2027. Total debt is about $16.1B.",
+      "why": "Clearing near-term maturities buys the merged studio time, but debt of about 4.6 times earnings keeps pressure on cost cuts.",
       "src": [
         [
-          "Variety via Yahoo",
-          "https://www.yahoo.com/entertainment/movies/box-office-results/articles/box-office-hunger-games-sunrise-161118499.html",
-          "26 Nov"
-        ],
-        [
-          "JoBlo",
-          "https://www.joblo.com/thanksgiving-box-office-hunger-games-focker-in-law-hexed/",
-          "26 Nov"
+          "Investing.com",
+          "https://www.investing.com/news/sec-filings/skydance-announces-debt-repayments-and-registers-pipe-shares-after-warner-bros-discovery-acquisition-93CH-5053533",
+          "27 Nov"
         ]
       ]
     },
@@ -690,37 +690,20 @@
       "s": "aero",
       "tag": "Breaking",
       "lead": true,
-      "new": true,
-      "auto": true,
-      "h": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
-      "sum": "",
-      "why": "",
-      "src": [
-        [
-          "CNBC",
-          "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
-          "27 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "aero",
-      "tag": "Setback",
-      "lead": false,
       "new": false,
-      "h": "Norse Atlantic's lessors move to end leases on all 12 of its Boeing 787s",
-      "sum": "Aircraft lessors sent Norse Atlantic notices on 27 Nov terminating the leases on its entire fleet of 12 Boeing 787s, a day after it halted all flights. The Norwegian long-haul carrier says it disputes the notices and is still seeking short-term funding, but warns there is no assurance of a solution. Its board has said it may file for bankruptcy.",
-      "why": "Jet fuel costs tied to the Middle East war are pushing thinly funded long-haul airlines out, cutting low-fare capacity.",
+      "h": "Norse Atlantic's Norwegian airline files for bankruptcy after losing its 787 fleet",
+      "sum": "Norse Atlantic Airways AS, the operating unit of Oslo-listed Norse Atlantic ASA, petitioned Agder District Court for bankruptcy on 27 Nov, hours after lessors moved to end leases on all its Boeing 787-9s. It said it could not raise enough short-term funding. The parent and UK unit are not part of the filing and are exploring options.",
+      "why": "Jet fuel costs tied to the Middle East war are pushing thinly funded long-haul airlines out, cutting low-fare transatlantic capacity.",
       "src": [
         [
-          "Reuters via Global Banking & Finance",
-          "https://www.globalbankingandfinance.com/norse-atlantic-lessors-terminate-aircraft-agreements/",
+          "AeroTime",
+          "https://www.aerotime.aero/articles/norse-atlantic-airways-files-for-bankruptcy",
           "27 Nov"
         ],
         [
-          "Euronews",
-          "https://www.euronews.com/2026/11/26/norwegian-low-cost-carrier-norse-atlantic-suspends-flights-as-bankruptcy-looms",
-          "26 Nov"
+          "ANI via The Tribune",
+          "https://www.tribuneindia.com/news/world/norse-atlantics-norwegian-unit-files-for-bankruptcy-amid-soaring-fuel-costs-linked-to-iran-war/",
+          "28 Nov"
         ]
       ]
     },
@@ -729,35 +712,35 @@
       "tag": "Deal",
       "lead": false,
       "new": true,
-      "h": "Thales enters exclusive talks to buy control of French laser maker Lumibird",
-      "sum": "Thales plans to buy a 51.6% stake from Lumibird's chief executive and majority owner Marc Le Flohic at €30.10 a share, including a €11.34 special payout tied to the sale of Lumibird's medical unit to IPG Photonics. The deal values the photonics business at about €440M and would be followed by an offer for the remaining shares.",
-      "why": "Thales is buying in laser and sensing technology as rising European defence budgets lift demand for optronics.",
+      "h": "Airbus agrees to sell its Florida satellite plant to Cerberus",
+      "sum": "Airbus U.S. Space & Defense will sell its US space systems business, including a 200,000 sq ft factory at Merritt Island near Kennedy Space Center that has built more than 650 satellites, to Cerberus Capital Management. Terms were not disclosed and closing is expected by the end of 2026.",
+      "why": "Airbus is pooling satellite work in Europe with Thales and Leonardo to take on Starlink, while Cerberus builds a US-controlled supplier.",
       "src": [
         [
-          "Reuters via Global Banking & Finance",
-          "https://www.globalbankingandfinance.com/thales-exclusive-talks-buy-controlling-stake-laser-tech-firm/",
-          "27 Nov"
+          "Aerospace Testing International",
+          "https://www.aerospacetestinginternational.com/news/airbus-to-sell-us-satellite-business-to-private-equity-firm-cerberus.html",
+          "26 Nov"
+        ],
+        [
+          "Air Data News",
+          "https://www.airdatanews.com/airbus-to-sell-us-satellite-business-to-stratolaunch-owner-cerberus/",
+          "24 Nov"
         ]
       ]
     },
     {
       "s": "aero",
-      "tag": "Policy",
+      "tag": "Deal",
       "lead": false,
-      "new": false,
-      "h": "US proposes a 10% tariff on Brazilian aircraft, ending Embraer's exemption",
-      "sum": "USTR proposed on 25 Nov a 10% duty on finished aircraft from Brazil, including planes and helicopters, ending an exemption granted in July when a 25% tariff hit other Brazilian goods. Comments run from 27 Nov to 30 Dec, with a hearing on 14 Jan. Embraer, which supplies E175 regional jets to US carriers, fell as much as 9.2%.",
-      "why": "A duty would raise costs for US regional airlines flying Embraer jets and break with the industry's tradition of tariff-free aircraft trade.",
+      "new": true,
+      "h": "Qantas set to give Boeing most of a 20-jet widebody order, Bloomberg reports",
+      "sum": "Qantas is set to order 20 long-range jets, mostly Boeing 787s plus some Airbus A350s, Bloomberg reported on 27 Nov, citing people familiar. Qantas said it is still talking to manufacturers and no decision has been made. The order is separate from 12 A350-1000ULRs, the first due in April 2027, as A380s retire by 2028.",
+      "why": "A win would bolster Boeing's 787 order book against the A350 as airlines renew long-haul fleets.",
       "src": [
         [
           "AeroTime",
-          "https://www.aerotime.aero/articles/us-10-percent-tariff-brazilian-aircraft-embraer",
-          "25 Nov"
-        ],
-        [
-          "Xinhua",
-          "https://english.news.cn/20261126/3d141b0ecc5c42a9a8439de8fb4cbd58/c.html",
-          "26 Nov"
+          "https://aerotime.aero/articles/boeing-qantas-widebody-order-airbus-dreamliner-a350",
+          "27 Nov"
         ]
       ]
     },
@@ -787,18 +770,13 @@
       "tag": "Data",
       "lead": false,
       "new": true,
-      "h": "Hong Kong home prices slip 0.59% in October as rents hit a record; Goldman cuts outlook",
-      "sum": "Private home prices fell 0.59% in October, leaving them 6.48% higher this year but about 20% below the 2021 peak, while rents rose for a 12th straight month to a record, official data show. Goldman Sachs now expects prices to rise 10% in 2026 and 4% in 2027, down from 15% and 7%.",
-      "why": "Higher rates and the equity slump threaten Hong Kong's housing rebound; Goldman also cut developer earnings forecasts by up to 10%.",
+      "h": "Singapore condo resale prices hit a record as Huttons flags the most supply since 2013",
+      "sum": "SRX data show condo resale prices rose 1.3% in October from September and 3.8% from a year earlier to a record, though volumes fell 5.9% to about 987 units. Huttons expects up to 12,613 new private homes across 27 projects in 2027, the most since 2013, and prices up 2% to 5%.",
+      "why": "A wave of new launches could cap price gains just as resale values peak, shifting bargaining power toward buyers.",
       "src": [
         [
-          "Dimsum Daily (RVD data)",
-          "https://www.dimsumdaily.hk/hong-kong-private-home-prices-dip-0-59-in-october-while-rents-hit-fresh-record-high/",
-          "26 Nov"
-        ],
-        [
-          "Mingtiandi",
-          "https://www.mingtiandi.com/real-estate/research-policy/goldman-sachs-slashes-hong-kong-home-price-forecast/",
+          "Propwise",
+          "https://www.propwise.sg/sg-property-news-november-26-2026/",
           "26 Nov"
         ]
       ]
@@ -807,15 +785,15 @@
       "s": "property",
       "tag": "Deal",
       "lead": false,
-      "new": false,
-      "h": "IOI Properties buys Singapore's Shenton House from its CEO's company for S$593M",
-      "sum": "The Malaysian developer is acquiring the 25-storey office block in Singapore's business district from Shenton 101, a private firm owned by chief executive Lee Yeow Seng, paying S$217M and taking on about S$376M of debt. It plans a 35-storey mixed-use tower with a 165-room hotel, built from 2027 to 2031.",
-      "why": "The related-party deal deepens IOI's bet on Singapore, where it now owns almost US$8B of property.",
+      "new": true,
+      "h": "Slate Grocery REIT holders back a US$2.3B takeover by Brixmor and Everview",
+      "sum": "Unitholders approved the US$13-a-unit cash offer with 98.9% of votes cast, Canadian Press reported. The deal, valued at about US$2.3B, still needs a final order from the Ontario Superior Court of Justice and clearance under the Investment Canada Act.",
+      "why": "Buyers are paying up for grocery-anchored shopping centres, among the steadiest income streams in retail property.",
       "src": [
         [
-          "Forbes",
-          "https://www.forbes.com/sites/iansayson/2026/11/23/ioi-properties-buys-singapore-property-from-malaysian-tycoon-in-deal-valued-at-460-million/",
-          "23 Nov"
+          "BNN Bloomberg",
+          "https://www.bnnbloomberg.ca/business/company-news/2026/11/26/slate-grocery-reit-unitholders-approve-acquisition-deal-valued-at-us23-billion/",
+          "26 Nov"
         ]
       ]
     },
@@ -824,6 +802,53 @@
       "tag": "Policy",
       "lead": true,
       "new": true,
+      "h": "US proposes 20% tariff on Singapore and 18% on Malaysia in excess-capacity probe",
+      "sum": "USTR proposed Section 301 duties on 14 economies on 25 Nov, including 20% for Singapore, 18% for Malaysia, Thailand and Indonesia, 35% for Vietnam and 15% for Japan, South Korea, Taiwan and the EU. Semiconductors and patented drugs already under Section 232 are exempt. Comments are due 5 Jan, with a hearing on 25 Jan.",
+      "why": "The duties would largely replace levies the Supreme Court struck down in February, hitting exporters beyond the exempt chip sector.",
+      "src": [
+        [
+          "ST&R",
+          "https://www.strtrade.com/trade-news-resources/str-trade-report/november/section-301-tariffs-of-15-to-40-percent-proposed-on-14-trading-partners",
+          "25 Nov"
+        ],
+        [
+          "KPMG",
+          "https://kpmg.com/us/en/taxnewsflash/news/2026/11/tnf-ustr-findings-and-proposed-section-301-tariffs-on-14-economies-relating-to-structural-excess-capacity-and-production-in-manufacturing-sectors.html",
+          "25 Nov"
+        ],
+        [
+          "Reuters via Investing.com",
+          "https://www.investing.com/news/world-news/us-proposes-new-tariffs-on-14-trading-partners-to-fight-excess-factory-capacity-5050714",
+          "25 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "sgmy",
+      "tag": "Regulatory",
+      "lead": false,
+      "new": true,
+      "h": "Malaysia sues Google over YouTube content; Anwar says US$15B investment is safe",
+      "sum": "Regulator MCMC filed two suits against Google LLC seeking a combined RM600M, alleging YouTube failed to remove content on gambling and scams and republished videos. Anwar Ibrahim said on 27 Nov, after speaking to Alphabet's Ruth Porat, that Google's planned US$15B of data-centre investment in 2027 and 2028 would not be affected.",
+      "why": "Malaysia is testing whether it can enforce its Online Safety Act on big platforms without scaring off data-centre investors.",
+      "src": [
+        [
+          "Bernama",
+          "https://www.bernama.com/en/general/news.php?id=2640337",
+          "27 Nov"
+        ],
+        [
+          "Malaysiakini",
+          "https://www.malaysiakini.com/news/890012-lawsuit-against-google-wont-affect-its-investments-in-malaysia-govt-assures",
+          "27 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "sgmy",
+      "tag": "Policy",
+      "lead": false,
+      "new": false,
       "h": "Singapore has not confirmed Nvidia's server halt and is reviewing its rules, Gan says",
       "sum": "Deputy Prime Minister Gan Kim Yong said on 27 Nov that Singapore has not verified reports that Nvidia stopped server shipments and is contacting firms to gauge the impact. The government is reviewing how to tighten regulation and monitoring, will investigate credible information and is working with Washington to keep local access to high-end chips.",
       "why": "Singapore's standing as an AI hub depends on convincing Washington its data centres are not a back door for China.",
@@ -842,62 +867,32 @@
     },
     {
       "s": "sgmy",
-      "tag": "Regulatory",
-      "lead": false,
-      "new": false,
-      "h": "Banks tighten checks on Singapore and Malaysia data-centre borrowers over US chip rule",
-      "sum": "Citigroup and Standard Chartered have joined DBS, OCBC and UOB in reviewing Southeast Asian data-centre clients, asking them to show who uses their AI chips, Bloomberg reported. A $480M loan for an Aolani Cloud site in Malaysia has stalled. MAS said it expects banks to stay vigilant, and OCBC sees no material concerns.",
-      "why": "Tighter lending could slow Johor's and Singapore's data-centre pipeline just as Nvidia pauses server deliveries to the region.",
-      "src": [
-        [
-          "bne IntelliNews via TradingView",
-          "https://www.tradingview.com/news/moodys:a94cfa2bb21c2:0-banks-vet-singapore-malaysia-data-centre-clients-over-us-chip-rule/",
-          "25 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "sgmy",
       "tag": "Markets",
       "lead": false,
-      "new": true,
-      "h": "KLCI climbs 1.16% to 1,589 as Press Metal and YTL lead a regional rally",
-      "sum": "The FBM KLCI closed 18.26 points higher at 1,589.24 on Friday, with gainers beating losers 727 to 363 on turnover of RM2.64B. Press Metal, YTL Power and YTL Corp added a combined 12.66 points, while Maybank and CIMB also rose. RHB Bank and UMS Integration led decliners.",
-      "why": "Bargain hunting in Malaysian blue chips and mid-caps suggests investors see the AI-led sell-off as overdone.",
-      "src": [
-        [
-          "Malay Mail",
-          "https://www.malaymail.com/news/money/2026/11/27/bursa-malaysia-climbs-116pc-to-1589-as-regional-markets-rally/245026",
-          "27 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "sgmy",
-      "tag": "Data",
-      "lead": false,
       "new": false,
-      "h": "Singapore factory output rises 6.1% in October on AI-driven chip equipment demand",
-      "sum": "Manufacturing output grew 6.1% from a year earlier in October, up from 5% in September, EDB data show, and 12.1% excluding biomedical products. Precision engineering surged 54.1% on semiconductor equipment and electronics rose 6.6%, while biomedical output fell 35.8%. Seasonally adjusted output jumped 7.1% from September.",
-      "why": "Strong AI-linked production underpins the government's raised 2026 growth forecast before an expected slowdown next year.",
+      "h": "KLCI gains 2.1% on the week to 1,589 as the ringgit eases to 4.119 per dollar",
+      "sum": "The FBM KLCI rose 1.16% to 1,589.24 on Friday, its fourth straight gain, leaving it up 32.73 points or 2.1% for the week. The ringgit slipped to 4.1190 against the US dollar from 4.1135 on Gulf tensions and a fully priced Fed hike. Singapore's STI rose 0.66% to 4,995.23.",
+      "why": "Asian rebounds are lifting Malaysian blue chips, but a firmer dollar ahead of the Fed is capping the ringgit.",
       "src": [
         [
-          "AsiaOne",
-          "https://www.asiaone.com/money/singapore-manufacturing-output-october-2026-edb",
-          "26 Nov"
+          "The Star",
+          "https://www.thestar.com.my/business/business-news/2026/11/27/bursa-malaysia-ends-week-on-strong-note-as-klci-rallies-18-points",
+          "27 Nov"
+        ],
+        [
+          "Bernama",
+          "https://www.bernama.com/en/market/news.php?id=2640459",
+          "27 Nov"
+        ],
+        [
+          "MT Newswires via Yahoo Finance",
+          "https://sg.finance.yahoo.com/news/singapore-shares-close-higher-bank-093241587.html",
+          "27 Nov"
         ]
       ]
     }
   ],
   "week": [
-    {
-      "dow": "Fri",
-      "day": "27",
-      "mon": "Nov",
-      "ev": "Black Friday",
-      "note": "US stocks close early at 1pm ET, 2am SGT Saturday",
-      "key": false
-    },
     {
       "dow": "Sun",
       "day": "29",
@@ -919,7 +914,7 @@
       "day": "30",
       "mon": "Nov",
       "ev": "Cyber Monday",
-      "note": "MSCI adds Anthropic at the close; January Brent contract expires",
+      "note": "Adobe expects a record $15.1B online; MSCI adds Anthropic at the close",
       "key": false
     },
     {
@@ -951,7 +946,7 @@
       "day": "2",
       "mon": "Dec",
       "ev": "Salesforce and Snowflake earnings",
-      "note": "After the US close",
+      "note": "After the US close; Scotiabank and BMO report before the open",
       "key": false
     },
     {
@@ -960,6 +955,14 @@
       "mon": "Dec",
       "ev": "Jensen Huang testifies to Senate Banking Committee",
       "note": "10am ET hearing on AI chip export controls",
+      "key": false
+    },
+    {
+      "dow": "Thu",
+      "day": "3",
+      "mon": "Dec",
+      "ev": "Kroger, Dollar General and Ulta earnings",
+      "note": "Canada's RBC, TD and CIBC also report",
       "key": false
     },
     {
@@ -999,7 +1002,7 @@
       "day": "9",
       "mon": "Dec",
       "ev": "Fed rate decision",
-      "note": "Two-day meeting ends; a 25bp hike is almost fully priced",
+      "note": "2pm ET; a quarter-point hike to 4.00% to 4.25% is about 99% priced",
       "key": true
     },
     {
@@ -1031,7 +1034,7 @@
       "day": "15",
       "mon": "Dec",
       "ev": "Anthropic lock-up release",
-      "note": "More IPO shares become eligible for sale",
+      "note": "Up to 303M more IPO shares become eligible for sale",
       "key": false
     },
     {
@@ -1051,11 +1054,19 @@
       "key": false
     },
     {
+      "dow": "Wed",
+      "day": "16",
+      "mon": "Dec",
+      "ev": "MAS Survey of Professional Forecasters",
+      "note": "December issue, due by this date",
+      "key": false
+    },
+    {
       "dow": "Thu",
       "day": "17",
       "mon": "Dec",
       "ev": "ECB and Bank of England decisions",
-      "note": "Final policy meetings of 2026 for both",
+      "note": "ECB has all but signalled a third hike this year",
       "key": false
     },
     {
@@ -1072,6 +1083,14 @@
       "mon": "Dec",
       "ev": "US licence for Lukoil asset talks expires",
       "note": "Treasury must still approve the Eldridge-led deal",
+      "key": false
+    },
+    {
+      "dow": "Mon",
+      "day": "21",
+      "mon": "Dec",
+      "ev": "Anthropic joins the Nasdaq 100",
+      "note": "Index funds tracking it will need to buy shares",
       "key": false
     }
   ]
