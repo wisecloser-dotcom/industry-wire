@@ -1,7 +1,7 @@
 {
   "edition": {
-    "label": "Midday edition",
-    "updated": "2026-11-28T10:18:04Z"
+    "label": "Evening edition",
+    "updated": "2026-11-28T10:52:16Z"
   },
   "tape": [
     {
@@ -41,10 +41,10 @@
     },
     {
       "name": "Bitcoin",
-      "val": "~$60,100",
-      "chg": "−1.84%",
+      "val": "~$59,800",
+      "chg": "−3.0%",
       "dir": "down",
-      "asof": "Sat 28 Nov, 10am SGT"
+      "asof": "Sat 28 Nov, 3pm SGT"
     },
     {
       "name": "USD/MYR",
@@ -64,15 +64,15 @@
   "bigpic": [
     {
       "b": "Wall Street's best week since April 2025",
-      "t": "as chipmakers and Anthropic lead a half-day rally, while state support lifts Seoul and Shanghai by more than 4%."
+      "t": "leaves crypto behind: bitcoin sits under $60,000 and the Trump-linked WLFI token halved after a $20M ether sale."
     },
     {
-      "b": "OPEC+ meets Sunday with Brent near $95",
-      "t": "and is expected to hold output targets through March, even as Iraq presses for a bigger quota."
+      "b": "OPEC+ meets Sunday as Hormuz risks persist",
+      "t": "with output targets expected to hold through March while Iran claims two more tankers hit mines."
     },
     {
-      "b": "Washington tightens its grip on Southeast Asia",
-      "t": "proposing tariffs of 20% on Singapore and 18% on Malaysia, as Kuala Lumpur tells firms to shun blacklisted chip buyers."
+      "b": "Biggest US bank failure since 2024",
+      "t": "as regulators shut Indiana's United Fidelity, handing $4.5B of deposits to First Citizens at a $1.83B cost to the FDIC fund."
     }
   ],
   "sectors": [
@@ -259,7 +259,7 @@
       "s": "tech",
       "tag": "Deal",
       "lead": false,
-      "new": true,
+      "new": false,
       "h": "China Mobile and China Telecom open AI hardware tenders that could top 55B yuan",
       "sum": "China Mobile's 20 Nov tender covers 52,160 AI accelerator cards, about 2.5 times the volume of its first batch in September. China Telecom's 16 Nov tender seeks 5,248 AI servers and related equipment with a bid ceiling of 25.8B yuan. Together the purchases could exceed 55B yuan, about $8.2B, Caixin reported.",
       "why": "China's state carriers are shifting spending from networks to computing, making them some of the country's biggest buyers of AI hardware.",
@@ -273,9 +273,35 @@
     },
     {
       "s": "banking",
-      "tag": "Rates",
+      "tag": "Regulatory",
       "lead": true,
       "new": true,
+      "h": "Regulators shut Indiana's United Fidelity Bank, the biggest US failure since 2024",
+      "sum": "The OCC closed Evansville-based United Fidelity Bank on 27 Nov, citing an unsafe or unsound condition, and named the FDIC receiver. First Citizens is taking $5.9B of assets, $4.5B of deposits and $3.1B of loans at a $2.6B discount, and runs its 22 branches from Saturday. The FDIC puts the cost to its insurance fund at about $1.83B.",
+      "why": "The largest collapse since Republic First in April 2024 puts regional lenders' balance sheets back in focus as the Fed prepares to hike.",
+      "src": [
+        [
+          "OCC",
+          "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-106.html",
+          "27 Nov"
+        ],
+        [
+          "First Citizens",
+          "https://newsroom.firstcitizens.com/2026-11-27-First-Citizens-Bank-Enters-into-Whole-Bank-Purchase-of-United-Fidelity-Bank,-fsb",
+          "27 Nov"
+        ],
+        [
+          "Investing.com",
+          "https://www.investing.com/news/company-news/united-fidelity-shut-by-regulators-in-biggest-us-bank-failure-in-two-years-5054218",
+          "28 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "banking",
+      "tag": "Rates",
+      "lead": false,
+      "new": false,
       "h": "10-year Treasury yield jumps to 4.94% as traders price two Fed hikes by March",
       "sum": "The 10-year yield rose 9 basis points to 4.94% in Friday's shortened session as stocks rallied, leaving it little changed on the week. Traders have fully priced two quarter-point Fed hikes by March 2027. The dollar index ended near 104 after its longest run of weekly gains since January 2025, and gold climbed to $3,668.50 an ounce.",
       "why": "Higher long-term yields push up mortgage and corporate borrowing costs just as the Fed prepares to tighten again.",
@@ -293,32 +319,6 @@
         [
           "Avalon Capital Research",
           "https://avaloncapitalresearch.substack.com/p/market-minute-nov-27-2026",
-          "27 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "banking",
-      "tag": "Markets",
-      "lead": false,
-      "new": true,
-      "h": "Brazilian bank stocks surge after Lula picks Bradesco's chairman as finance minister",
-      "sum": "Luiz Carlos Trabuco Cappi, 75, Bradesco's chairman and former chief executive, accepted Lula's offer to replace Dario Durigan as finance minister in January. The Ibovespa jumped 6.07% to 176,799.84 on 26 Nov as Bradesco rose 11.6% and Banco do Brasil 12.6%. On Friday, US-listed XP rose 18.07% and Bradesco 15.23%.",
-      "why": "Investors see a market-friendly finance minister easing fiscal worries, and Brazil's long-term swap rates fell more than 50 basis points.",
-      "src": [
-        [
-          "Startup Fortune",
-          "https://startupfortune.com/brazil-stocks-surge-6-before-lula-confirms-banker-trabuco-for-finance/",
-          "27 Nov"
-        ],
-        [
-          "Premarket Daily",
-          "https://premarketdaily.com/2026/11/27/bradesco-chair-named-finance-minister-sends-brazilian-stocks-surging-18/",
-          "27 Nov"
-        ],
-        [
-          "Cappnotes",
-          "https://cappnotes.substack.com/p/closing-look-friday-november-27-2026",
           "27 Nov"
         ]
       ]
@@ -349,14 +349,18 @@
       "tag": "Breaking",
       "lead": true,
       "new": true,
-      "auto": true,
-      "h": "Trump-linked crypto token WLFI plunges 50% to record lows",
-      "sum": "",
-      "why": "",
+      "h": "Trump-linked WLFI token halves after a project wallet sells $20M of ether",
+      "sum": "World Liberty Financial's WLFI fell more than 50% to below $0.016 on Saturday, almost 96% under its peak near $0.46, hours after a project-linked wallet sold about 12,121 ETH for $20.06M. Most of the proceeds went to a Dolomite loan backed by about 5B WLFI. Its USD1 stablecoin briefly slipped to $0.94 against USDT on Binance.",
+      "why": "A dollar stablecoin losing its peg, even briefly, deepens doubts over politically linked crypto projects as US lawmakers step up scrutiny.",
       "src": [
         [
-          "CoinDesk",
-          "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+          "TokenPost",
+          "https://www.tokenpost.com/news/investing/64098",
+          "28 Nov"
+        ],
+        [
+          "Coinpedia",
+          "https://coinpedia.org/price-analysis/world-liberty-financial-wlfi-price-crashes-as-usd1-stablecoin-depegs-6-can-0-03-support-hold/",
           "28 Nov"
         ]
       ]
@@ -366,23 +370,23 @@
       "tag": "Markets",
       "lead": false,
       "new": false,
-      "h": "Bitcoin hovers near $60,000 even as Wall Street has its best week in over a year",
-      "sum": "Bitcoin traded around $60,100 on Saturday morning in Asia, down 1.84% over 24 hours on CoinMarketCap data, after slipping below $60,000 late Friday in New York despite briefly topping $61,000. Ether was near $1,668. About $7B of options expired on Friday, and US spot bitcoin ETFs have lost a record $5.39B in November.",
+      "h": "Bitcoin slips under $60,000 as November ETF outflows hit a record $5.78B",
+      "sum": "Bitcoin traded near $59,800 early Saturday, down about 3% after touching $58,910, and ether fell 4.2% to $1,659, TokenPost data show. Friday's $389M of withdrawals took US spot bitcoin ETF outflows to $5.78B for November, above June's $4.51B record, and bitcoin fell 26.3% in the month to 27 Nov.",
       "why": "Crypto's failure to join the equity rebound suggests fresh money is staying away, with fund outflows the heaviest on record.",
       "src": [
         [
-          "Motley Fool",
-          "https://www.fool.com/coverage/stock-market-today/2026/11/27/crypto-market-today-nov-27-bitcoin-falls-below-usd60-000-as-crypto-markets-struggle-despite-wall-street-s-biggest-rally-in-over-a-year/",
-          "27 Nov"
+          "TokenPost",
+          "https://www.tokenpost.com/news/investing/64055",
+          "28 Nov"
         ],
         [
           "crypto.news",
-          "https://crypto.news/bitcoin-price-slips-below-60k-traders-watch-55k/",
-          "27 Nov"
+          "https://crypto.news/bitcoin-monthly-price-etf-outflows-november-2026",
+          "28 Nov"
         ],
         [
-          "IT Times",
-          "https://www.ittimes.com/news/articleView.html?idxno=88217",
+          "Investing.com",
+          "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-falls-below-60k-as-whales-buy-dip-etf-outflows-mount-5054180",
           "28 Nov"
         ]
       ]
@@ -404,27 +408,6 @@
         [
           "TFTC",
           "https://www.tftc.io/hr-8957-american-reserve-modernization-act-committee-house-floor",
-          "26 Nov"
-        ]
-      ]
-    },
-    {
-      "s": "fintech",
-      "tag": "Product",
-      "lead": false,
-      "new": false,
-      "h": "Switzerland's first spot bitcoin ETF starts trading on the SIX exchange",
-      "sum": "BIT Asset Management listed BBIT on the SIX Swiss Exchange on 26 Nov, seeded with 350 bitcoin worth over $20M and charging 0.19% a year. Swiss regulator FINMA approved it on 20 Oct after an 18-month review and exempted it from diversification rules. BIT says it is Europe's only active spot bitcoin ETF.",
-      "why": "A regulated ETF wrapper gives Swiss wealth managers a simpler route into bitcoin, even as US funds see record outflows.",
-      "src": [
-        [
-          "The Block",
-          "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724",
-          "26 Nov"
-        ],
-        [
-          "finews.com",
-          "https://www.finews.com/news/english-news/74679-first-swiss-spot-bitcoin-etf-launched-on-six",
           "26 Nov"
         ]
       ]
@@ -546,22 +529,53 @@
     },
     {
       "s": "energy",
-      "tag": "Event",
+      "tag": "Breaking",
       "lead": false,
       "new": true,
-      "h": "Taiwan votes on reviving nuclear power as chipmakers' electricity demand climbs",
-      "sum": "Voters decide on Saturday whether Taiwan should return to nuclear power, which could bring the Maanshan and Kuosheng plants back online; the last reactor shut in May 2025. The KMT-backed measure passes only if yes votes beat no and reach 5,000,959, a quarter of the electorate. Polls close at 4pm, with results due tonight.",
+      "h": "Iran says two tankers hit mines near Hormuz while using routes it calls unauthorised",
+      "sum": "Iran's Revolutionary Guards navy said early Saturday that two oil tankers struck mines and caught fire, one near Oman's Khasab port, after switching off navigation systems to use a southern route Tehran bars. It named no ships or casualties, and the claim has not been independently verified. CENTCOM separately dismissed other Iranian claims, saying ships pay no toll.",
+      "why": "Threats to vessels using alternative lanes could choke Hormuz traffic further, keeping a risk premium in crude as OPEC+ meets.",
+      "src": [
+        [
+          "Khaama Press",
+          "https://www.khaama.com/iran-two-oil-tankers-naval-mines-strait-hormuz/",
+          "28 Nov"
+        ],
+        [
+          "OilPrice via NewsLantern",
+          "https://newslantern.com/news/25760/2026-11-28/iran-reports-fresh-tanker-explosions-as-hormuz-attacks-intensify",
+          "28 Nov"
+        ],
+        [
+          "Middle East Eye via KhanList",
+          "https://khanlist.com/story/centcom-rejects-irans-claims-on-warship-attack-hormuz-251e48d2",
+          "28 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "energy",
+      "tag": "Event",
+      "lead": false,
+      "new": false,
+      "h": "Taiwan counts votes on reviving nuclear power as chipmakers' electricity use climbs",
+      "sum": "Counting is under way in Saturday's referendum on returning to nuclear power, held alongside local elections, with full results expected before midnight. The KMT-backed measure passes only if yes votes beat no and reach 5,000,959, a quarter of the electorate. Taipower filed a Maanshan restart plan in March, and safety checks could take 18 to 24 months.",
       "why": "Chipmakers' power use topped 4.5B kWh in September, up 11.55%, so a yes vote could ease supply strains on TSMC and AI data centres.",
       "src": [
+        [
+          "Focus Taiwan",
+          "https://focustaiwan.tw/politics/202611285002",
+          "28 Nov"
+        ],
         [
           "Startup Fortune",
           "https://startupfortune.com/taiwans-nuclear-referendum-puts-power-for-ai-chips-on-the-ballot/",
           "28 Nov"
         ],
         [
-          "Kantan",
-          "https://kantan.news/news/taiwan-votes-on-return-to-nuclear-energy-amid-chip-and-ai-demand",
-          "27 Nov"
+          "Asia Daily",
+          "https://asiadaily.org/news/21138/",
+          "28 Nov"
         ]
       ]
     },
@@ -590,24 +604,24 @@
       "s": "autos",
       "tag": "Product",
       "lead": false,
-      "new": true,
-      "h": "Toyota bets on a range-extended Highlander to revive its sliding China sales",
-      "sum": "GAC Toyota set the Guangzhou Auto Show on 27 Nov for the debut of Toyota's first range-extended EV, a Highlander-based SUV. Toyota's China sales fell about 19% to roughly 1.05M vehicles from January to September, with monthly sales down year on year for eight straight months. Nikkei has reported plans for about 200,000 range-extended cars in 2027.",
-      "why": "Foreign carmakers are adopting Chinese-style range extenders to win back buyers lost to local brands in the world's biggest car market.",
+      "new": false,
+      "h": "Toyota names its first range-extended EV the Highlander 9X, using Huawei and CATL tech",
+      "sum": "GAC Toyota named the Highlander 9X at Auto Guangzhou on 27 Nov, a China-market SUV with a battery co-developed with CATL and Huawei's HarmonyOS cockpit and Qiankun driver assistance. It is due to launch in the first quarter of 2027; no price or range figures are confirmed. Toyota's China sales fell about 19% to roughly 1.05M in January to September.",
+      "why": "Foreign carmakers are adopting Chinese-style range extenders and software to win back buyers lost to local brands in the world's biggest car market.",
       "src": [
         [
-          "CarNewsChina",
-          "https://carnewschina.com/2026/11/25/toyota-highlander-erev-expected-to-debut-in-china-on-november-27/",
-          "25 Nov"
+          "Asia Daily",
+          "https://asiadaily.org/news/21199/",
+          "28 Nov"
+        ],
+        [
+          "Shattered",
+          "https://shattered.io/toyota-highlander-9x-first-erev-huawei-catl-zero-specs-confirmed-nov-28/",
+          "28 Nov"
         ],
         [
           "Digital Today",
           "https://www.digitaltoday.co.kr/en/view/131328/toyota-to-unveil-first-range-extended-ev-on-nov-27-targeting-china-with-highlander",
-          "26 Nov"
-        ],
-        [
-          "auto123",
-          "https://www.auto123.com/en/news/toyota-teaser-erev-unveiling-china-highlander/74410/",
           "26 Nov"
         ]
       ]
@@ -632,7 +646,7 @@
       "s": "retail",
       "tag": "Data",
       "lead": true,
-      "new": true,
+      "new": false,
       "h": "Black Friday online spending tops $9.7B by evening, on course to beat Adobe's forecast",
       "sum": "US shoppers spent $9.7B online through 6:30pm ET on Black Friday, up 12.8% from a year earlier, Adobe said, putting the day on track for $13.0B to $13.4B against its $12.9B forecast. Salesforce projected US online sales of $18.7B for the day, up 4%. Adobe expects a record $15.1B on Cyber Monday.",
       "why": "Online demand is beating forecasts, though with inflation at 3.8%, real growth is thinner than the headline figures suggest.",
@@ -713,27 +727,6 @@
       ]
     },
     {
-      "s": "media",
-      "tag": "Deal",
-      "lead": false,
-      "new": false,
-      "h": "Netflix buys Los Angeles's 1928 Radford Studio Center for a reported $380M",
-      "sum": "Netflix said on 24 Nov it is purchasing the Studio City lot and will keep the existing studio team. The 55-acre site was bought for $1.85B in 2021 by Hackman Capital Partners and Square Mile Capital before falling into foreclosure, so the reported price is a steep discount.",
-      "why": "Owning a historic lot cheaply secures Netflix production space in Los Angeles as distressed studio property changes hands.",
-      "src": [
-        [
-          "Netflix",
-          "https://about.netflix.com/en/news/netflix-purchases-radford-studio-center",
-          "24 Nov"
-        ],
-        [
-          "C21Media",
-          "https://www.c21media.net/news/netflix-buys-las-historic-radford-studio-center-in-380m-deal/",
-          "25 Nov"
-        ]
-      ]
-    },
-    {
       "s": "aero",
       "tag": "Setback",
       "lead": true,
@@ -759,14 +752,24 @@
       "tag": "Deal",
       "lead": false,
       "new": true,
-      "h": "US Air Force orders 15 more KC-46 tankers from Boeing for $2.8B",
-      "sum": "The award, posted on 24 Nov, covers Lot 13, the last under the fixed-price contract signed in 2011, with work due by the end of June 2030. Boeing has 203 KC-46s under contract including foreign sales and has delivered 116 to the US Air Force. Up to 75 more could follow under an extension, starting with Lot 14.",
-      "why": "Moving past the original fixed-price deal lets Boeing seek higher prices on future tankers, though the Air Force wants key flaws fixed first.",
+      "h": "Malaysia Airlines' parent commits to 10 Boeing 787s with GE engines, plus six options",
+      "sum": "Malaysia Aviation Group said on 25 Nov it will take 10 787 Dreamliners directly from Boeing, with options for six more, to replace its seven Airbus A350s as they retire from 2032 to 2035. It chose GE's GEnx-1B engines, the group's first use of the type. Boeing called the 787-10 deal a commitment still being finalised; no value was disclosed.",
+      "why": "The win strengthens Boeing's 787 order book against the A350 as Southeast Asian carriers plan long-haul fleets for the 2030s.",
       "src": [
         [
-          "Breaking Defense",
-          "https://breakingdefense.com/2026/11/air-force-issues-boeing-2-8-billion-for-more-kc-46s/",
+          "Malaysia Aviation Group",
+          "https://malaysiaaviationgroup.com.my/en/MAG-media-centre/news-releases/2026/mag-acquires-boeing-787-dreamliner.html",
           "25 Nov"
+        ],
+        [
+          "GE Aerospace via Investing News",
+          "https://investingnews.com/malaysia-aviation-group-selects-ge-aerospace-genx-engines-to-power-new-787-dreamliners/",
+          "25 Nov"
+        ],
+        [
+          "AFM",
+          "https://afm.aero/malaysia-aviation-group-commits-to-10-boeing-787-10s-with-options-for-six-more",
+          "27 Nov"
         ]
       ]
     },
@@ -775,14 +778,14 @@
       "tag": "Deal",
       "lead": false,
       "new": false,
-      "h": "Qantas set to give Boeing most of a 20-jet widebody order, Bloomberg reports",
-      "sum": "Qantas is set to order 20 long-range jets, mostly Boeing 787s plus some Airbus A350s, Bloomberg reported on 27 Nov, citing people familiar. Qantas said it is still talking to manufacturers and no decision has been made. The order is separate from 12 A350-1000ULRs, the first due in April 2027, as A380s retire by 2028.",
-      "why": "A win would bolster Boeing's 787 order book against the A350 as airlines renew long-haul fleets.",
+      "h": "US Air Force orders 15 more KC-46 tankers from Boeing for $2.8B",
+      "sum": "The award, posted on 24 Nov, covers Lot 13, the last under the fixed-price contract signed in 2011, with work due by the end of June 2030. Boeing has 203 KC-46s under contract including foreign sales and has delivered 116 to the US Air Force. Up to 75 more could follow under an extension, starting with Lot 14.",
+      "why": "Moving past the original fixed-price deal lets Boeing seek higher prices on future tankers, though the Air Force wants key flaws fixed first.",
       "src": [
         [
-          "AeroTime",
-          "https://aerotime.aero/articles/boeing-qantas-widebody-order-airbus-dreamliner-a350",
-          "27 Nov"
+          "Breaking Defense",
+          "https://breakingdefense.com/2026/11/air-force-issues-boeing-2-8-billion-for-more-kc-46s/",
+          "25 Nov"
         ]
       ]
     },
@@ -811,7 +814,7 @@
       "s": "property",
       "tag": "Data",
       "lead": false,
-      "new": true,
+      "new": false,
       "h": "Malaysia has 186,318 unsold new homes from launches since 2020, PropLaunch says",
       "sum": "The units are worth an estimated RM105.3B to RM230B and include 42,619 from projects launched from July to October; at the current sales pace they would take about 39 months to clear. Official data show third-quarter launches jumped 70.3% to 19,642 units, yet only 7.1% sold, and loan approval rates are the lowest since 2021.",
       "why": "A swelling stock of unsold homes leaves developers facing pressure to slow launches or cut prices.",
@@ -874,7 +877,7 @@
       "s": "sgmy",
       "tag": "Regulatory",
       "lead": false,
-      "new": true,
+      "new": false,
       "h": "Malaysia tells firms to shun US-blacklisted buyers as Washington targets chip diversion",
       "sum": "Minister Fahmi Fadzil said on 27 Nov that companies were directed not to trade with US-blacklisted entities after a Cabinet briefing on chip export curbs. On 23 Nov the US listed Singapore-based Megaspeed International and six affiliates in Singapore, Malaysia and Thailand over suspected diversion of Nvidia chips to China, which Megaspeed denies.",
       "why": "Malaysia and Singapore, which is reviewing its own rules, must convince Washington their data centres are not routes to China.",
@@ -945,14 +948,6 @@
     }
   ],
   "week": [
-    {
-      "dow": "Sat",
-      "day": "28",
-      "mon": "Nov",
-      "ev": "Taiwan nuclear referendum",
-      "note": "Polls close 4pm; results due this evening alongside local elections",
-      "key": false
-    },
     {
       "dow": "Sun",
       "day": "29",
