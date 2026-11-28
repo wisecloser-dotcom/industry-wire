@@ -1,7 +1,7 @@
 {
   "edition": {
     "label": "Midday edition",
-    "updated": "2026-11-28T04:55:00Z"
+    "updated": "2026-11-28T10:18:04Z"
   },
   "tape": [
     {
@@ -346,8 +346,25 @@
     },
     {
       "s": "fintech",
-      "tag": "Markets",
+      "tag": "Breaking",
       "lead": true,
+      "new": true,
+      "auto": true,
+      "h": "Trump-linked crypto token WLFI plunges 50% to record lows",
+      "sum": "",
+      "why": "",
+      "src": [
+        [
+          "CoinDesk",
+          "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+          "28 Nov"
+        ]
+      ]
+    },
+    {
+      "s": "fintech",
+      "tag": "Markets",
+      "lead": false,
       "new": false,
       "h": "Bitcoin hovers near $60,000 even as Wall Street has its best week in over a year",
       "sum": "Bitcoin traded around $60,100 on Saturday morning in Asia, down 1.84% over 24 hours on CoinMarketCap data, after slipping below $60,000 late Friday in New York despite briefly topping $61,000. Ether was near $1,668. About $7B of options expired on Friday, and US spot bitcoin ETFs have lost a record $5.39B in November.",
